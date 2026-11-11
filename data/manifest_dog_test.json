@@ -1,0 +1,3014 @@
+[
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\P38_png_jpg.rf.1b364a2db5032786049be5925f18c4c6.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\1-27-_png_jpg.rf.5164c9bd1162ed44a0a13215cb450c20.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\IMG_5175_jpeg_jpg.rf.cae3da06f8ac19d855455312efe67dbe.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\IMG_5247_jpeg_jpg.rf.232030abaf522cd7497e2e188f0ef508.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\scabies_114_png_jpg.rf.dd5e68c5f49171113e4557a5cca6b3c4.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\P26_png_jpg.rf.38d08a381be09dfdb442bd3c709840b4.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\1-2-_jpg.rf.9341f5ab37b3a34fdf00ebd64a34cae9.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\P3_png_jpg.rf.11c86c6b7fbf3e8c449d3ba1077acf05.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\1-59-_png_jpg.rf.525d4a00b176741beea201d57cc7193e.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\2024-05-13-165025_jpg.rf.db78bcb56a2853b5ba9472bb42ec6e0a.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\1-32-_png_jpg.rf.3cc081fd515ea185fd5015a80e480127.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\scabies_114_png_jpg.rf.d9778e90299ce97795c9170591e7ff9c.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\IMG_5176_jpeg_jpg.rf.ff7393925ee61d30cc1982265dd0d55e.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\IMG_5151_jpeg_jpg.rf.721d47aace128b7759ada0e3f7e77125.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\P38_png_jpg.rf.235acf1fed9c472c842ae51f23a76a4f.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\P33_png_jpg.rf.3b9ab95e615274296e717785400daec7.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\2024-05-13-134023_4_jpg.rf.a0b4b97f957590913f197fcebebfdd70.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\2024-05-13-133458_1_jpg.rf.c53abc112bac94f17c43ecd68713436a.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\IMG_5286_jpeg_jpg.rf.26b6a5586cf080f61e77ee1fe0e010e6.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\D123_png_jpg.rf.f052f7a24ae71f2f388c8e91a9ac5014.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\scabies_89_png_jpg.rf.6bd32f593d546116f98e29ffde256782.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\P15_png_jpg.rf.bb33f95ede093e1766256243578f893a.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\IMG_5298_jpeg_jpg.rf.1acbc5956320f7105e8380bfa1fc83de.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\1-33-_png_jpg.rf.99368a41c85d5573b756165719596404.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\IMG_5214_jpeg_jpg.rf.374f6284abcf54b8985661a02909f9a7.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\P38_png_jpg.rf.0c97458303d682f38cb3404d5691e8d9.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\2024-05-13-164141_jpg.rf.d4a53e05a9dfd9f6fa178c419cdab6fb.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\1-70-_png_jpg.rf.384e623348a182cbe88de1f131ef4a06.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\scabies_135_png_jpg.rf.c4d3cffdeebafa9b3933c17e6dbcbcb8.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\2024-05-13-165218_jpg.rf.bb8936597006e07303c4eed3e1d0d7a3.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\1-53-_png_jpg.rf.fe0b0eef3c370f8fc25878671eb4554a.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\P28_png_jpg.rf.b438223676ac8108e6ad711b1bee535d.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\P28_png_jpg.rf.f72a05e140c116e501aa224a024e457f.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\P12_png_jpg.rf.90fa5debfc6953ac1f598e1de5888782.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\P11_png_jpg.rf.f9482ae524df08c53a87089d10d1e309.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\IMG_5162_jpeg_jpg.rf.c84d8cc1ce32900894f0d8368a547e93.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\1-23-_png_jpg.rf.249c419a6b65ae4ebebd45a90726ea52.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\scabies_130_png_jpg.rf.baddab22fa31a3eaae484ccddf545f19.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\demodicosis\\P36_png_jpg.rf.0aa7ff518d934944554353efc7042dfb.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\P24_png_jpg.rf.70b6e2e015ef742c4d59784deca97dc5.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\2024-05-13-133823_1_jpg.rf.e9606997305dbff303029a14dc36e05b.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\scabies_119_png_jpg.rf.f604db4745f39f5301f3bf61602e59f4.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\P24_png_jpg.rf.7dc732ac9aaa6ae79a1a03158085e16d.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\2024-05-13-165349_jpg.rf.2836a148dc226568be038028e0b6d3da.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\1-67-_png_jpg.rf.ac3a8d04470eb1cd16e420273814e9b1.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\IMG_5172_jpeg_jpg.rf.2d686dd99d663dae3417c229ac0aedcc.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\1-26-_png_jpg.rf.0cf1cd85d5004e8980ef0f33d431b45b.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\IMG_5161_jpeg_jpg.rf.b420134a065c9f52535c0c8432adc4da.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\scabies_117_png_jpg.rf.b97b70254181b0c37ff3430063c1ba37.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\IMG_5156_jpeg_jpg.rf.744f2c0c6af93f5bdd4971e9d85dcf2d.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\demodicosis\\1-18-_png_jpg.rf.23fbb379292c087019e6c5eedf186063.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\IMG_5157_jpeg_jpg.rf.3500d9974bec232070c3ba8066025d40.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\2024-05-13-134130_4_jpg.rf.6d1dd5480871e0b9c4660711673fdc3e.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\scabies_91_png_jpg.rf.51fe6995cf07e2e8980a0bc4e867db48.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\2024-05-13-164141_jpg.rf.12b360b6dff5af7d8ab6d751993e9e27.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\scabies_113_png_jpg.rf.32df13865a12c3fde2b0dcca4dcf7ceb.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\demodicosis\\1-67-_png_jpg.rf.e574073e4ad35fde3880401bd415eeb3.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\P3_png_jpg.rf.b05e48bf1b11c08a7cc4113451baf522.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\D126_png_jpg.rf.7b302553e6089229d69a4b984c25136b.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\1-45-_png_jpg.rf.666c2ed2f510b63396e60130a44aad86.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\scabies_111_png_jpg.rf.97b99de5bda4562e8e15cba984ecfbea.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\scabies_134_png_jpg.rf.ed85fa36cd00a029c37c4e9a531e35d4.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\demodicosis\\2024-05-13-164346_4_jpg.rf.ee7b183d25cf28748e859a0c4818851b.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\IMG_5167_jpeg_jpg.rf.841d2866db925ea420232f63bfb3cfa2.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\D134_png_jpg.rf.37f083f4cd9e06d8d555f216b15f050a.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\2024-05-13-161803_jpg.rf.2f0447267202de4cecc5baf56c62c2c4.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\2024-05-13-162032_4_jpg.rf.ba275650bb8a9e49fcfd63e170fd387f.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\IMG_5188_jpeg_jpg.rf.4ceb18b60a34ef098eaff0a9af85ed40.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\1-1-_jpg.rf.39ce0b28d91c96c789b642688d0a8f85.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\2024-05-13-164000_jpg.rf.ce13409c7b67cbbcd85cf6bad9809a9c.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\IMG_5226_jpeg_jpg.rf.0cd0fd7a33de1d4dabe209262b40842e.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\2024-05-13-164224_4_jpg.rf.27c29c6eadd796acc3be40e0774ee705.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\demodicosis\\scabies_127_png_jpg.rf.a027c54a57b587dcbeaea164a036319a.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\1-5-_png_jpg.rf.3284861b84bb48631d60908744a15e88.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\1-35-_png_jpg.rf.c92466f3cd565a41ed295e7b477cefbf.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\1-8-_png_jpg.rf.6a230bd945dbca9af5173007c2fdb2cc.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\scabies_90_png_jpg.rf.0c8c28be1d3f3ace39668326172e2192.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\2024-05-13-162242_jpg.rf.1c244b3cc77098ba3a217c100b8a61a4.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\IMG_5264_jpeg_jpg.rf.b4df938223c4a60b0290351c476a4fa7.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\demodicosis\\1-44-_png_jpg.rf.80d1cbf31af9c2f0a983342b5a58843d.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\P31_png_jpg.rf.d6f4c3d6620d4d1cf180e6d85ceefd00.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\D123_png_jpg.rf.b2478afd778ca38ee1d6416cb5410910.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\demodicosis\\1-28-_png_jpg.rf.554549a73b8161adea0e6e77ab4c8148.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\2024-05-13-164346_1_jpg.rf.58381b5b89649da7fab353135dfbdb69.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\IMG_5306_jpeg_jpg.rf.bdaf9c6a32a241324a66fe4cc68a3fae.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\IMG_5215_jpeg_jpg.rf.c9101b6d8e8e8dcc68501406be12d46e.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\2024-05-13-162254_jpg.rf.40aaeebf7229d784b5daee2423d0f111.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\2024-05-13-162105_jpg.rf.5411a10c2d85f480a347f3a235c555d9.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\IMG_5167_jpeg_jpg.rf.49460d5d9bda368833521a4d7d1466ea.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\P34_png_jpg.rf.39ce25d31a0267fcf6b24327334427b7.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\scabies_88_png_jpg.rf.4707a87e85637f805514c33d42402c57.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\IMG_5147_jpeg_jpg.rf.38ec037960bd97779b9e09529feba550.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\2024-05-13-161905_jpg.rf.9e9593a17f5b7321fee2252d257036b7.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\IMG_5219_jpeg_jpg.rf.fee58927183d7f37f633999e739bcb0f.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\1-12-_jpg.rf.79a14b675def8cb1dbd709ac23af91f4.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\demodicosis\\IMG_5217_jpeg_jpg.rf.4d1095ff3e528c9c8d1a7e58ba699736.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\2024-05-13-133458_4_jpg.rf.c2d7843ad6dd693fcb66169ff60d948f.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\P18_png_jpg.rf.cec7aae9064ed3e73dbcec8623e33f43.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\IMG_5157_jpeg_jpg.rf.0f5a26b7bde25a49d86f856ca62c7c40.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\demodicosis\\2024-05-13-165130_jpg.rf.daaa4036ed8f08e10cf5dc2ddc2ab6fc.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\scabies_97_png_jpg.rf.f42b26f2d821980a260a0a4f74905db8.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\demodicosis\\1-34-_png_jpg.rf.fd857fd2db3d618fbf3b7bec58cafb98.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\1-66-_png_jpg.rf.fd422f6e994e3b62c106865346f9e2e6.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\D126_png_jpg.rf.66e526713008e35dcc542b14dc74082d.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\2024-05-13-162923_jpg.rf.0add9f4b4645ba334623a9bcbb6a1c32.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\scabies_133_png_jpg.rf.bdc9e3afe3b41e23b1e5cacebdd1fd57.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\IMG_5172_jpeg_jpg.rf.192e9ff92284c2b9b08682467ecf330b.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\2024-05-13-165025_jpg.rf.f72d6020120bcae7ee9d542c54be0f19.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\demodicosis\\2024-05-13-163616_jpg.rf.ab01c49f2e35f5d3fa570b0008fc0b1c.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\2024-05-13-165432_jpg.rf.e9efd1072e3c49e9781554f07d5a6686.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\2024-05-13-134214_4_jpg.rf.a5348ef49e70868822aeb67dbd7a72b8.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\2024-05-13-163800_jpg.rf.9a3bb557cc8709512a158ad67ed35fb7.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\1-25-_png_jpg.rf.b8f6a7850b54c36c98a7f6c98b3f289f.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\P44_jpg.rf.c0f01f80ab38c9f329787735b1d72ea0.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\IMG_5191_jpeg_jpg.rf.f655e9513def03b974979c8541ac6a43.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\1-57-_png_jpg.rf.946805334b444f8273bb75f46f403071.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\P27_png_jpg.rf.75485fcfc8ba1255cea408b2fc3dc54c.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\P5_png_jpg.rf.b017f8536c5fce889b8c6880967b5717.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\P52_jpg.rf.308c46670645655d938a356a6e0c7fdf.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\IMG_5196_jpeg_jpg.rf.43c4c9453f451b20357689e9f82bbe05.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\2024-05-13-162235_jpg.rf.7445f56e68152d89a53b9e317e65d29d.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\1-33-_png_jpg.rf.b351a272a2a209575392037267505805.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\P24_png_jpg.rf.5446d523c667df57d2d29da473448cda.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\scabies_113_png_jpg.rf.411afb9180237013a43f10ea3c0f44fb.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\IMG_5193_jpeg_jpg.rf.e69b4a56fda20f0f39c1d43bd7944785.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\IMG_5168_jpeg_jpg.rf.6afe73381b01c65fec233cdc16f793bf.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\1-66-_png_jpg.rf.df1fa7b40c2869441d70eb87298aac2c.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\demodicosis\\IMG_5214_jpeg_jpg.rf.e674171f1c446cae04b3f937dd43b81d.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\demodicosis\\2024-05-13-161645_jpg.rf.83671cf94a5da3baa51a053fd7b5b334.jpg",
+    "label": "demodicosis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Dental Disease in Dog\\Image_69.png",
+    "label": "dental_disease"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Dental Disease in Dog\\Image_100.jpg",
+    "label": "dental_disease"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Dental Disease in Dog\\Image_85.jpg",
+    "label": "dental_disease"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Dental Disease in Dog\\Image_61.jpg",
+    "label": "dental_disease"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Dental Disease in Dog\\Image_38.jpg",
+    "label": "dental_disease"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Dental Disease in Dog\\Image_65.jpg",
+    "label": "dental_disease"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Dental Disease in Dog\\Image_29.jpg",
+    "label": "dental_disease"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Dental Disease in Dog\\Image_64.jpg",
+    "label": "dental_disease"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Dental Disease in Dog\\Image_46.jpg",
+    "label": "dental_disease"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Dental Disease in Dog\\Image_70.png",
+    "label": "dental_disease"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Dental Disease in Dog\\Image_18.jpg",
+    "label": "dental_disease"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1000011972_x4_jpg.rf.264f82f3679924911eb3893dbf280edf.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\83553740_2666988543398149_7829973956135223296_n_jpg.rf.f56d6940e10deaa8f17235925ea03e99.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\depositphotos_278064588-stock-photo-selective-focus-dermatitis-disease-dog_jpg.rf.751ea2c3f2bca9ffcf2040a026986749.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1000010781_x16_jpg.rf.2934d80e33bcb679a8c6fbc2d5892960.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\1000010721_x16_jpg.rf.f5bf99e49c1e23436113286284405d04.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\Bacterial_2_jpg.rf.74c77926a136fb07ce0e37889418ba60.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1000010502_x16_jpg.rf.4c2f52605f23ed3a5a1c3c4ea3c3f16a.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\OIP-8-_x16_jpg.rf.a15f1d835cc036ecbc661788132c3a54.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\Bacterial1_png_jpg.rf.5e7d8e7b5367b8b18940493e9fe666d9.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\hotspot-74-_jpg.rf.ac6821f3463a99f6d18544ea73fc9fa1.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Dermatitis\\Hot-Spot-on-_Chance_-How-to-treat-a-dog-that-you-can_t-touch_-000624_png_jpg.rf.54f1ca4550337a13e019ac53c935664a.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1000010590_x4_jpg.rf.d07cae6ad834a13868f61f9409af69a1.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\May-is-allergy-awareness-month-here-at-The-Shot-Spot_02671_jpg.rf.6ad3cb0ecea9387f51375aa0d65bb6f0.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\May-is-allergy-awareness-month-here-at-The-Shot-Spot_00082_jpg.rf.88d3503e1b688e37717e1ee27e70afc0.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\May-is-allergy-awareness-month-here-at-The-Shot-Spot_00070_jpg.rf.111d7e61755aee69bd880b814fd666bb.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\hotspot-79-_jpg.rf.940e2df368f26bfbcdead1f97847c204.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\Reply-to-don-t-let-your-dog-suffer-in-silence_00009_jpg.rf.d342b873ccf78f0094c12de2c6b4fee2.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\hotspot-77-_jpg.rf.09355ceace50c1989415bed9aaae1bdf.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\pic8_jpg.rf.bb93793df837834a2c989212d4b96ac9.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1000010628_x4_jpg.rf.596e109522f4ff677d53fdbe1b9e0df1.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\Bacterial_1_png_jpg.rf.a838fd890785cadfc85afd892d7d9cc8.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Dermatitis\\Hot-Spot-on-_Chance_-How-to-treat-a-dog-that-you-can_t-touch_-000621_png_jpg.rf.0ce78369ac55af856d2a9c79d0e8c47c.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1000010549_x16_jpg.rf.372d025be8b0bd525a8bbe316db1dbc2.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\May-is-allergy-awareness-month-here-at-The-Shot-Spot_01567_jpg.rf.2c1dcb3ad906cd8624e9e021e2bd16dc.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\1000010634_x4_jpg.rf.701df39a44e33a596c53111a0fa6e1fc.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\hot-spots-suck_00235_jpg.rf.03b60c6c3236c91d3a592b5448f66874.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1000010607_x4_jpg.rf.5a6bee0a1c7b8452fb80246f99a32f68.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000481_png_jpg.rf.0a7306d93decdcac74a36c39c54dd32f.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000496_png_jpg.rf.7dd86fbdd40a1c0798e49521f08cc84b.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\May-is-allergy-awareness-month-here-at-The-Shot-Spot_01918_jpg.rf.e71b0941c38d30503de4399092c059ee.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000361_png_jpg.rf.85357590d415ed6776a2f1b8378d8bf0.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\1000010758_x16_jpg.rf.b751f5b7c696a0db07d66bc8f4bc4a5e.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\Hot-Spot-on-_Chance_-How-to-treat-a-dog-that-you-can_t-touch_-000614_png_jpg.rf.6a37d92afe279105a44a74807cf5ceb0.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\50_jpg.rf.1e2911152f696862c27d24937fcc812d.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1000011971_x4_jpg.rf.8cc46bae14acb02f39f2dea081f06a41.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\May-is-allergy-awareness-month-here-at-The-Shot-Spot_01666_jpg.rf.fc76e9cd2dd93edb9649358481a5125d.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\Hot-Spot-on-_Chance_-How-to-treat-a-dog-that-you-can_t-touch_-000625_png_jpg.rf.00b2407b54625d8ff34ba8b789c23341.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000494_png_jpg.rf.933f92c1c09c412d10f5da7ff858a336.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\Bacteria4_png_jpg.rf.b8320991af1ff502e24c55b30bc28442.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\hot-spots-suck_00070_jpg.rf.6ab7687539ed39e1f64b82bd34bc3406.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\bac2_jpg.rf.d22eccfa8c1e76a8021b5fc4b9ec4141.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\hotspot-57-_jpg.rf.d7eca36d88c8425565aaf4a05f031246.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000359_png_jpg.rf.c03fc3f32d283d5039af1e5c975bfb35.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1000011972_x4_jpg.rf.ea4eb71b460fd3021aadda800ab32f12.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\Thank-you-all-for-your-support_00064_jpg.rf.a23b9edcc0e1ccc71d1fd0643a9d5e8c.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\OIP-5-_x4_jpg.rf.2dacf03a6363ff91c234eb73fc2bcf48.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000479_png_jpg.rf.57dda82c1734008740c8d7df316dcdda.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1000010733_x4_jpg.rf.2762f0ab4fc978058cc484a966ba239d.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\Thank-you-all-for-your-support_00004_jpg.rf.3d67d82dd0fa9624ec7dd88a5ebf71d3.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000466_png_jpg.rf.6a44843831450fc7b6dec0ec42b47ed5.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\89_jpg.rf.28742fb1d239bde8d4b7940578b82698.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1000010693_x16_jpg.rf.95b5718e11b4f7ade32eb0054b246cf0.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000486_png_jpg.rf.b81cf522cac9be0e7e64d7b5b90fa1ef.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\Hot-Spot-on-_Chance_-How-to-treat-a-dog-that-you-can_t-touch_-000625_png_jpg.rf.0aa14a5fc14840c4a94e8469d4230c62.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000453_png_jpg.rf.2671b4614aeb536a37ae66e2e818994b.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\301504804_8729017157124164_3961058354446722962_n_jpg.rf.c9375f0b4a9bc9b28823ddde1bc027d8.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\56_jpg.rf.f6ff2179cfe4f1a4e514839097603309.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1516253873174_x4_jpg.rf.a3d57786296728cb05f4b1eabbef2bc8.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000454_png_jpg.rf.eb4f4348e1e0b3118d4e6bf604d2fc32.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000483_png_jpg.rf.5027f0f14f87bd0a05c277d1ebb2383d.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\May-is-allergy-awareness-month-here-at-The-Shot-Spot_01456_jpg.rf.17198e54226f8cb412a3969c4e67134d.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000151_png_jpg.rf.ac5789d69e1e641cf42e784b1e6f22a7.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000148_png_jpg.rf.2ea067f7475172916730c9887b0510e3.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1000010628_x4_jpg.rf.7c46eafe895cf20860590f7bd3ab76f2.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\OIP-3-_x16_jpg.rf.e8119d54e8c69af1f2d53b21395dfbd8.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000487_png_jpg.rf.5fd7bb20cd2026a3d0153ae20188162d.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Dermatitis\\Bacterial_Image_2_jpg.rf.3c1265eca9fe51395e6e85a79893046a.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\hotspot-4-_jpg.rf.b38919acd30f2f7dca9fb1ba9628c7c2.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\May-is-allergy-awareness-month-here-at-The-Shot-Spot_00529_jpg.rf.17dd594a438164f482788293ddce5749.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000153_png_jpg.rf.aab198f9af064287043776219202c870.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\hotspot-60-_jpg.rf.61d6f86c365c30a7554467bf06b88c96.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000355_png_jpg.rf.12a7d32b630c685ad105411351b01c1c.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\hotspot-48-_jpg.rf.7e2a79f19f2965662137054f567384bb.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Dermatitis\\1000010774_x4_jpg.rf.046aec438ea1d61d4275435f1587ab73.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\contact_dermatitis_4935_9_600_jpg.rf.371aa99d6a7fcebc024222963b430ce8.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\hot-spots-suck_00103_jpg.rf.bbd452ea024a9238a9bedf0751c6eaf7.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000495_png_jpg.rf.a620f9eaf5794c590a417b8f9717d177.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\1000010774_x4_jpg.rf.a60513cfc5a46bc274ab2f864d579c3b.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1000010769_x16_jpg.rf.90618aad00f8f13a7f04cc55b76e9c77.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000360_png_jpg.rf.d956794fb6fc5bb6ba28d63d5847303b.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\Hot-Spot-on-_Chance_-How-to-treat-a-dog-that-you-can_t-touch_-000626_png_jpg.rf.d165f2ae3428708b9dfa0b42ec04e192.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\8_jpg.rf.e68442c163575c135e4c75d68f66cead.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1000010652_x16_jpg.rf.5606300bf89e145e6f53e93d8959a8fa.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1000010749_x16_jpg.rf.d46988b74c1a47fab722af8b886a1924.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1000010648_x16_jpg.rf.3fe44b9d31082516188d85917752bc2b.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000501_png_jpg.rf.f7cf9d8dfd5a15f24c2cfbe668ce5c1d.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000153_png_jpg.rf.73045bd85734a051050f7247c85047a8.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000357_png_jpg.rf.8a28a2cae15503fd16be3b90d961a129.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\1000010516_x16_jpg.rf.957c619749cee2f8d50664286dfbc64b.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\Hot-Spot-on-_Chance_-How-to-treat-a-dog-that-you-can_t-touch_-000622_png_jpg.rf.ce35ff70c609644c12ad030806205e54.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Dermatitis\\hot-spots-suck_00229_jpg.rf.91fb6495883db20dbb1d1fa50aba7f96.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000460_png_jpg.rf.7c19f9f7ea1bd44eaa1d5095512b2646.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\Bacteria3_png_jpg.rf.20cc58c24a13f545c95a27555f63d7e5.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\50_jpg.rf.4f8c1b4c864369121f5701f0319568f8.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000453_png_jpg.rf.6d123f1bd9ef196bf5ec7babbd42bee3.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000467_png_jpg.rf.0249b6bde510fb32120365db4661251d.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\mange-38-_jpg.rf.ce4e5937abe3a9f3cd14caacff5a6754.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1000010634_x4_jpg.rf.5dbe983319c6df2f9eeff186b817ac4a.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1000010759_x16_jpg.rf.98d5f0ce828852eeaca79e6edf18762b.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\May-is-allergy-awareness-month-here-at-The-Shot-Spot_01561_jpg.rf.6cab4453afdc5cd2c17833418ac01fde.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000487_png_jpg.rf.c96899d5199174bea79a70e5f4be3a74.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\752_jpg.rf.3d3eb33ad4eb0b6e762e4080119b38cd.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000150_png_jpg.rf.393c2d4d6ca282cad3ce9fe4a3ce6160.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\Canine_lick_granuloma_jpg.rf.e806f920af3b38a497ea611942ce4ec3.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\1000010646_x16_jpg.rf.46fdb734a2df88ae127e4b4655265e9e.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\hotspot-36-_jpg.rf.769aa690ff344bcae901ea63af7ea284.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000478_png_jpg.rf.0ae9284e37aaed2386f04bb6ec5a67a1.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\hotspot-64-_jpg.rf.b02da4f697a73279f27f77156e68b809.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000454_png_jpg.rf.fddd4b710d6597c076e378ad6abc1b42.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\May-is-allergy-awareness-month-here-at-The-Shot-Spot_02251_jpg.rf.bf47ebfedca82c99a6890a0c53e745d2.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Dermatitis\\Hot-Spot-on-_Chance_-How-to-treat-a-dog-that-you-can_t-touch_-000612_png_jpg.rf.5ed00aebadd1092c840936c113dfe7d5.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\HOT-SPOT-IN-DOG-HOW-vet-treated-symptom-prevention_-flea-bite-moist-eczema_dog-itching-000484_png_jpg.rf.bd7c3dc4b76b47e93481b5a8e821e736.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\Hot-Spot-on-_Chance_-How-to-treat-a-dog-that-you-can_t-touch_-000616_png_jpg.rf.ce069cd28cf02c5f3579598d5dde2602.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Dermatitis\\May-is-allergy-awareness-month-here-at-The-Shot-Spot_00028_jpg.rf.39c50ccbc3df520d2a26935c517dce71.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\Hot-Spot-on-_Chance_-How-to-treat-a-dog-that-you-can_t-touch_-000615_png_jpg.rf.d7f41f7334d23a8a635046b332f29c38.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\hotspot-11-_jpg.rf.c50ab0a5c5a89b32633ac2b019bf4a75.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Dermatitis\\Dog-hot-spot_jpg.rf.6dc997468c767e2860b9a8fc189f806e.jpg",
+    "label": "dermatitis"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Distemper in Dog\\Image_28.jpg",
+    "label": "distemper"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Distemper in Dog\\Image_1.jpg",
+    "label": "distemper"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Distemper in Dog\\Image_56.jpg",
+    "label": "distemper"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Distemper in Dog\\Image_19.jpg",
+    "label": "distemper"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Distemper in Dog\\Image_58.jpg",
+    "label": "distemper"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Distemper in Dog\\Image_78.jpg",
+    "label": "distemper"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Distemper in Dog\\Image_18.jpg",
+    "label": "distemper"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Distemper in Dog\\Image_3.png",
+    "label": "distemper"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Eye Infection in Dog\\Image_1.jpg",
+    "label": "eye_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Eye Infection in Dog\\Image_34.jpg",
+    "label": "eye_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Eye Infection in Dog\\Image_28.jpg",
+    "label": "eye_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Eye Infection in Dog\\Image_44.jpg",
+    "label": "eye_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Eye Infection in Dog\\Image_45.jpg",
+    "label": "eye_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Eye Infection in Dog\\Image_19.jpg",
+    "label": "eye_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Eye Infection in Dog\\Image_43.jpg",
+    "label": "eye_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Eye Infection in Dog\\Image_25.jpg",
+    "label": "eye_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Eye Infection in Dog\\Image_99.JPG",
+    "label": "eye_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Fungal Infection in Dog\\Image_13.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Fungal_infections\\FUNGAL-INFECTION_063_jpg.rf.8e6eb0aa0aee5b9a42869addeb640150.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Fungal_infections\\pic90_jpg.rf.ef03dffe361f088db3bbbd59adbb9f84.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Fungal Infection in Dog\\Image_97.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\FUNGAL-INFECTION_026_jpg.rf.a8ebee0f6a9aa6e82b1958e4c9794dac.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\pic1_jpg.rf.2d29db12b7b27d5f729fc99f647f8d5a.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Fungal_infections\\FUNGAL-INFECTION_004_png_jpg.rf.ad5dd88e9187f0204b44457bfd3990fc.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Fungal_infections\\pic54_jpg.rf.7396e32c3cd09a324b7daa9e7d5f2b6b.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\fung5_jpg.rf.b537b24af192966d93cbc3b6e9fa4e2b.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Fungal_infections\\1147_jpg.rf.13beef8307c6d4fe97428d62c4d75dd5.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\FUNGAL-INFECTION_027_jpg.rf.3bcc206af28a7ef21998eeeb54b0339a.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\1134_jpg.rf.a6cee23080556a6b6072e82807a162a2.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\1147_jpg.rf.9a4dfe6b7933144ae78b9a0fb059cc6b.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\Fungal2_png_jpg.rf.5fff1ea4d3e900dc059b994f5d79e52f.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\pic78_jpg.rf.16967e4ac0ced63b214ee6cd39ecfd1d.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\pic81_jpg.rf.83143c2d54fc6aa757e08c58c9b6f859.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\pic5_jpg.rf.26ded316473b9930ed3d7d8ac2e708b7.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Fungal_infections\\fung4_jpg.rf.0ea324c1dc73f514362c813dbd7140d5.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\pic52_jpg.rf.2369a2b412ba9f68fdf76b9af03e1974.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\Fungal_Image_1_jpg.rf.4b82247743aa709488ee6dfb66707e37.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Fungal Infection in Dog\\Image_6.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\pic22_jpg.rf.949267bcb19bc0a0bbe72019fb976694.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\pic23_jpg.rf.5ae3efd77650d25dcf247398bee1a5a8.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\1171_jpg.rf.68ae46bc4712f45ebc9e22dfa1afa1ed.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\1867_jpg.rf.ace5602dabbbfa3834bafa3c869f3c79.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Fungal Infection in Dog\\Image_11.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\pic58_jpg.rf.14e546da0a6c7032e129f9fe86ce0579.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\pic27_jpg.rf.60e16d36dbe06ba3c5a5c88f764403ea.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\1328_jpg.rf.2818336a8d26e7bfc6c2e8bc4125f089.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Fungal_infections\\FUNGAL-INFECTION_062_jpg.rf.a5639c0bfe8134fb6ad09f4b9c614d01.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Fungal Infection in Dog\\Image_39.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Fungal_infections\\FUNGAL-INFECTION_045_jpg.rf.ca1117f02294eafc5edb21633b266ab4.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\FUNGAL-INFECTION_065_jpg.rf.2cbd50c253a2f22bddc73f9d3443ae73.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\pic91_jpg.rf.c57928bd253690ca1be68f6a47456f48.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\Fungal4_png_jpg.rf.2aea16b37d5cc4562af6f404536ae520.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\FUNGAL-INFECTION_016_jpg.rf.963a4c6106f36c70aa412a94bd7c2b14.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\pic11_jpg.rf.5ca573dcf56789fe10bf9f6be0fa8f5f.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\Fungal2_png_jpg.rf.5975f7f6dac45396292580da33a6b856.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Fungal Infection in Dog\\Image_29.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\1577_jpg.rf.975fd4901677ca7846c71b3b0ad1967e.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\Fungal_Image_4_jpg.rf.2ac86bb60848535443e68c34606ef3e4.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\FUNGAL-INFECTION_005_png_jpg.rf.b7bedbd6491af54caf59a85afb2d11cf.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Fungal_infections\\pic47_jpg.rf.36af3e4e45d3dadfec49d8b2241d6b69.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\pic82_jpg.rf.6488e19eafe743799c730728159fb2c9.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Fungal_infections\\FUNGAL-INFECTION_047_png_jpg.rf.4ec7eb8c67e8066ed2e7e44de895cd67.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\1281_jpg.rf.3d2e834dee56da7f9e153c05d43a0cf4.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\Fungal_Image_4_jpg.rf.4ff2db7e9bf2e67bca3211b8713c6ce0.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\1171_jpg.rf.0e059614e252d08de8e448a5534cb66d.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\Fungal_Image_4_jpg.rf.bca8ee7aa50e461b0a9225f3b5de9fe1.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\Fungal1_png_jpg.rf.8690683790e37783968ca3bc3a355f22.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\fung2_jpg.rf.a22ab03220e659f37b8adabb15c903f8.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\1090_jpg.rf.ef9cbf63932661f510dc2ff8c2d15e86.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Fungal_infections\\1739_jpg.rf.726728b9354e233496290fa761058f36.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\fungal3_jpg.rf.049d2f8c955f9f59c76b427529955af5.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Fungal_infections\\1776_jpg.rf.0864d15635684673d560000746b57d66.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Fungal_infections\\1016_jpg.rf.8f37dc56a30186a415f405c9c670875a.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\1867_jpg.rf.ade9ee945023971d76c79a85e4384597.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\fung4_jpg.rf.59a888b1d799d5bc568ecc84856393ed.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\1161_jpg.rf.34b3de638a3fa8170850a3b471dcacdb.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Fungal Infection in Dog\\Image_37.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\FUNGAL-INFECTION_028_jpg.rf.cc5399b9c39adc0cfa47979757a41543.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Fungal_infections\\1135_jpg.rf.9e977cd0ff54a82a3e9f7576c6cd6bb9.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\pic40_jpg.rf.cb0bfcc78ce21f6c3c06278c111b2d97.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\pic75_jpg.rf.86520b28626c968eacd34631d95a6e75.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\1005_jpg.rf.ba21cc62eec0a09d10bf02320ff42b95.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\FUNGAL-INFECTION_023_jpg.rf.2317d3050a6dbb8961f9e01cdfb4bdcc.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Fungal Infection in Dog\\Image_59.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Fungal_infections\\FUNGAL-INFECTION_063_jpg.rf.764aa11c94d1e4cbb954f08bd34d45cd.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\Fungal_2_jpg.rf.1afdd2c074ed36f4520be311ad6cbf29.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Fungal_infections\\1173_jpg.rf.fe777f5644b92c3ff85b492fd9ab60cc.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\FUNGAL-INFECTION_014_jpg.rf.219dc18e91826f938881249a861162be.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Fungal Infection in Dog\\Image_48.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\Fungal_2_jpg.rf.c11f410dc33ad26a91519faec49693af.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\FUNGAL-INFECTION_041_jpg.rf.cd690b2f401a8f5e01576caa289c7a88.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Fungal_infections\\Fungal_2_jpg.rf.ba91fe1a012cb71594408a66c515e687.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Fungal Infection in Dog\\Image_61.png",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Fungal_infections\\pic69_jpg.rf.cf51359b6fa1694ab4cf234b821de132.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\Fungal3_png_jpg.rf.47fe1ecc36935ec8a12a0ee428aad05f.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\FUNGAL-INFECTION_029_jpg.rf.137b1bdfb5e012f06a805c3a7953528e.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\fungal1_jpg.rf.2b9c152b76cba4b6e73d7da175c0bd53.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Fungal_infections\\pic15_jpg.rf.77caa766b120067d5c6f31b165567399.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\fungal1_jpg.rf.3b774ca0d97aa0f3ec271fec7fb359eb.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\pic85_jpg.rf.8d14344f4361e0e43a1fb158ee3899c0.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Fungal_infections\\FUNGAL-INFECTION_024_jpg.rf.f4e826af1b81a549c15fac3cb29a2f8e.jpg",
+    "label": "fungal_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\HEALTHY_023_jpg.rf.1b4b9d3b08cf2d663444ed1dd0f17525.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\pic14_jpg.rf.a43e3d621fa02ec27de0887a9414a1ad.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\pic64_jpg.rf.949f8642045425b37c48d044cc3bc75e.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\Best-Dog-Collar-for-Sensitive-Skin-review_jpg.rf.d3d99996bc2589d76af7d5524d696422.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_168_jpg.rf.3fe33d8fce32191604cb2734aa8027dc.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_124_jpg.rf.3fb24583108ca5a391f535c222b3ab79.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_122_jpg.rf.3d7c2107b8e61106f3aa4dfccb80a8d3.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\dogs_077_jpg.rf.6a9497cf2ea71dd7754d3d9b28220796.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\HEALTHY_042_jpg.rf.bfd8b3ab4dc32248376f9e602819d41a.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_044_jpg.rf.0bb1fc63615c8cd852acd6371af8a594.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_044_jpg.rf.d34c21e76f097bb36343613b43e8011b.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_136_jpg.rf.af8f1c0cb6639d165d8341c120a64f9c.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Healthy\\dogs_083_jpg.rf.d7bdd8bd18fda58c8d84e28eb0e283da.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_145_jpg.rf.31a590cd6d96bb585ba04c47045143cd.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_020_jpg.rf.61ba1e7abdf9b9c3a08b273b5b8f01f2.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_005_jpg.rf.e021fc8d7315f37e34f785d45f0853cb.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\HEALTHY_006_jpg.rf.dc67bb8cc228c3e27e311280bc5dcdc2.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\2017Oct05_4_2048x_jpg.rf.0fe9d36101d884deec3c987b38abf176.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Healthy\\dogs_112_jpg.rf.cdc2f406623b62c39f5a155e19406f52.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\636_jpg.rf.8c5053ff6ff61c7ef9d3bd3e41d9b33c.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_029_jpg.rf.edfcc1fbd322324f26466656853335a8.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\HEALTHY_011_jpg.rf.1f24d5fbeef1d0818f5a9de8077aa269.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\Image_24_jpg.rf.cf0654f07c28b79c49d435a36845bd3c.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Healthy\\dogs_052_jpg.rf.04aa4a9a5545109e0f888f1f1c336dd3.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\HEALTHY_043_jpg.rf.45095770d192f760f0807861bcbdaceb.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\pic27_jpg.rf.df5d62fe0cbdcff2c001c7cf06b830ba.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\HEALTHY_012_jpg.rf.611e0b6cfc2e4d70ae52e656b737319d.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_123_jpg.rf.9fc076b0091cf7ac92268a88a63ed0b1.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\pic37_jpg.rf.5818221b04c02fbf4d9bd67d10539850.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\Image_20_jpg.rf.87b28e69485c2c214be188c40097b86c.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\dogs_136_jpg.rf.5c3a01acd531c3eb85ae4de5ea9f800b.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\Image_15_jpg.rf.1c1726016c2721aa16f939a7c193c391.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\Image_8_jpg.rf.cd2328cd9621f521d3b8e17cfd47640c.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_053_jpg.rf.750a008ca0417acfb65e8f2dfdec4672.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\Image_8_jpg.rf.872507d6df7cde7f5f2552aeb35e975a.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\066_jpg.rf.c9c2374361df6a285aaaf3209d0e7451.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\dogs_020_jpg.rf.342aeec68088c5d13d13ea084c2bf129.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\dogs_236_jpg.rf.c6de3497f8028132d416a810d51c021c.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_162_jpg.rf.80b5a8f9c4b1aa5b866b48c100c67ebd.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\pic68_jpg.rf.238c0476bc2399f7c2037f0302c55f65.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\HEALTHY_003_jpg.rf.d8275c17544594fa6ce19d8ce8d1f7c3.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\Image_24_jpg.rf.b89093071ff1433e6670a409a2e92bc3.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Healthy\\images-24_jpg.rf.08f4e96d0253a9fc5216c2816a90f4a0.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\images-57_jpg.rf.8b01c1cae7cea4b6107891236075d926.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\pic65_jpg.rf.4fea6dd8f973df064792c6832e3e5521.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\HEALTHY_057_jpg.rf.0b70878e8b415cb0698d7e9793c3eaad.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_008_jpg.rf.418b3a840570b504ea4e1042de9f8078.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\HEALTHY_039_jpg.rf.c6ccf0ace799b4da58d063c88172f952.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\pic38_jpg.rf.fcc1748afa4f28880d4dc42f1cd48d22.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\pic20_jpg.rf.e6135f1f05a12144452824ed0c7cdb8e.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\pic19_jpg.rf.1b33cc506aada56b69d650d45ffa4dcc.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Healthy\\dogs_021_jpg.rf.f1b30730b70ca2eefeba245fe0e590ba.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_149_jpg.rf.94ea87816c1e0eb60da12bf40352419d.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\Image_1_jpg.rf.8f39858cc077ae4c7f5ea8d8cf681d53.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\Image_24_jpg.rf.0be95695f0d50fc25932d810bb14286b.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\HEALTHY_014_jpg.rf.ca0a3ca03c1de2aa49db0d6fa0d05f34.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\Image_27_jpg.rf.e0c81e48068ca707a89f22b15499fa96.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\HEALTHY_034_jpg.rf.ac6f402da6b46949aca0db4e5af80655.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\HEALTHY_020_jpg.rf.c824e8c72f8ef628301a1663688e227e.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_112_jpg.rf.773e7a9e0c17c5f24dd07da48d4d5692.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\images-48_jpg.rf.33b030a452925ec8309b7be5272e257b.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Healthy\\Image_12_jpg.rf.294aff36de7f451b0b2b3b21a7f033fd.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\dogs_040_jpg.rf.e87d30dcc98d625aae1506028bc44765.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\002_jpg.rf.19a707d57ea7d67879969bf94ff94e36.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\images-44_jpg.rf.32128ebeb8281332820ccbbafb0e717d.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\039_jpg.rf.10683c065c6458043aa8ee72929a18a7.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Healthy\\dogs_275_jpg.rf.2d05b81c85ad47c04f609a9555063ccc.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\HEALTHY_042_jpg.rf.a2379c8c9e32116a5ba465a2685b2cde.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_084_jpg.rf.2fcc85bf9d54b7eeca5190b0e904037f.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_236_jpg.rf.2fc45a11d8d1a1377e5cef6774015558.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\HEALTHY_057_jpg.rf.da0a23a68808fee7a2fa3a6f11d6d706.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_120_jpg.rf.4d18bf83113ad6476e240a10d4af122b.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_082_jpg.rf.2641e9074ab43dae48bb90dad3ecc58d.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\00_jpg.rf.989c3aa2f2efb8e45b6994ba3685e646.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\images-28_jpg.rf.8538206b735d09673db7f474949c9945.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Healthy\\dogs_265_jpg.rf.ac7979b96bf0861f549ace70173a1188.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\images-34_jpg.rf.ce55179ceef0ed5375f094560cc12645.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\dogs_145_jpg.rf.e13323f5797c3c6b51685e190c94c33e.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_039_jpg.rf.e8ffff28f73c0ff54807a07160e6d8c2.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Healthy\\HEALTHY_055_jpg.rf.f1bd033bf5b9222172330c1854be791b.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\dogs_046_jpg.rf.1652d696f49319457443f2adade1eb7a.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_060_jpg.rf.4757f27ba81a1067f4df0b2b4756efc4.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_004_jpg.rf.022a3e64eb42d3ab7a1df92a7d4d0f18.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\HEALTHY_002_jpg.rf.33755169a2489359a6a8d659f0a7b417.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_112_jpg.rf.bdef3b5beb13cb060df797adf0e976ee.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_056_jpg.rf.6d30fc966818aa00bfdbcfb274e286b5.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\pic50_jpg.rf.1ccee71983192be93453f23f403ecf02.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\images-10_jpg.rf.38bb58dea60e96729faa7cb3cd366a30.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\Image_15_jpg.rf.6ada62418eb176fcef9fcba3077da8ed.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_037_jpg.rf.d1bad189695128b6d41621cbe6cd878b.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\pic17_jpg.rf.5df1675cd8b7f39a9ea69e580f1f8e2a.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\pic11_jpg.rf.3beedc1a3e0ef3d64d1de990897ec0b2.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Healthy\\HEALTHY_058_jpg.rf.11701dfb477adba58da03ceae5476476.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_131_jpg.rf.fdd7e82a531ce01e2e37d13eb6b6f89c.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\dogs_052_jpg.rf.340c4d955659dbe83cc28d8012ff6c56.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_030_jpg.rf.1e9e1dcad80dbd573518b09c925f627c.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\images-43_jpg.rf.82c6f9b08a2080fe4c7c3b4c5597fdbc.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\pic69_jpg.rf.96cfa2aa5e65000263b44a6da217fe34.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\pic22_jpg.rf.94dee61066749946877f4c241454f1d5.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Healthy\\pic25_jpg.rf.9e69456da9ad65bb499f045ea5c5e033.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Healthy\\dogs_045_jpg.rf.038046a65dfdf91d75753bbc6041db82.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Healthy\\dogs_172_jpg.rf.429ac597985b0513806d934e8e24668f.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_001_jpg.rf.316a5b99cedba51cafb78a5653356d7e.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Healthy\\dogs_137_jpg.rf.92d10211ed534c0db33f530261ce5641.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Healthy\\pic44_jpg.rf.0e83f6afc957a2d7be606ff885d79f59.jpg",
+    "label": "healthy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Hot Spots in Dog\\Image_63.jpg",
+    "label": "hot_spots"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Hot Spots in Dog\\Image_98.jpg",
+    "label": "hot_spots"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Hot Spots in Dog\\Image_85.jpg",
+    "label": "hot_spots"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Hot Spots in Dog\\Image_43.jpg",
+    "label": "hot_spots"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Hot Spots in Dog\\Image_91.jpg",
+    "label": "hot_spots"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Hot Spots in Dog\\Image_15.jpg",
+    "label": "hot_spots"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Hot Spots in Dog\\Image_14.jpg",
+    "label": "hot_spots"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Hot Spots in Dog\\Image_11.jpg",
+    "label": "hot_spots"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Hot Spots in Dog\\Image_77.png",
+    "label": "hot_spots"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Hot Spots in Dog\\Image_69.jpg",
+    "label": "hot_spots"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Hot Spots in Dog\\Image_2.jpeg",
+    "label": "hot_spots"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Hot Spots in Dog\\Image_66.jpg",
+    "label": "hot_spots"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\B9781416056638000070_f007-027-9781416056638_jpg.rf.e2a9ceff08d54a73abe3b1df56107687.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\B9781416056638000070_f007-030-9781416056638_jpg.rf.1078c06e1c17f53e730049b514d278f6.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\Hypersensitivity_1_jpg.rf.10dbf8b193fb24c3ae93e7e7d160f6ab.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\B9781416056638000070_f007-014-9781416056638_jpg.rf.f7f9e4c797a2af5d58bba0043fb0239a.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\27_jpg.rf.8b300ccd1beed7d15dee25614591b295.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\Hypersensitivity_2_jpg.rf.6a88cb5b2be74c27087637c559aceebc.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\B9781416056638000070_f007-021-9781416056638_jpg.rf.6d228d219f84b653ca2548c0a3e27d87.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Hypersensitivity\\Hypersensitivity_image_1_jpg.rf.ce16c82350e243ad3be169130f218a65.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\23_jpg.rf.da01d0354ae986ac47d3d37cad97e123.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\1400_jpg.rf.3da2e10e5ebfa49de017df56a1fb59ab.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\Hypersensitivity_image_4_jpg.rf.461582951868b3986d6f627214841751.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\B9781416056638000070_f007-016-9781416056638_jpg.rf.50f7dc651eb15913cc920e2f2c83e824.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\B9781416056638000070_f007-015-9781416056638_jpg.rf.d7b571cdf93b7b5b13c35ee5bbc580ac.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\1392_jpg.rf.cf218caaaac13dcf6ba29b9802fdfcd1.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\B9781416056638000070_f007-009-9781416056638_jpg.rf.27ca68b86ffccf2c1eac0121823711c0.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\B9781416056638000070_f007-021-9781416056638_jpg.rf.278c3c5c6f9b5654a194de2e7b70c59d.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\Hypersensitivity4_png_jpg.rf.d6b747d037b5217974defc8135569eae.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\1011_jpg.rf.67454b7588ec5d9b9cb5371632486ac5.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\B9781416056638000070_f007-001-9781416056638_jpg.rf.dce0cdc032193b719e38c2a0bd4c450e.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\17_jpg.rf.63ea6253c6aa480938cc87d0854dfc4d.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\Hypersensitivity_2_jpg.rf.a441e4b91dc1032f7e7e895deb8b3ae3.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Hypersensitivity\\B9781416056638000070_f007-032-9781416056638_jpg.rf.b64f73feaf87b87323109264e9088fec.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\B9781416056638000070_f007-040-9781416056638_jpg.rf.56d6b927627969b656d87e1492dcd274.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\1466_jpg.rf.283bdc26b5a0334b4244d81bc9337dc0.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\Hypersensitivity_image_3_jpg.rf.84a37e4eff56f75b1ebf0b24cd669f52.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Hypersensitivity\\B9781416056638000070_f007-039-9781416056638_jpg.rf.cd6007a7c741dda3ef13184b833e78fd.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Hypersensitivity\\B9781416056638000070_f007-009-9781416056638_jpg.rf.b0a9be0bed8780ff1ad4b2fba0e0154d.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\Hypersensitivity4_png_jpg.rf.39c6024140bb593c62f2b7ee6613bb45.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Hypersensitivity\\Hypersensitivity_1_jpg.rf.6798e16d00bda37db77547c225b66538.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\B9781416056638000070_f007-035-9781416056638_jpg.rf.62ee59ea50be6364b40df96a84d24364.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Hypersensitivity\\B9781416056638000070_f007-002-9781416056638_jpg.rf.5e0ed35ce44028125f9b9666b2483039.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\B9781416056638000070_f007-043-9781416056638_jpg.rf.6d71e2392cb0cb0b379152f66446a5b4.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\hps11_jpg.rf.d6c984658ffccf87878c60a6ebef7d11.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\Hypersensitivity\\1720_jpg.rf.e4ce53f9bec6161342d04986505c94c9.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\B9781416056638000070_f007-040-9781416056638_jpg.rf.e9ca27a80250803814b31d3c3b0c7067.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\B9781416056638000070_f007-037-9781416056638_jpg.rf.06b85510d0776451f4b20fb91bd921b3.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Hypersensitivity\\1525_jpg.rf.d022c178eaf2529327c5644844418e86.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\B9781416056638000070_f007-013-9781416056638_jpg.rf.24e1d1ac7240f9c25a84ccbbe96b594c.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\1525_jpg.rf.c1510e9aa3886977da633a9bd256eec6.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Hypersensitivity\\B9781416056638000070_f007-003-9781416056638_jpg.rf.ad041a908e7a7c2af2010f21db718bd6.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\Hypersensitivity\\B9781416056638000070_f007-038-9781416056638_jpg.rf.698f7db825a7effa0382a4349bdc40b4.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\Hypersensitivity\\1277_jpg.rf.ce594ac65f0ab4929a3bb897ecbfc123.jpg",
+    "label": "hypersensitivity"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Kennel Cough in Dog\\Image_69.jpg",
+    "label": "kennel_cough"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Kennel Cough in Dog\\Image_5.webp",
+    "label": "kennel_cough"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Kennel Cough in Dog\\Image_58.jpg",
+    "label": "kennel_cough"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Kennel Cough in Dog\\Image_64.png",
+    "label": "kennel_cough"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Kennel Cough in Dog\\Image_70.jpg",
+    "label": "kennel_cough"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Kennel Cough in Dog\\Image_78.webp",
+    "label": "kennel_cough"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Kennel Cough in Dog\\Image_39.jpg",
+    "label": "kennel_cough"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Kennel Cough in Dog\\Image_42.jpg",
+    "label": "kennel_cough"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Kennel Cough in Dog\\Image_18.jpg",
+    "label": "kennel_cough"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Kennel Cough in Dog\\Image_5.jpg",
+    "label": "kennel_cough"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Kennel Cough in Dog\\Image_71.jpg",
+    "label": "kennel_cough"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Kennel Cough in Dog\\Image_51.png",
+    "label": "kennel_cough"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Mange in Dog\\Image_8.jpg",
+    "label": "mange"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Mange in Dog\\Image_89.jpg",
+    "label": "mange"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Mange in Dog\\Image_6.jpg",
+    "label": "mange"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Mange in Dog\\Image_13.jpg",
+    "label": "mange"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Mange in Dog\\Image_51.jpg",
+    "label": "mange"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Mange in Dog\\Image_94.png",
+    "label": "mange"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Mange in Dog\\Image_2.jpg",
+    "label": "mange"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Mange in Dog\\Image_56.jpg",
+    "label": "mange"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Mange in Dog\\Image_43.jpg",
+    "label": "mange"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Mange in Dog\\Image_48.jpg",
+    "label": "mange"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Parvovirus in Dog\\Image_20.png",
+    "label": "parvovirus"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Parvovirus in Dog\\Image_22.jpg",
+    "label": "parvovirus"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Parvovirus in Dog\\Image_30.png",
+    "label": "parvovirus"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Parvovirus in Dog\\Image_79.jpg",
+    "label": "parvovirus"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Parvovirus in Dog\\Image_6.jpg",
+    "label": "parvovirus"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Parvovirus in Dog\\Image_19.jpg",
+    "label": "parvovirus"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Parvovirus in Dog\\Image_50.jpg",
+    "label": "parvovirus"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Parvovirus in Dog\\Image_32.png",
+    "label": "parvovirus"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Parvovirus in Dog\\Image_44.png",
+    "label": "parvovirus"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Parvovirus in Dog\\Image_25.jpg",
+    "label": "parvovirus"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\ringworm-113-_jpg.rf.0b6d278b5b3348e3f6d039e5498f16c2.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\WIN_20240514_17_28_12_Pro_jpg.rf.cda81ac4523bf6537da1772c2c2ff565.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-22-_jpg.rf.d5b88aa48f38b2841d0f371187be4cd9.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-140-_jpg.rf.6f2c118c4f21c55a12685c16bf1bad6b.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\436725491_1153113969442923_7349901947606592211_n_jpg.rf.511380bd0aedb7eda1cf1d641f81d415.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\1000010581_x16_jpg.rf.6b34ea772b7fe3c924b25cdf44b7c5e0.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\438065176_410071371966337_678127791024855360_n_jpg.rf.fa0b6ea4e727ef02736157e61319802b.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R30_png_jpg.rf.8eb0c3165a83537585cde0c6411115a4.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R52_png_jpg.rf.9ad85d21c64154fb213927b295c20329.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\ringworm\\Day-4-of-ringworm-treatment_00261_jpg.rf.9315257c3f9b907d1db97353b5e16577.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\ringworm-29-_jpg.rf.d053c71635be3c886a8a70201ebb1854.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\ringworm-35-_jpg.rf.8657f711019ad85a6b7a529b184b5be3.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R54_png_jpg.rf.1f431da64b48dcfde77abda2111ac5c3.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-158-_jpg.rf.c09fa30bdf43fbb2e746a52777102f7e.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-9-_jpg.rf.f8710f16c5a7ca70a12c32283318f669.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-38-_jpg.rf.b639669e30c2ee586cd767eea3ff19ab.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-56-_jpg.rf.134799f74fb617340def81840adc5146.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-13-_jpg.rf.400841b996c68747978867697dd35d78.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\C55DA5C6-7CDF-492D-BBDC-E65950635912_jpeg_jpg.rf.ee4c0d8ff9862c20aba1ea39113d4135.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R14_png_jpg.rf.d69ba0707f577b5d3df80690aab7a1eb.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_33_18_Pro_jpg.rf.89df12579e20481034c154b856399804.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\WIN_20240514_17_31_29_Pro_jpg.rf.3cdcdb7b9f470281fdbdc6f04423a1ac.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_26_50_Pro_jpg.rf.57123cd65bce71635d6a70ba3be4ae67.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\ringworm-117-_jpg.rf.4c332d6f5fa12f03e6efda02019dc7b0.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R40_png_jpg.rf.72eba66b5e312ce204bfc42bfcb2478a.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\6D4F94F0-A463-4F97-9E69-32C7C4493054_jpeg_jpg.rf.7642a53724795c6adc922fadc13ad745.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\ringworm-54-_jpg.rf.2dc24df44083933f6f5d8c4158a43c54.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R3_png_jpg.rf.9652a087cfe4099f5d36456ab5cf4d16.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\69779474_2813720978641346_3471018570912104448_n_jpg.rf.5e24746af07046a0689c06eee604dead.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-99-_jpg.rf.d2f5c550a88d66d48077cb2f022169a2.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-128-_jpg.rf.62c01794692c41bc6ef37dfa34e93ed7.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\F6C9DE00-6537-4BBA-9190-139E3276427E_jpeg_jpg.rf.00fe0dae577671abaa41ee34cf0ffd38.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\Day-4-of-ringworm-treatment_00261_jpg.rf.d82387811c722b2139cacd74b92b5ad1.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\ringworm\\1000010566_x16_jpg.rf.c3d09bb07234f50bce594366bdac66ae.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-96-_jpg.rf.7271a299dbe8ed0b3aa425149fc6533b.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\436859036_407429032244109_5180510937797219633_n_jpg.rf.3848a62653f2f49778d13931e485b4fe.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\NEWR6_jpeg_jpg.rf.90b0b9da10de391a9ca291636763a3ee.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_28_04_Pro_jpg.rf.58510c0a2d64eb54cfaccf42fd9284b1.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\436815977_459940293272172_9180748049987512532_n_jpg.rf.de14f1d85b3d9aa1c7ae6088e0107aef.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\69869142_2813720881974689_7556977064478244864_n_jpg.rf.e086db43e822fb7f3d1048a604c96d55.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\WIN_20240514_17_42_19_Pro_jpg.rf.104ee8b00261d1eb2707de51d79cc3f5.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-110-_jpg.rf.8d64d987351b22a85c142d96c5166b2e.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\WIN_20240514_17_31_40_Pro_jpg.rf.d5cf97f5479bdf711d8bd6fda9f17917.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\WIN_20240514_17_26_49_Pro_jpg.rf.1d76aa821188ee98e76b204d9dee0865.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-115-_jpg.rf.e5e3be92979e03e54b559f9a6f4f67c0.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_36_20_Pro_jpg.rf.b7d1be04589890988146029eae4e804e.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_38_15_Pro_jpg.rf.1e6f44910bc75ae104b4e57cf5e109aa.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\ringworm-32-_jpg.rf.10ae4fa785adbe6fbaf846811b250d8e.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\NEWR25_png_jpg.rf.d57f87879a5ad7fa610ba5e01add8b52.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\436685073_799772981646313_4606726835859676318_n_jpg.rf.1b5cc69ea47a68eba40b6a3a471a07ef.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\R31_png_jpg.rf.19e2b20f33ec63fb0b67b63fd2133eec.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\1000010503_x16_jpg.rf.ebd13f665814985322ac3f7e66fe3eda.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\1000010503_x16_jpg.rf.b6266edf75db7d4a700e346e473ca6a9.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\ringworm\\436646102_943880210611867_8407756000999041587_n_jpg.rf.dc0bb7f2bcc852416ac2031e3e355964.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\R35_png_jpg.rf.3542050ece64d01ef1d1c7e338bdbac6.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R16_png_jpg.rf.e18d27346235a8ce2092ee1327986bd6.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-63-_jpg.rf.d2cb181704b7a2e6555affdb8d72408e.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-151-_jpg.rf.78b1728b72542ee259009f95474cda78.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R11_png_jpg.rf.397d09f00946ad0649dece47259cfe00.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\NEWR28_png_jpg.rf.cc8e186a4e19276c709e1082079075a7.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\1000010776_x16_jpg.rf.d300ca32b529e1e61e86aa0c6c0c0fb4.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\1000010651_x16_jpg.rf.b1b9e0723b4b007ba95cb2d71e8b67ea.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-84-_jpg.rf.a22758fb370d5cbb6310854f60d0f26d.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\NEWR21_png_jpg.rf.f138adda4cdde52b9d687766f8ced4df.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\NEWR50_png_jpg.rf.f36171757839d3512166c0343d00bd77.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\ringworm-129-_jpg.rf.a9964c3344d2b598e49dfe8d9de01c24.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\ringworm\\R17_png_jpg.rf.96618bbb338cfc167c70e5a121eae354.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_26_50_Pro_jpg.rf.414014bbf83500f18c5f5053bcc94b6b.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\1000010644_x16_jpg.rf.ed39fd688db0d1525957533a2cd9e444.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R30_png_jpg.rf.04b5406f6bb0b3f462fcd74d770dd596.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\1000011982_x4_jpg.rf.55cfc391865d72727a786306524e4461.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R11_png_jpg.rf.7d0634a891dc0a16906f3110c0ad03b3.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\WIN_20240514_17_23_20_Pro_jpg.rf.b84bfe70eb98353596c2b47c5f6ed16b.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\436611250_417959844314512_1076972693256378968_n_jpg.rf.fcb7800f2e25caa8427e7ec6a1550984.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R21_png_jpg.rf.91e7985634be54281593109beabb2611.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\NEWR27_png_jpg.rf.514655acabb68cd9753011dda1f0f276.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\1000010644_x16_jpg.rf.2933b83ca769551ba83550234ba1d279.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\1000010581_x16_jpg.rf.f67492add501c36416c165d1fea34eb2.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\436798334_453016620424224_233944988678402855_n_jpg.rf.2d49a27f901b9a47e8bc71ffd3deb081.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\R11_png_jpg.rf.9d8c13a754a24f245fdb7acfd1862a2e.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\436799686_1645755056226653_3055609830143657343_n_jpg.rf.eb6593f2057bc1cd680df8b6b7187d7e.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_34_06_Pro_jpg.rf.c424e8f72a71b8e5f9861f44a25f3ee9.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\ringworm\\436638693_826239035984778_764987017093970170_n_jpg.rf.8fb636ffaf21dcd0bfd58d49a7c7756f.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R8_png_jpg.rf.3b6b4a6afc09fcf80d7365810091f1d2.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R58_png_jpg.rf.6d8a61c206ea58a193b61d0c6dea6773.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-69-_jpg.rf.b52a83a1ecb9846c9075f657cef81fdd.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_26_36_Pro-2-_jpg.rf.b714bf80a287d6b9ca60d95f05e50a0c.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_33_59_Pro_jpg.rf.3fc70def4ff93042e20007df834800e7.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_36_38_Pro_jpg.rf.89da75321f985b58f8a164685b5cc71b.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\1000010503_x16_jpg.rf.914c393fcd3652f8bb2b29f3b27fd93f.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\436788724_2640165772801792_3956631987323566222_n_jpg.rf.1b7805ae120dc8ea81a0cf34fb84c021.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R27_png_jpg.rf.3e6de720f6213b11007161a71d626679.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\ringworm-2-_jpg.rf.a95aa642f33986fd214443a90bbaf697.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_26_41_Pro-2-_jpg.rf.dcd731692347d7ead42f80b0161f22d3.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R37_png_jpg.rf.8021d3ae3f8f9a980d75156bc3f5b9e4.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\NEWR25_png_jpg.rf.07bd311811cdc8305c418f87de1e83bf.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R30_png_jpg.rf.22e4ce3bb385eaba65b6aff38ea654bb.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\ringworm\\WIN_20240514_17_25_33_Pro_jpg.rf.4badac6859376b1c8c1dd77ce8b3ec35.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-138-_jpg.rf.dec3c2848a7e00c2837757be44df42c7.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\NEWR52_jpeg_jpg.rf.c6a5b386d83113d6b87098ae8fb93ad6.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-9-_jpg.rf.616d34ec2f0910e10ecca5a6c597b634.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\C55DA5C6-7CDF-492D-BBDC-E65950635912_jpeg_jpg.rf.121048e087735dac7542dfc3dc62748f.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\ringworm-73-_jpg.rf.e208e93049b065e1e2d4fbb8c715c387.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_26_58_Pro_jpg.rf.5a5a0ae8cd30cbdf62313c5eb17279d7.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-137-_jpg.rf.e379ba6aa0f501d2eb6e5b066ac78cb5.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\436815977_459940293272172_9180748049987512532_n_jpg.rf.fe6920d1c5bf6e2208206b6366e0760c.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-6-_jpg.rf.366cd0abd2e1c240f61d7f0f2fa93f90.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\ringworm\\ringworm-5-_jpg.rf.fa038ef97257e11ef8ad3ed2691affff.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-74-_jpg.rf.6b8c3148f55917efc1fbde1fab3c5b9a.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\436659257_1400912270538983_2219402059155208617_n_jpg.rf.322387eced9ac139e05f677bc82e1961.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\NEWR47_png_jpg.rf.33bab234ba56be80b0b37c21019735dc.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\436685073_799772981646313_4606726835859676318_n_jpg.rf.a9ad6ccd163f412b8bfd506772a7d428.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R23_png_jpg.rf.6e26029a05371612779da6925a56e4ef.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_41_07_Pro_jpg.rf.ff44df5521bf59c4d821e84a4c2d818d.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-119-_jpg.rf.ad0ef9224cb4b426d98022740815ae79.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\Day-4-of-ringworm-treatment_00171_jpg.rf.b25d75440a0c521d14198a7341ca20e3.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\NEWR5_jpeg_jpg.rf.74a9541d03489d5abfb42fd6aa4327e3.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-132-_jpg.rf.b145c923c71702516b2a127e5e2d5013.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\438051747_429300536462648_7834621964132658771_n_jpg.rf.0db245ea8a8749a12a3f124c68dfe865.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\NEWR9_jpeg_jpg.rf.0159c09b0c35cf4a0861f72c063ca8be.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-144-_jpg.rf.5993f8b6c86e4e0bb0f6bd22a57a9fa7.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R60_png_jpg.rf.e5b38cf3ebd4c1acc06038e6b1f253f6.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\80b5eb_799a7e6d4c1444318ee3e4280_jpg.rf.3d44c2824b829a41312b8484fc7af2fc.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_25_20_Pro_jpg.rf.62476072c4473f62aba038f6452a1ee4.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\1000010696_x4_jpg.rf.856803c04b04d4ffe63ca3e2763c841c.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\NEWR46_png_jpg.rf.be6b2ec614a90a40851108325132f7cf.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-52-_jpg.rf.c7c2c3c0d2ba4987643814f28d532e09.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-103-_jpg.rf.4c33b93db310d45192037d0635fd8b8a.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R52_png_jpg.rf.5e18ce8bb947ff091dc4c81f6a0e5047.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R51_png_jpg.rf.8457e08fae7b38724c1d960ac34cc334.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\NEWR29_png_jpg.rf.4d744c06c81127250fd4132bece8d9ab.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-126-_jpg.rf.a6870ebd10c080fa0338772774d52470.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-101-_jpg.rf.e09eb4d942fb61cbcbd6ebbca8a7e016.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R13_png_jpg.rf.262aa226fc9c9970f4d595c0066be2d6.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-71-_jpg.rf.36448879b66c670005adfab424cf15bb.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\ringworm\\ringworm-33-_jpg.rf.adede751fbc5c91ef4cf09d4626fddef.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\WIN_20240514_17_41_29_Pro_jpg.rf.f3f7bd8b20174be9c298148e73823a3f.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_31_24_Pro_jpg.rf.d6a5bc34f31702f185c1e4d813d4c55c.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-138-_jpg.rf.7f732e7e273f7249f225dd605d74b1c0.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R31_png_jpg.rf.e87d82aea54fe283e597b3c9530d758f.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-33-_jpg.rf.8a14fa9de5973b0c2a499ef9b3064d60.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-106-_jpg.rf.ed1e75e17072dba27995166a47164d69.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\ringworm\\R32_png_jpg.rf.78925e7e0420bc82650c9d3fa2405fa4.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R56_png_jpg.rf.1be7d56ac39a3c40a5e87a1e504e8355.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_28_12_Pro_jpg.rf.0417647960656ec8d7b2abcbce3838cc.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\ringworm-23-_jpg.rf.95b6011a8d3bfdc6383bd31f96ddf8e8.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\test\\ringworm\\NEWR13_jpeg_jpg.rf.ae9330e998541d6e69dd20ceaf8ffc25.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R3_png_jpg.rf.47a2388710ce3b6ec7190c738dd2e46f.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\1000010719_x16_jpg.rf.58e2c60ac35f45c420e2912052c73872.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-134-_jpg.rf.87d04883cf79a70a927414ec6404f63e.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\436640003_939449091294830_7683376979877978508_n_jpg.rf.670ffa61b78128e74ca33c2f390da83f.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\ringworm-52-_jpg.rf.ddd19303e36ddf30f7ec12dffc7b45a8.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R12_png_jpg.rf.b2b32fd628e0e43d6dd37abd41e5b1f0.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_28_04_Pro_jpg.rf.6555fa133b65e1cd3e1da495344115ff.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-104-_jpg.rf.e4081ea846ca0227f60455332750015b.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_29_33_Pro-2-_jpg.rf.36347b05eab05eadf1ecf9f4ace23580.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_21_45_Pro_jpg.rf.dd300507809a0b9dabdc04577cfb7b03.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\ringworm-86-_jpg.rf.835be916e1452b703b2b447591c438c9.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-133-_jpg.rf.b555f8c9a8e4c0676902ab5e37a5dac5.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-54-_jpg.rf.83d30666af97e54cddab375545b60fd3.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-74-_jpg.rf.1c15a9cc9f380ceaa590173c53603c5b.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\WIN_20240514_17_44_56_Pro_jpg.rf.c84d1fd472c391f231f4490102efaddf.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-156-_jpg.rf.792ce87e3807d18a40acd31c6d90df97.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\ringworm-109-_jpg.rf.cc6f1869695349d28dd3dd3b1ae34511.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\valid\\ringworm\\ringworm-123-_jpg.rf.727ca3f4a4efa4b4cee2ba43ed596925.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R14_png_jpg.rf.d8ec7b5c804343627bbe0b61127fa909.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_5_Dog\\train\\ringworm\\R25_png_jpg.rf.e593abf2f17a287549ff36089d705fc1.jpg",
+    "label": "ringworm"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Skin Allergy in Dog\\Image_44.jpg",
+    "label": "skin_allergy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Skin Allergy in Dog\\Image_39.jpg",
+    "label": "skin_allergy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Skin Allergy in Dog\\Image_16.jpg",
+    "label": "skin_allergy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Skin Allergy in Dog\\Image_76.jpg",
+    "label": "skin_allergy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Skin Allergy in Dog\\Image_33.jpg",
+    "label": "skin_allergy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Skin Allergy in Dog\\Image_61.jpg",
+    "label": "skin_allergy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Skin Allergy in Dog\\Image_29.jpg",
+    "label": "skin_allergy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Skin Allergy in Dog\\Image_25.png",
+    "label": "skin_allergy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Skin Allergy in Dog\\Image_13.jpg",
+    "label": "skin_allergy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Skin Allergy in Dog\\Image_52.jpg",
+    "label": "skin_allergy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Skin Allergy in Dog\\Image_71.jpg",
+    "label": "skin_allergy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Skin Allergy in Dog\\Image_19.webp",
+    "label": "skin_allergy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Skin Allergy in Dog\\Image_53.jpg",
+    "label": "skin_allergy"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Tick Infestation in Dog\\Image_92.jpg",
+    "label": "tick_infestation"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Tick Infestation in Dog\\Image_79.webp",
+    "label": "tick_infestation"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Tick Infestation in Dog\\Image_50.jpg",
+    "label": "tick_infestation"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Tick Infestation in Dog\\Image_100.jpg",
+    "label": "tick_infestation"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Tick Infestation in Dog\\Image_11.jpg",
+    "label": "tick_infestation"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Tick Infestation in Dog\\Image_46.jpg",
+    "label": "tick_infestation"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Tick Infestation in Dog\\Image_23.png",
+    "label": "tick_infestation"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Tick Infestation in Dog\\Image_15.jpg",
+    "label": "tick_infestation"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Tick Infestation in Dog\\Image_2.jpg",
+    "label": "tick_infestation"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Tick Infestation in Dog\\Image_10.jpg",
+    "label": "tick_infestation"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Tick Infestation in Dog\\Image_54.jpg",
+    "label": "tick_infestation"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Worm Infection in Dog\\Image_92.webp",
+    "label": "worm_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Worm Infection in Dog\\Image_72.jpg",
+    "label": "worm_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Worm Infection in Dog\\Image_3.jpg",
+    "label": "worm_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Worm Infection in Dog\\Image_24.jpg",
+    "label": "worm_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Worm Infection in Dog\\Image_19.jpg",
+    "label": "worm_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Worm Infection in Dog\\Image_67.jpg",
+    "label": "worm_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Worm Infection in Dog\\Image_60.JPG",
+    "label": "worm_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Worm Infection in Dog\\Image_28.jpg",
+    "label": "worm_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Worm Infection in Dog\\Image_51.jpg",
+    "label": "worm_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Worm Infection in Dog\\Image_58.jpg",
+    "label": "worm_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Worm Infection in Dog\\Image_90.jpg",
+    "label": "worm_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Worm Infection in Dog\\Image_34.jpg",
+    "label": "worm_infection"
+  },
+  {
+    "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Worm Infection in Dog\\Image_12.jpg",
+    "label": "worm_infection"
+  }
+]

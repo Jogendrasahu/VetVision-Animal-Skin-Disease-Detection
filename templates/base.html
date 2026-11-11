@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}VetVision AI — Advanced Veterinary Image Analytics{% endblock %}</title>
+    <meta name="description"
+        content="{% block meta_description %}AI-powered veterinary image analytics for disease detection in dogs, cats, and cows using dual-tier deep neural networks.{% endblock %}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+    <link rel="apple-touch-icon" href="/static/favicon.svg">
+
+    <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Design System Stylesheet -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    {% block extra_css %}{% endblock %}
+</head>
+
+<body>
+
+    <!-- ── 1. Sticky Navigation Bar ── -->
+    <header class="navbar" id="navbar">
+        <div class="container navbar-container">
+            <a href="/" class="brand" aria-label="VetVision AI Home">
+                <div class="brand-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        <path d="M12 8v8M8 12h8"></path>
+                    </svg>
+                </div>
+                <span>VetVision<span class="brand-ai-badge">AI</span></span>
+            </a>
+
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="/" class="nav-link {% if request.path == '/' %}active{% endif %}">Home</a></li>
+                    <li><a href="/detect" class="nav-link {% if request.path == '/detect' %}active{% endif %}">Detect</a></li>
+                    <li><a href="/diseases" class="nav-link {% if request.path == '/diseases' %}active{% endif %}">Diseases</a></li>
+                    <li><a href="/dataset" class="nav-link {% if request.path == '/dataset' %}active{% endif %}">Dataset</a></li>
+                    <li><a href="/history" class="nav-link {% if request.path == '/history' %}active{% endif %}">History</a></li>
+                    <li><a href="/guide" class="nav-link {% if request.path == '/guide' %}active{% endif %}">Guide</a></li>
+                    <li><a href="/about" class="nav-link {% if request.path == '/about' %}active{% endif %}">About</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- Theme Toggle -->
+                <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+                    <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+
+                <a href="/detect" class="btn-nav-cta">
+                    <span>Start Screening</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </a>
+
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ── Toast Notification Container ── -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- ── Confirmation Modal ── -->
+    <div class="modal-overlay" id="confirmModal">
+        <div class="modal-card">
+            <div class="modal-icon" id="confirmModalIcon">⚠️</div>
+            <h3 class="modal-title" id="confirmModalTitle">Confirm Action</h3>
+            <p class="modal-desc" id="confirmModalDesc">Are you sure?</p>
+            <div class="modal-actions">
+                <button class="btn-modal-cancel" id="confirmModalCancel">Cancel</button>
+                <button class="btn-modal-confirm" id="confirmModalConfirm">Confirm</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── Main Content Block ── -->
+    <main id="mainContent">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- ── Site Footer ── -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="brand">
+                        <div class="brand-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                <path d="M12 8v8M8 12h8"></path>
+                            </svg>
+                        </div>
+                        <span>VetVision<span class="brand-ai-badge">AI</span></span>
+                    </div>
+                    <p class="footer-desc">
+                        Advanced Veterinary Image Analytics platform utilizing dual-tier convolutional networks (MobileNetV2 Gatekeeper &amp; EfficientNetB0 Classifiers) to assist veterinarians, shelter staff, and pet caregivers with preliminary triage and disease risk screening.
+                    </p>
+                </div>
+
+                <div class="footer-links-group">
+                    <h4 class="footer-links-title">Platform</h4>
+                    <ul class="footer-links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/detect">Diagnostic Studio</a></li>
+                        <li><a href="/diseases">Disease Knowledgebase</a></li>
+                        <li><a href="/dataset">Dataset &amp; Provenance</a></li>
+                        <li><a href="/history">Screening History</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-group">
+                    <h4 class="footer-links-title">Resources &amp; Safety</h4>
+                    <ul class="footer-links">
+                        <li><a href="/guide">Photography &amp; Triage Guide</a></li>
+                        <li><a href="/about">Architecture &amp; Methodology</a></li>
+                        <li><a href="/about#safety">Responsible AI Guardrails</a></li>
+                        <li><a href="/guide#find-vet">Find a Vet Nearby</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-group">
+                    <h4 class="footer-links-title">Supported Species</h4>
+                    <ul class="footer-links">
+                        <li><a href="/diseases?species=dog">Canine (16 Pathologies)</a></li>
+                        <li><a href="/diseases?species=cat">Feline (15 Pathologies)</a></li>
+                        <li><a href="/diseases?species=cow">Bovine (3 Pathologies)</a></li>
+                        <li><span style="color: var(--color-text-muted); font-size: 0.85rem;">Equine / Ovine (Future)</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Prominent Veterinary Screening Disclaimer -->
+            <div class="footer-disclaimer-card">
+                <div style="display: flex; align-items: flex-start; gap: 12px;">
+                    <span style="font-size: 1.25rem; line-height: 1;">⚠️</span>
+                    <div style="font-size: 0.8125rem; color: var(--color-text-muted); line-height: 1.6;">
+                        <strong style="color: var(--color-text-title); display: block; margin-bottom: 4px;">Important Clinical Screening Disclaimer</strong>
+                        VetVision AI is an assistive decision-support tool engineered for preliminary clinical triage, educational guidance, and differential exploration. It does <em>not</em> constitute, replace, or supersede formal veterinary medical diagnosis, laboratory cytology, histopathology, or clinical examinations by licensed veterinary practitioners. In cases of acute pain, bleeding, dyspnea, sudden lethargy, or rapid lesion enlargement, consult a licensed emergency veterinary hospital immediately.
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 VetVision AI Platform. Designed for Clinical &amp; Veterinary Intelligence.</p>
+                <div class="footer-legal-links">
+                    <span>MobileNetV2 Gatekeeper Protected</span>
+                    <span>•</span>
+                    <span>Dual-Tier Neural Architecture</span>
+                    <span>•</span>
+                    <span>Strict Data Privacy</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Core Application Script -->
+    <script src="/static/js/app.js"></script>
+    {% block extra_scripts %}{% endblock %}
+
+</body>
+</html>
+

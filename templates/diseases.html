@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block title %}Disease Knowledgebase — VetVision AI{% endblock %}
+
+{% block content %}
+<div class="page-hero">
+    <div class="container">
+        <div class="page-hero-badge">Clinical Reference</div>
+        <h1 class="page-hero-title">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+            Veterinary Disease Knowledgebase
+        </h1>
+        <p class="page-hero-subtitle">
+            Comprehensive reference database covering all 34 pathology classes across dogs, cats, and cows. Includes detailed clinical manifestations, transmission risks, at-home supportive care, and emergency warning signs.
+        </p>
+    </div>
+</div>
+
+<section class="section" style="padding-top: 0;">
+    <div class="container">
+        <!-- ── Search & Filter Toolbar ── -->
+        <div class="disease-catalog-toolbar">
+            <div class="disease-filter-tabs" role="tablist">
+                <button class="filter-tab-btn active" data-species="all">All Species (34)</button>
+                <button class="filter-tab-btn" data-species="dog">🐕 Dogs (16)</button>
+                <button class="filter-tab-btn" data-species="cat">🐈 Cats (15)</button>
+                <button class="filter-tab-btn" data-species="cow">🐄 Cows (3)</button>
+            </div>
+
+            <div class="disease-search-wrapper">
+                <svg class="disease-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <input type="text" class="disease-search-input" id="diseaseSearchInput" placeholder="Search disease or symptom...">
+            </div>
+        </div>
+
+        <!-- ── Disease Cards Grid (Populated dynamically from API / static fallback) ── -->
+        <div class="disease-cards-grid" id="diseaseGrid">
+            <div style="grid-column: 1 / -1; text-align: center; padding: 48px 0;">
+                <div class="processing-spinner" style="margin: 0 auto 16px;"></div>
+                <p style="color: var(--color-text-muted);">Loading pathology database...</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ── Disease Clinical Detail Modal ── -->
+<div class="modal-overlay" id="diseaseModal" style="display: none;">
+    <div class="modal-card" style="max-width: 820px; max-height: 90vh; overflow-y: auto; text-align: left; padding: 32px;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; border-bottom: 1px solid var(--color-border); padding-bottom: 16px;">
+            <div>
+                <span class="species-tag dog" id="modalSpeciesTag">Canine</span>
+                <h2 id="modalDiseaseTitle" style="font-size: 1.6rem; font-weight: 800; color: var(--color-text); margin-top: 8px;">Disease Name</h2>
+                <div style="display: flex; gap: 8px; margin-top: 6px;">
+                    <span class="severity-badge" id="modalSeverityBadge">Severity</span>
+                    <span class="contagion-badge" id="modalContagionBadge">Contagiousness</span>
+                </div>
+            </div>
+            <button class="thumb-remove-btn" id="btnCloseDiseaseModal" style="position: static; width: 32px; height: 32px;" aria-label="Close modal">✕</button>
+        </div>
+
+        <div id="modalDiseaseContent">
+            <!-- Dynamically populated 11 fields -->
+        </div>
+
+        <div style="margin-top: 24px; text-align: right; border-top: 1px solid var(--color-border); padding-top: 16px;">
+            <a href="/detect" class="btn-report-action primary-action">Run AI Screening for this Disease</a>
+            <button class="btn-report-action" id="btnDismissModal" style="margin-left: 8px;">Close Reference</button>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

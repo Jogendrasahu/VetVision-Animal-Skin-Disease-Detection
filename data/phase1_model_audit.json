@@ -1,0 +1,52 @@
+{
+  "Dog Baseline": {
+    "path": "Dog_EfficientNetB0_balanced_best.keras",
+    "size_mb": 39.39,
+    "input_shape": "(None, 224, 224, 3)",
+    "output_shape": "(None, 16)",
+    "num_classes": 16,
+    "classes_match": true,
+    "probabilities_valid": true,
+    "audit_pass": true
+  },
+  "Dog Ensemble v1": {
+    "path": "Dog_Ensemble_v1.keras",
+    "size_mb": 114.21,
+    "input_shape": "(None, 224, 224, 3)",
+    "output_shape": "(None, 16)",
+    "num_classes": 16,
+    "classes_match": true,
+    "probabilities_valid": true,
+    "audit_pass": true
+  },
+  "Cat Baseline": {
+    "path": "Cat_EfficientNetB0_stage2_best.keras",
+    "size_mb": 27.85,
+    "input_shape": "(None, 224, 224, 3)",
+    "output_shape": "(None, 15)",
+    "num_classes": 15,
+    "classes_match": true,
+    "probabilities_valid": true,
+    "audit_pass": true
+  },
+  "Cat Ensemble v1": {
+    "path": "Cat_Ensemble_v1.keras",
+    "size_mb": 102.65,
+    "input_shape": "(None, 224, 224, 3)",
+    "output_shape": "(None, 15)",
+    "num_classes": 15,
+    "classes_match": true,
+    "probabilities_valid": true,
+    "audit_pass": true
+  },
+  "Cow Baseline": {
+    "path": "Cow_EfficientNetB0_stage2_best.keras",
+    "size_mb": 27.67,
+    "input_shape": "(None, 224, 224, 3)",
+    "output_shape": "(None, 3)",
+    "num_classes": 3,
+    "classes_match": true,
+    "probabilities_valid": true,
+    "audit_pass": true
+  }
+}

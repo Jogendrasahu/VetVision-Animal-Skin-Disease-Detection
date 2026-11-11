@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+
+{% block title %}About — VetVision AI Architecture &amp; Methodology{% endblock %}
+
+{% block content %}
+<div class="page-hero">
+    <div class="container">
+        <div class="page-hero-badge">Engineering &amp; Veterinary Ethics</div>
+        <h1 class="page-hero-title">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+            About VetVision AI
+        </h1>
+        <p class="page-hero-subtitle">
+            An advanced veterinary intelligence platform pioneering dual-tier neural vision architectures to make animal health screening fast, transparent, and clinically responsible.
+        </p>
+    </div>
+</div>
+
+<section class="section" style="padding-top: 0;">
+    <div class="container">
+        <!-- ── Mission & Vision ── -->
+        <div class="section-header">
+            <div class="section-badge">Vision &amp; Purpose</div>
+            <h2 class="section-title">Bridging Veterinary Vision &amp; Clinical Decision Support</h2>
+            <p class="section-desc">
+                Dermatological and ocular lesions in domestic animals often present with overlapping clinical signs. VetVision AI provides deep-feature differential screening to support earlier veterinary consultation and reduce preventable suffering.
+            </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; margin-bottom: 48px;">
+            <div class="clinical-card">
+                <div style="font-size: 2rem; margin-bottom: 12px;">🎯</div>
+                <h3 style="font-size: 1.2rem; font-weight: 800; color: var(--color-text); margin-bottom: 8px;">Clinical Decision Support</h3>
+                <p style="font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
+                    Rather than offering a black-box, single-label diagnosis, VetVision AI synthesizes a full differential spectrum—providing Top-3 ranked probability distributions, consensus agreement, and structured clinical advice.
+                </p>
+            </div>
+
+            <div class="clinical-card">
+                <div style="font-size: 2rem; margin-bottom: 12px;">🛡️</div>
+                <h3 style="font-size: 1.2rem; font-weight: 800; color: var(--color-text); margin-bottom: 8px;">Dual-Tier Safety Architecture</h3>
+                <p style="font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
+                    Traditional vision models fail silently when fed humans, furniture, or incorrect species. VetVision AI deploys an upfront MobileNetV2 Gatekeeper to enforce biological domain boundaries before disease models are ever triggered.
+                </p>
+            </div>
+        </div>
+
+        <!-- ── Dual-Tier Architecture Deep Dive ── -->
+        <div class="section-header">
+            <div class="section-badge">System Architecture</div>
+            <h2 class="section-title">Dual-Tier Neural Vision Pipeline</h2>
+            <p class="section-desc">From raw pixel ingestion to structured veterinary report synthesis.</p>
+        </div>
+
+        <div class="arch-card-grid">
+            <div class="arch-card">
+                <div class="arch-card-number">1</div>
+                <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--color-text); margin-bottom: 8px;">Tier-1: Gatekeeper Guardrail</h3>
+                <p style="font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6; margin-bottom: 12px;">
+                    Powered by lightweight MobileNetV2 pre-trained on ImageNet. Maps incoming images across 1,000 biological and object synsets.
+                </p>
+                <div class="tech-badges-wrap">
+                    <span class="tech-badge">Out-of-Distribution Check</span>
+                    <span class="tech-badge">Species Alignment</span>
+                    <span class="tech-badge">Image Quality Validation</span>
+                </div>
+            </div>
+
+            <div class="arch-card">
+                <div class="arch-card-number">2</div>
+                <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--color-text); margin-bottom: 8px;">Tier-2: Specialized Classifiers</h3>
+                <p style="font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6; margin-bottom: 12px;">
+                    Three isolated EfficientNetB0 backbones independently trained on curated veterinary dermatology datasets for Canines (16 classes), Felines (15 classes), and Bovines (3 classes).
+                </p>
+                <div class="tech-badges-wrap">
+                    <span class="tech-badge">EfficientNetB0 Backbone</span>
+                    <span class="tech-badge">Internal Rescaling</span>
+                    <span class="tech-badge">Calibrated Softmax</span>
+                </div>
+            </div>
+
+            <div class="arch-card">
+                <div class="arch-card-number">3</div>
+                <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--color-text); margin-bottom: 8px;">Tier-3: Clinical Knowledgebase</h3>
+                <p style="font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6; margin-bottom: 12px;">
+                    A structured 11-field clinical ontology linking model predictions with verified veterinary literature, differential comparisons, emergency warning signs, and local care finder.
+                </p>
+                <div class="tech-badges-wrap">
+                    <span class="tech-badge">11 Structured Fields</span>
+                    <span class="tech-badge">Triage Urgency Tiers</span>
+                    <span class="tech-badge">Geospatial Vet Locator</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── Safety, Ethics & Limitations Section ── -->
+        <div class="section-header" id="safety" style="margin-top: 48px;">
+            <div class="section-badge">Responsible AI</div>
+            <h2 class="section-title">AI Safety, Ethics &amp; Scientific Transparency</h2>
+            <p class="section-desc">Guiding principles ensuring human-in-the-loop animal care.</p>
+        </div>
+
+        <div style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: 32px; margin-bottom: 48px;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px;">
+                <div>
+                    <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--color-text); margin-bottom: 8px;">Non-Diagnostic Positioning</h4>
+                    <p style="font-size: 0.875rem; color: var(--color-text-muted); line-height: 1.6;">
+                        VetVision AI never claims to replace physical examination, fungal culture, wood's lamp evaluation, deep skin scrape cytology, or histopathology performed by certified veterinary clinicians.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--color-text); margin-bottom: 8px;">Zero Fabricated Medical Data</h4>
+                    <p style="font-size: 0.875rem; color: var(--color-text-muted); line-height: 1.6;">
+                        All clinical descriptions, symptoms, and precautions are sourced strictly from established veterinary textbooks and consensus statements. No generative hallucinations or invented metrics are allowed.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--color-text); margin-bottom: 8px;">Data Privacy &amp; Confidentiality</h4>
+                    <p style="font-size: 0.875rem; color: var(--color-text-muted); line-height: 1.6;">
+                        Uploaded animal imagery is processed securely and stored exclusively in your local SQLite database. Patient history can be purged or exported at any time via the History dashboard.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── Technology Stack ── -->
+        <div class="section-header">
+            <div class="section-badge">Engineering Foundation</div>
+            <h2 class="section-title">Core Technology Stack</h2>
+            <p class="section-desc">Production-grade, modern open-source framework and computer vision libraries.</p>
+        </div>
+
+        <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 48px;">
+            <span class="tech-badge" style="font-size: 0.9rem; padding: 8px 16px;">🧠 TensorFlow 2.21 &amp; Keras</span>
+            <span class="tech-badge" style="font-size: 0.9rem; padding: 8px 16px;">⚡ EfficientNetB0 (Compound Scaled)</span>
+            <span class="tech-badge" style="font-size: 0.9rem; padding: 8px 16px;">🛡️ MobileNetV2 (Edge Gatekeeper)</span>
+            <span class="tech-badge" style="font-size: 0.9rem; padding: 8px 16px;">🐍 Python 3.13 Backend</span>
+            <span class="tech-badge" style="font-size: 0.9rem; padding: 8px 16px;">🌐 Flask RESTful APIs</span>
+            <span class="tech-badge" style="font-size: 0.9rem; padding: 8px 16px;">📹 OpenCV 5.0 (Keyframe Extraction &amp; Blur Analysis)</span>
+            <span class="tech-badge" style="font-size: 0.9rem; padding: 8px 16px;">💾 SQLite Thread-Safe Persistence</span>
+            <span class="tech-badge" style="font-size: 0.9rem; padding: 8px 16px;">🎨 CSS3 Variables &amp; Responsive Semantic HTML5</span>
+        </div>
+    </div>
+</section>
+{% endblock %}
+

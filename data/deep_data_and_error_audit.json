@@ -1,0 +1,842 @@
+{
+  "quality_metrics": {
+    "dog": {
+      "sample_count": 300,
+      "mean_aspect_ratio": 1.0526222923377193,
+      "mean_blur_laplacian": 454.9467568522832,
+      "median_blur_laplacian": 201.27568343836964,
+      "low_blur_count_under_100": 60,
+      "mean_brightness": 129.88458188898773,
+      "mean_contrast": 54.05707538847694
+    },
+    "cat": {
+      "sample_count": 300,
+      "mean_aspect_ratio": 1.1215654201982237,
+      "mean_blur_laplacian": 570.253536113852,
+      "median_blur_laplacian": 403.7210422706127,
+      "low_blur_count_under_100": 21,
+      "mean_brightness": 123.13680019344878,
+      "mean_contrast": 52.90470112831662
+    }
+  },
+  "dog_analysis": {
+    "weakest_classes": [
+      {
+        "class_name": "worm_infection",
+        "recall": 0.6153846153846154,
+        "precision": 0.6666666666666666,
+        "f1_score": 0.64,
+        "support": 13,
+        "errors": 5,
+        "error_percentage": 38.46153846153847,
+        "top_confusions": [
+          {
+            "target": "tick_infestation",
+            "count": 2,
+            "pct": 15.384615384615385
+          },
+          {
+            "target": "distemper",
+            "count": 1,
+            "pct": 7.6923076923076925
+          },
+          {
+            "target": "hot_spots",
+            "count": 1,
+            "pct": 7.6923076923076925
+          }
+        ]
+      },
+      {
+        "class_name": "mange",
+        "recall": 0.7,
+        "precision": 0.6363636363636364,
+        "f1_score": 0.6666666666666666,
+        "support": 10,
+        "errors": 3,
+        "error_percentage": 30.0,
+        "top_confusions": [
+          {
+            "target": "dental_disease",
+            "count": 1,
+            "pct": 10.0
+          },
+          {
+            "target": "fungal_infection",
+            "count": 1,
+            "pct": 10.0
+          },
+          {
+            "target": "tick_infestation",
+            "count": 1,
+            "pct": 10.0
+          }
+        ]
+      },
+      {
+        "class_name": "dental_disease",
+        "recall": 0.7272727272727273,
+        "precision": 0.7272727272727273,
+        "f1_score": 0.7272727272727273,
+        "support": 11,
+        "errors": 3,
+        "error_percentage": 27.27272727272727,
+        "top_confusions": [
+          {
+            "target": "kennel_cough",
+            "count": 2,
+            "pct": 18.181818181818183
+          },
+          {
+            "target": "worm_infection",
+            "count": 1,
+            "pct": 9.090909090909092
+          }
+        ]
+      },
+      {
+        "class_name": "distemper",
+        "recall": 0.75,
+        "precision": 0.75,
+        "f1_score": 0.75,
+        "support": 8,
+        "errors": 2,
+        "error_percentage": 25.0,
+        "top_confusions": [
+          {
+            "target": "kennel_cough",
+            "count": 2,
+            "pct": 25.0
+          }
+        ]
+      },
+      {
+        "class_name": "hot_spots",
+        "recall": 0.75,
+        "precision": 0.6923076923076923,
+        "f1_score": 0.72,
+        "support": 12,
+        "errors": 3,
+        "error_percentage": 25.0,
+        "top_confusions": [
+          {
+            "target": "eye_infection",
+            "count": 1,
+            "pct": 8.333333333333332
+          },
+          {
+            "target": "skin_allergy",
+            "count": 1,
+            "pct": 8.333333333333332
+          },
+          {
+            "target": "worm_infection",
+            "count": 1,
+            "pct": 8.333333333333332
+          }
+        ]
+      },
+      {
+        "class_name": "fungal_infection",
+        "recall": 0.7857142857142857,
+        "precision": 0.825,
+        "f1_score": 0.8048780487804879,
+        "support": 84,
+        "errors": 18,
+        "error_percentage": 21.428571428571427,
+        "top_confusions": [
+          {
+            "target": "healthy",
+            "count": 4,
+            "pct": 4.761904761904762
+          },
+          {
+            "target": "hypersensitivity",
+            "count": 3,
+            "pct": 3.571428571428571
+          },
+          {
+            "target": "hot_spots",
+            "count": 2,
+            "pct": 2.380952380952381
+          }
+        ]
+      },
+      {
+        "class_name": "parvovirus",
+        "recall": 0.8,
+        "precision": 0.8888888888888888,
+        "f1_score": 0.8421052631578947,
+        "support": 10,
+        "errors": 2,
+        "error_percentage": 20.0,
+        "top_confusions": [
+          {
+            "target": "eye_infection",
+            "count": 1,
+            "pct": 10.0
+          },
+          {
+            "target": "healthy",
+            "count": 1,
+            "pct": 10.0
+          }
+        ]
+      },
+      {
+        "class_name": "tick_infestation",
+        "recall": 0.8181818181818182,
+        "precision": 0.6428571428571429,
+        "f1_score": 0.72,
+        "support": 11,
+        "errors": 2,
+        "error_percentage": 18.181818181818183,
+        "top_confusions": [
+          {
+            "target": "dental_disease",
+            "count": 1,
+            "pct": 9.090909090909092
+          },
+          {
+            "target": "kennel_cough",
+            "count": 1,
+            "pct": 9.090909090909092
+          }
+        ]
+      },
+      {
+        "class_name": "hypersensitivity",
+        "recall": 0.8333333333333334,
+        "precision": 0.813953488372093,
+        "f1_score": 0.8235294117647058,
+        "support": 42,
+        "errors": 7,
+        "error_percentage": 16.666666666666664,
+        "top_confusions": [
+          {
+            "target": "fungal_infection",
+            "count": 2,
+            "pct": 4.761904761904762
+          },
+          {
+            "target": "healthy",
+            "count": 2,
+            "pct": 4.761904761904762
+          },
+          {
+            "target": "eye_infection",
+            "count": 1,
+            "pct": 2.380952380952381
+          }
+        ]
+      },
+      {
+        "class_name": "kennel_cough",
+        "recall": 0.8333333333333334,
+        "precision": 0.625,
+        "f1_score": 0.7142857142857143,
+        "support": 12,
+        "errors": 2,
+        "error_percentage": 16.666666666666664,
+        "top_confusions": [
+          {
+            "target": "eye_infection",
+            "count": 1,
+            "pct": 8.333333333333332
+          },
+          {
+            "target": "worm_infection",
+            "count": 1,
+            "pct": 8.333333333333332
+          }
+        ]
+      },
+      {
+        "class_name": "healthy",
+        "recall": 0.8761904761904762,
+        "precision": 0.92,
+        "f1_score": 0.8975609756097561,
+        "support": 105,
+        "errors": 13,
+        "error_percentage": 12.380952380952381,
+        "top_confusions": [
+          {
+            "target": "fungal_infection",
+            "count": 6,
+            "pct": 5.714285714285714
+          },
+          {
+            "target": "hypersensitivity",
+            "count": 2,
+            "pct": 1.9047619047619049
+          },
+          {
+            "target": "mange",
+            "count": 2,
+            "pct": 1.9047619047619049
+          }
+        ]
+      },
+      {
+        "class_name": "dermatitis",
+        "recall": 0.8803418803418803,
+        "precision": 0.9716981132075472,
+        "f1_score": 0.9237668161434978,
+        "support": 117,
+        "errors": 14,
+        "error_percentage": 11.965811965811966,
+        "top_confusions": [
+          {
+            "target": "fungal_infection",
+            "count": 5,
+            "pct": 4.273504273504273
+          },
+          {
+            "target": "demodicosis",
+            "count": 2,
+            "pct": 1.7094017094017095
+          },
+          {
+            "target": "hypersensitivity",
+            "count": 2,
+            "pct": 1.7094017094017095
+          }
+        ]
+      },
+      {
+        "class_name": "eye_infection",
+        "recall": 0.8888888888888888,
+        "precision": 0.6153846153846154,
+        "f1_score": 0.7272727272727273,
+        "support": 9,
+        "errors": 1,
+        "error_percentage": 11.11111111111111,
+        "top_confusions": [
+          {
+            "target": "parvovirus",
+            "count": 1,
+            "pct": 11.11111111111111
+          }
+        ]
+      },
+      {
+        "class_name": "skin_allergy",
+        "recall": 0.9230769230769231,
+        "precision": 0.8,
+        "f1_score": 0.8571428571428571,
+        "support": 13,
+        "errors": 1,
+        "error_percentage": 7.6923076923076925,
+        "top_confusions": [
+          {
+            "target": "healthy",
+            "count": 1,
+            "pct": 7.6923076923076925
+          }
+        ]
+      },
+      {
+        "class_name": "ringworm",
+        "recall": 0.9580838323353293,
+        "precision": 0.9696969696969697,
+        "f1_score": 0.963855421686747,
+        "support": 167,
+        "errors": 7,
+        "error_percentage": 4.191616766467066,
+        "top_confusions": [
+          {
+            "target": "demodicosis",
+            "count": 4,
+            "pct": 2.3952095808383236
+          },
+          {
+            "target": "dermatitis",
+            "count": 2,
+            "pct": 1.1976047904191618
+          },
+          {
+            "target": "hypersensitivity",
+            "count": 1,
+            "pct": 0.5988023952095809
+          }
+        ]
+      },
+      {
+        "class_name": "demodicosis",
+        "recall": 1.0,
+        "precision": 0.9416058394160584,
+        "f1_score": 0.9699248120300752,
+        "support": 129,
+        "errors": 0,
+        "error_percentage": 0.0,
+        "top_confusions": []
+      }
+    ],
+    "top_confusion_pairs": [
+      {
+        "true_class": "healthy",
+        "predicted_class": "fungal_infection",
+        "count": 6,
+        "true_class_support": 105
+      },
+      {
+        "true_class": "dermatitis",
+        "predicted_class": "fungal_infection",
+        "count": 5,
+        "true_class_support": 117
+      },
+      {
+        "true_class": "fungal_infection",
+        "predicted_class": "healthy",
+        "count": 4,
+        "true_class_support": 84
+      },
+      {
+        "true_class": "ringworm",
+        "predicted_class": "demodicosis",
+        "count": 4,
+        "true_class_support": 167
+      },
+      {
+        "true_class": "fungal_infection",
+        "predicted_class": "hypersensitivity",
+        "count": 3,
+        "true_class_support": 84
+      },
+      {
+        "true_class": "dental_disease",
+        "predicted_class": "kennel_cough",
+        "count": 2,
+        "true_class_support": 11
+      },
+      {
+        "true_class": "dermatitis",
+        "predicted_class": "demodicosis",
+        "count": 2,
+        "true_class_support": 117
+      },
+      {
+        "true_class": "dermatitis",
+        "predicted_class": "hypersensitivity",
+        "count": 2,
+        "true_class_support": 117
+      },
+      {
+        "true_class": "dermatitis",
+        "predicted_class": "ringworm",
+        "count": 2,
+        "true_class_support": 117
+      },
+      {
+        "true_class": "distemper",
+        "predicted_class": "kennel_cough",
+        "count": 2,
+        "true_class_support": 8
+      }
+    ]
+  },
+  "cat_analysis": {
+    "weakest_classes": [
+      {
+        "class_name": "feline_panleukopenia",
+        "recall": 0.25,
+        "precision": 0.4,
+        "f1_score": 0.3076923076923077,
+        "support": 8,
+        "errors": 6,
+        "error_percentage": 75.0,
+        "top_confusions": [
+          {
+            "target": "worm_infection",
+            "count": 2,
+            "pct": 25.0
+          },
+          {
+            "target": "fungal_infection",
+            "count": 1,
+            "pct": 12.5
+          },
+          {
+            "target": "ringworm",
+            "count": 1,
+            "pct": 12.5
+          }
+        ]
+      },
+      {
+        "class_name": "fungal_infection",
+        "recall": 0.45454545454545453,
+        "precision": 0.35714285714285715,
+        "f1_score": 0.4,
+        "support": 11,
+        "errors": 6,
+        "error_percentage": 54.54545454545454,
+        "top_confusions": [
+          {
+            "target": "skin_allergy",
+            "count": 2,
+            "pct": 18.181818181818183
+          },
+          {
+            "target": "worm_infection",
+            "count": 2,
+            "pct": 18.181818181818183
+          },
+          {
+            "target": "healthy",
+            "count": 1,
+            "pct": 9.090909090909092
+          }
+        ]
+      },
+      {
+        "class_name": "urinary_tract_infection",
+        "recall": 0.5555555555555556,
+        "precision": 0.625,
+        "f1_score": 0.5882352941176471,
+        "support": 9,
+        "errors": 4,
+        "error_percentage": 44.44444444444444,
+        "top_confusions": [
+          {
+            "target": "feline_panleukopenia",
+            "count": 1,
+            "pct": 11.11111111111111
+          },
+          {
+            "target": "fleas",
+            "count": 1,
+            "pct": 11.11111111111111
+          },
+          {
+            "target": "fungal_infection",
+            "count": 1,
+            "pct": 11.11111111111111
+          }
+        ]
+      },
+      {
+        "class_name": "skin_allergy",
+        "recall": 0.6666666666666666,
+        "precision": 0.5714285714285714,
+        "f1_score": 0.6153846153846154,
+        "support": 12,
+        "errors": 4,
+        "error_percentage": 33.33333333333333,
+        "top_confusions": [
+          {
+            "target": "fungal_infection",
+            "count": 2,
+            "pct": 16.666666666666664
+          },
+          {
+            "target": "feline_acne",
+            "count": 1,
+            "pct": 8.333333333333332
+          },
+          {
+            "target": "worm_infection",
+            "count": 1,
+            "pct": 8.333333333333332
+          }
+        ]
+      },
+      {
+        "class_name": "eye_infection",
+        "recall": 0.75,
+        "precision": 0.75,
+        "f1_score": 0.75,
+        "support": 12,
+        "errors": 3,
+        "error_percentage": 25.0,
+        "top_confusions": [
+          {
+            "target": "ear_mites",
+            "count": 1,
+            "pct": 8.333333333333332
+          },
+          {
+            "target": "feline_leukemia",
+            "count": 1,
+            "pct": 8.333333333333332
+          },
+          {
+            "target": "ringworm",
+            "count": 1,
+            "pct": 8.333333333333332
+          }
+        ]
+      },
+      {
+        "class_name": "feline_leukemia",
+        "recall": 0.75,
+        "precision": 0.6666666666666666,
+        "f1_score": 0.7058823529411765,
+        "support": 8,
+        "errors": 2,
+        "error_percentage": 25.0,
+        "top_confusions": [
+          {
+            "target": "eye_infection",
+            "count": 1,
+            "pct": 12.5
+          },
+          {
+            "target": "worm_infection",
+            "count": 1,
+            "pct": 12.5
+          }
+        ]
+      },
+      {
+        "class_name": "worm_infection",
+        "recall": 0.7692307692307693,
+        "precision": 0.5,
+        "f1_score": 0.6060606060606061,
+        "support": 13,
+        "errors": 3,
+        "error_percentage": 23.076923076923077,
+        "top_confusions": [
+          {
+            "target": "dental_disease",
+            "count": 1,
+            "pct": 7.6923076923076925
+          },
+          {
+            "target": "skin_allergy",
+            "count": 1,
+            "pct": 7.6923076923076925
+          },
+          {
+            "target": "urinary_tract_infection",
+            "count": 1,
+            "pct": 7.6923076923076925
+          }
+        ]
+      },
+      {
+        "class_name": "ear_mites",
+        "recall": 0.8636363636363636,
+        "precision": 0.95,
+        "f1_score": 0.9047619047619048,
+        "support": 22,
+        "errors": 3,
+        "error_percentage": 13.636363636363635,
+        "top_confusions": [
+          {
+            "target": "feline_panleukopenia",
+            "count": 1,
+            "pct": 4.545454545454546
+          },
+          {
+            "target": "ringworm",
+            "count": 1,
+            "pct": 4.545454545454546
+          },
+          {
+            "target": "skin_allergy",
+            "count": 1,
+            "pct": 4.545454545454546
+          }
+        ]
+      },
+      {
+        "class_name": "ringworm",
+        "recall": 0.8785046728971962,
+        "precision": 0.9591836734693877,
+        "f1_score": 0.9170731707317074,
+        "support": 107,
+        "errors": 13,
+        "error_percentage": 12.149532710280374,
+        "top_confusions": [
+          {
+            "target": "feline_acne",
+            "count": 4,
+            "pct": 3.7383177570093453
+          },
+          {
+            "target": "fungal_infection",
+            "count": 4,
+            "pct": 3.7383177570093453
+          },
+          {
+            "target": "healthy",
+            "count": 2,
+            "pct": 1.8691588785046727
+          }
+        ]
+      },
+      {
+        "class_name": "dental_disease",
+        "recall": 0.9090909090909091,
+        "precision": 0.9090909090909091,
+        "f1_score": 0.9090909090909091,
+        "support": 11,
+        "errors": 1,
+        "error_percentage": 9.090909090909092,
+        "top_confusions": [
+          {
+            "target": "feline_leukemia",
+            "count": 1,
+            "pct": 9.090909090909092
+          }
+        ]
+      },
+      {
+        "class_name": "scabies",
+        "recall": 0.9191919191919192,
+        "precision": 0.9578947368421052,
+        "f1_score": 0.9381443298969072,
+        "support": 99,
+        "errors": 8,
+        "error_percentage": 8.080808080808081,
+        "top_confusions": [
+          {
+            "target": "worm_infection",
+            "count": 3,
+            "pct": 3.0303030303030303
+          },
+          {
+            "target": "eye_infection",
+            "count": 1,
+            "pct": 1.0101010101010102
+          },
+          {
+            "target": "feline_leukemia",
+            "count": 1,
+            "pct": 1.0101010101010102
+          }
+        ]
+      },
+      {
+        "class_name": "healthy",
+        "recall": 0.9634146341463414,
+        "precision": 0.9634146341463414,
+        "f1_score": 0.9634146341463414,
+        "support": 82,
+        "errors": 3,
+        "error_percentage": 3.6585365853658534,
+        "top_confusions": [
+          {
+            "target": "fleas",
+            "count": 1,
+            "pct": 1.2195121951219512
+          },
+          {
+            "target": "ringworm",
+            "count": 1,
+            "pct": 1.2195121951219512
+          },
+          {
+            "target": "scabies",
+            "count": 1,
+            "pct": 1.2195121951219512
+          }
+        ]
+      },
+      {
+        "class_name": "flea_allergy",
+        "recall": 0.963855421686747,
+        "precision": 0.9876543209876543,
+        "f1_score": 0.975609756097561,
+        "support": 83,
+        "errors": 3,
+        "error_percentage": 3.614457831325301,
+        "top_confusions": [
+          {
+            "target": "scabies",
+            "count": 2,
+            "pct": 2.4096385542168677
+          },
+          {
+            "target": "fleas",
+            "count": 1,
+            "pct": 1.2048192771084338
+          }
+        ]
+      },
+      {
+        "class_name": "feline_acne",
+        "recall": 1.0,
+        "precision": 0.7368421052631579,
+        "f1_score": 0.8484848484848485,
+        "support": 14,
+        "errors": 0,
+        "error_percentage": 0.0,
+        "top_confusions": []
+      },
+      {
+        "class_name": "fleas",
+        "recall": 1.0,
+        "precision": 0.8235294117647058,
+        "f1_score": 0.9032258064516129,
+        "support": 14,
+        "errors": 0,
+        "error_percentage": 0.0,
+        "top_confusions": []
+      }
+    ],
+    "top_confusion_pairs": [
+      {
+        "true_class": "ringworm",
+        "predicted_class": "feline_acne",
+        "count": 4,
+        "true_class_support": 107
+      },
+      {
+        "true_class": "ringworm",
+        "predicted_class": "fungal_infection",
+        "count": 4,
+        "true_class_support": 107
+      },
+      {
+        "true_class": "scabies",
+        "predicted_class": "worm_infection",
+        "count": 3,
+        "true_class_support": 99
+      },
+      {
+        "true_class": "feline_panleukopenia",
+        "predicted_class": "worm_infection",
+        "count": 2,
+        "true_class_support": 8
+      },
+      {
+        "true_class": "flea_allergy",
+        "predicted_class": "scabies",
+        "count": 2,
+        "true_class_support": 83
+      },
+      {
+        "true_class": "fungal_infection",
+        "predicted_class": "skin_allergy",
+        "count": 2,
+        "true_class_support": 11
+      },
+      {
+        "true_class": "fungal_infection",
+        "predicted_class": "worm_infection",
+        "count": 2,
+        "true_class_support": 11
+      },
+      {
+        "true_class": "ringworm",
+        "predicted_class": "healthy",
+        "count": 2,
+        "true_class_support": 107
+      },
+      {
+        "true_class": "skin_allergy",
+        "predicted_class": "fungal_infection",
+        "count": 2,
+        "true_class_support": 12
+      },
+      {
+        "true_class": "dental_disease",
+        "predicted_class": "feline_leukemia",
+        "count": 1,
+        "true_class_support": 11
+      }
+    ]
+  }
+}

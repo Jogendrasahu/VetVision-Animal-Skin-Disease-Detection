@@ -1,0 +1,51 @@
+{
+  "cow": {
+    "foot_and_mouth": 746,
+    "healthy": 1291,
+    "lumpy_skin_disease": 1207
+  },
+  "dog": {
+    "demodicosis": 688,
+    "dermatitis": 612,
+    "fungal_infection": 512,
+    "healthy": 561,
+    "hypersensitivity": 259,
+    "ringworm": 906,
+    "dental_disease": 89,
+    "distemper": 58,
+    "eye_infection": 69,
+    "hot_spots": 91,
+    "kennel_cough": 82,
+    "mange": 71,
+    "parvovirus": 82,
+    "skin_allergy": 103,
+    "tick_infestation": 77,
+    "worm_infection": 96
+  },
+  "cat": {
+    "dental_disease": 80,
+    "ear_mites": 65,
+    "eye_infection": 84,
+    "fungal_infection": 82,
+    "ringworm": 721,
+    "scabies": 665,
+    "skin_allergy": 93,
+    "urinary_tract_infection": 70,
+    "worm_infection": 97,
+    "flea_allergy": 557,
+    "healthy": 551
+  },
+  "summary": {
+    "total_images": 15694,
+    "dataset_folders": {
+      "Dataset_1_Dog_Cat": 1733,
+      "Dataset_2_Cow": 3244,
+      "Dataset_3_Cow": 936,
+      "Dataset_4_Cow": 1024,
+      "Dataset_5_Dog": 4315,
+      "Dataset_6_Dog_Cat": 1805,
+      "Dataset_7_Cat": 2251,
+      "Dataset_8_Cat": 386
+    }
+  }
+}

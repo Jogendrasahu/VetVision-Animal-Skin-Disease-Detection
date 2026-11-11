@@ -1,0 +1,16 @@
+True_Class,dental_disease,ear_mites,eye_infection,feline_acne,feline_leukemia,feline_panleukopenia,flea_allergy,fleas,fungal_infection,healthy,ringworm,scabies,skin_allergy,urinary_tract_infection,worm_infection
+dental_disease,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ear_mites,0,19,0,0,0,1,0,0,0,0,1,0,1,0,0
+eye_infection,0,1,9,0,1,0,0,0,0,0,1,0,0,0,0
+feline_acne,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0
+feline_leukemia,0,0,1,0,6,0,0,0,0,0,0,0,0,0,1
+feline_panleukopenia,0,0,0,0,0,2,0,0,1,0,1,0,1,1,2
+flea_allergy,0,0,0,0,0,0,80,1,0,0,0,2,0,0,0
+fleas,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0
+fungal_infection,0,0,0,0,0,0,0,0,5,1,0,0,2,1,2
+healthy,0,0,0,0,0,0,0,1,0,79,1,1,0,0,0
+ringworm,0,0,1,4,0,0,1,0,4,2,94,1,0,0,0
+scabies,0,0,1,0,1,1,0,0,1,0,0,91,1,0,3
+skin_allergy,0,0,0,1,0,0,0,0,2,0,0,0,8,0,1
+urinary_tract_infection,0,0,0,0,0,1,0,1,1,0,0,0,0,5,1
+worm_infection,1,0,0,0,0,0,0,0,0,0,0,0,1,1,10

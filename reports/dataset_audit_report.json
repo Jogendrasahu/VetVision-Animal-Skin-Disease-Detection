@@ -1,0 +1,217 @@
+{
+  "dog": {
+    "species": "dog",
+    "classes": [
+      "demodicosis",
+      "dental_disease",
+      "dermatitis",
+      "distemper",
+      "eye_infection",
+      "fungal_infection",
+      "healthy",
+      "hot_spots",
+      "hypersensitivity",
+      "kennel_cough",
+      "mange",
+      "parvovirus",
+      "ringworm",
+      "skin_allergy",
+      "tick_infestation",
+      "worm_infection"
+    ],
+    "n_classes": 16,
+    "total_images": 5058,
+    "split_counts": {
+      "train": 3668,
+      "val": 637,
+      "test": 753
+    },
+    "class_distributions": {
+      "train": {
+        "demodicosis": 624,
+        "dental_disease": 56,
+        "dermatitis": 568,
+        "distemper": 40,
+        "eye_infection": 49,
+        "fungal_infection": 406,
+        "healthy": 506,
+        "hot_spots": 61,
+        "hypersensitivity": 206,
+        "kennel_cough": 58,
+        "mange": 50,
+        "parvovirus": 49,
+        "ringworm": 809,
+        "skin_allergy": 65,
+        "tick_infestation": 57,
+        "worm_infection": 64
+      },
+      "val": {
+        "demodicosis": 109,
+        "dental_disease": 9,
+        "dermatitis": 100,
+        "distemper": 6,
+        "eye_infection": 8,
+        "fungal_infection": 71,
+        "healthy": 89,
+        "hot_spots": 10,
+        "hypersensitivity": 36,
+        "kennel_cough": 10,
+        "mange": 8,
+        "parvovirus": 8,
+        "ringworm": 142,
+        "skin_allergy": 11,
+        "tick_infestation": 9,
+        "worm_infection": 11
+      },
+      "test": {
+        "demodicosis": 129,
+        "dental_disease": 11,
+        "dermatitis": 117,
+        "distemper": 8,
+        "eye_infection": 9,
+        "fungal_infection": 84,
+        "healthy": 105,
+        "hot_spots": 12,
+        "hypersensitivity": 42,
+        "kennel_cough": 12,
+        "mange": 10,
+        "parvovirus": 10,
+        "ringworm": 167,
+        "skin_allergy": 13,
+        "tick_infestation": 11,
+        "worm_infection": 13
+      }
+    },
+    "imbalance_ratio_train": 20.225,
+    "total_unique_hashes": 5058,
+    "corrupted_count": 1,
+    "corrupted_samples": [
+      {
+        "path": "C:\\Users\\Jogen\\OneDrive\\Desktop\\Jogendra\\DAML\\DL Project\\Dataset_1_Dog_Cat\\data\\Dental Disease in Dog\\Image_100.jpg",
+        "split": "test",
+        "error": "very_low_res_27x28"
+      }
+    ],
+    "cross_split_leakage_count": 0,
+    "within_split_duplicates_count": 0,
+    "leakage_summary": {},
+    "channel_modes": {
+      "RGB": 4990,
+      "RGBA": 34,
+      "P": 33,
+      "CMYK": 1
+    },
+    "resolution_stats": {
+      "min_w": 27,
+      "max_w": 5184,
+      "min_h": 28,
+      "max_h": 4032,
+      "avg_w": 716.2022538552787,
+      "avg_h": 667.9143930407275
+    }
+  },
+  "cat": {
+    "species": "cat",
+    "classes": [
+      "dental_disease",
+      "ear_mites",
+      "eye_infection",
+      "feline_acne",
+      "feline_leukemia",
+      "feline_panleukopenia",
+      "flea_allergy",
+      "fleas",
+      "fungal_infection",
+      "healthy",
+      "ringworm",
+      "scabies",
+      "skin_allergy",
+      "urinary_tract_infection",
+      "worm_infection"
+    ],
+    "n_classes": 15,
+    "total_images": 3411,
+    "split_counts": {
+      "train": 2477,
+      "val": 429,
+      "test": 505
+    },
+    "class_distributions": {
+      "train": {
+        "dental_disease": 54,
+        "ear_mites": 108,
+        "eye_infection": 58,
+        "feline_acne": 70,
+        "feline_leukemia": 44,
+        "feline_panleukopenia": 40,
+        "flea_allergy": 403,
+        "fleas": 71,
+        "fungal_infection": 57,
+        "healthy": 399,
+        "ringworm": 517,
+        "scabies": 479,
+        "skin_allergy": 61,
+        "urinary_tract_infection": 49,
+        "worm_infection": 67
+      },
+      "val": {
+        "dental_disease": 9,
+        "ear_mites": 19,
+        "eye_infection": 10,
+        "feline_acne": 12,
+        "feline_leukemia": 7,
+        "feline_panleukopenia": 6,
+        "flea_allergy": 71,
+        "fleas": 12,
+        "fungal_infection": 9,
+        "healthy": 70,
+        "ringworm": 91,
+        "scabies": 84,
+        "skin_allergy": 10,
+        "urinary_tract_infection": 8,
+        "worm_infection": 11
+      },
+      "test": {
+        "dental_disease": 11,
+        "ear_mites": 22,
+        "eye_infection": 12,
+        "feline_acne": 14,
+        "feline_leukemia": 8,
+        "feline_panleukopenia": 8,
+        "flea_allergy": 83,
+        "fleas": 14,
+        "fungal_infection": 11,
+        "healthy": 82,
+        "ringworm": 107,
+        "scabies": 99,
+        "skin_allergy": 12,
+        "urinary_tract_infection": 9,
+        "worm_infection": 13
+      }
+    },
+    "imbalance_ratio_train": 12.925,
+    "total_unique_hashes": 3404,
+    "corrupted_count": 0,
+    "corrupted_samples": [],
+    "cross_split_leakage_count": 4,
+    "within_split_duplicates_count": 3,
+    "leakage_summary": {
+      "within_train": 3,
+      "train_vs_test": 3,
+      "val_vs_test": 1
+    },
+    "channel_modes": {
+      "RGB": 3344,
+      "P": 30,
+      "RGBA": 37
+    },
+    "resolution_stats": {
+      "min_w": 100,
+      "max_w": 5616,
+      "min_h": 100,
+      "max_h": 4032,
+      "avg_w": 479.35268249780125,
+      "avg_h": 401.8660216945177
+    }
+  }
+}

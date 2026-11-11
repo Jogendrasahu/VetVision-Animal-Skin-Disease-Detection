@@ -1,0 +1,70 @@
+{% extends "detect.html" %}
+
+{% block extra_css %}
+<style>
+.media-mode-tabs, .studio-grid {
+    display: none !important;
+}
+#resultDashboard {
+    display: block !important;
+    margin-top: 12px !important;
+}
+</style>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+    const mockData = {
+        status: 'success',
+        animal: 'Dog',
+        disease: 'Ringworm (Dermatophytosis)',
+        confidence: 91.8,
+        low_confidence: false,
+        mode: 'multi',
+        agreement_score: 1.0,
+        consensus_status: 'Unanimous Multi-Angle Consensus: 4 of 4 perspectives confirmed Ringworm (91.8% mean confidence).',
+        top3: [
+            { disease: 'Ringworm', confidence: 91.8 },
+            { disease: 'Demodicosis', confidence: 5.2 },
+            { disease: 'Acute Moist Dermatitis', confidence: 3.0 }
+        ],
+        clinical_info: {
+            disease_name: 'Ringworm (Dermatophytosis)',
+            severity_level: 'Requires Veterinary Attention',
+            contagiousness: 'Highly Contagious (Zoonotic to Humans)',
+            description: 'Superficial fungal infection of keratinized tissue (hair, skin, nails) most commonly caused by Microsporum canis.',
+            emergency_warning_signs: [
+                'Secondary bacterial pyoderma with deep purulent discharge',
+                'Severe systemic malaise or refusal to eat',
+                'Rapid widespread dissemination across ocular or oral margins'
+            ],
+            symptoms: [
+                'Circular patches of alopecia with erythematous raised borders',
+                'Cigarette ash-like epidermal scaling and crusting',
+                'Broken hair stubs with mild to moderate pruritus',
+                'Brittle or malformed claws'
+            ],
+            causes: 'Infection by dermatophyte fungal spores (Microsporum canis) transmitted via direct contact or contaminated fomites.',
+            affected_areas: 'Face, ear margins, muzzle, paws, and dorsal trunk.',
+            precautions: [
+                'Isolate affected animal from other household pets and small children',
+                'Wear disposable gloves when handling lesions or administering topical agents',
+                'Launder pet bedding in hot water (60°C) and disinfect surfaces regularly'
+            ],
+            supportive_care: [
+                'Administer veterinarian-prescribed antifungal dips or topical solutions',
+                'Avoid OTC human steroid creams which suppress local immunity and accelerate fungal spread',
+                'Complete the full multi-week therapeutic course until fungal cultures test negative'
+            ]
+        },
+        description: 'Superficial fungal infection of keratinized tissue characterized by circular alopecia and follicular scaling.'
+    };
+
+    if (window.renderDetectionResult) {
+        window.renderDetectionResult(mockData);
+    }
+});
+</script>
+{% endblock %}
+

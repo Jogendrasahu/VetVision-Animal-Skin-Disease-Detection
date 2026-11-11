@@ -1,0 +1,259 @@
+{% extends "base.html" %}
+
+{% block title %}VetVision AI — Animal Skin Disease Detection Using Deep Learning{% endblock %}
+
+{% block content %}
+<!-- ── Hero Section ── -->
+<section class="section hero-section" id="home">
+    <div class="container">
+        <div class="hero-grid">
+            <div class="hero-content">
+                <div class="hero-pill">
+                    <span class="pulse-dot"></span>
+                    <span>Dual-Tier Neural Vision • Canine • Feline • Bovine</span>
+                </div>
+
+                <h1 class="hero-title">
+                    Animal Skin Disease Detection Using Deep Learning
+                </h1>
+
+                <p class="hero-description">
+                    An academic deep-learning research platform engineered for automated animal skin disease detection and preliminary screening across dogs, cats, and cows. Powered by dual-tier neural vision and species-specific fine-tuned convolutional networks to classify up to 34 dermatological and systemic conditions with instant differential insights.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="/detect" class="btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <span>Start AI Screening</span>
+                    </a>
+
+                    <a href="/diseases" class="btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                        <span>Explore Disease Library</span>
+                    </a>
+                </div>
+
+                <div class="hero-trust-bar">
+                    <span>🛡️ Dual-Tier Protection:</span>
+                    <strong>MobileNetV2 Gatekeeper</strong> + <strong>Species EfficientNetB0 Classifiers</strong>
+                </div>
+            </div>
+
+            <!-- Hero Visual Showcase -->
+            <div class="hero-visual-card">
+                <div class="hero-scanner-preview">
+                    <div class="hero-scanner-header">
+                        <div class="hero-scanner-title">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                            </svg>
+                            <span>VETVISION NEURAL ENGINE</span>
+                        </div>
+                        <div class="hero-scanner-indicator">
+                            <span class="pulse-dot"></span>
+                            <span>ACTIVE ONLINE</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-scanner-target">
+                        <div class="scan-laser"></div>
+                        <div class="hero-scanner-target-icons">
+                            <span title="Canine Vision (16 Classes)">🐕</span>
+                            <span title="Feline Vision (15 Classes)">🐈</span>
+                            <span title="Bovine Vision (3 Classes)">🐄</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-scanner-chips">
+                        <div class="scanner-chip">
+                            <div class="scanner-chip-label">Stage 1</div>
+                            <div class="scanner-chip-value">Quality &amp; Gatekeeper</div>
+                        </div>
+                        <div class="scanner-chip">
+                            <div class="scanner-chip-label">Stage 2</div>
+                            <div class="scanner-chip-value">Deep Feature Extraction</div>
+                        </div>
+                        <div class="scanner-chip">
+                            <div class="scanner-chip-label">Stage 3</div>
+                            <div class="scanner-chip-value">11-Field Clinical Triage</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ── Factual Statistics Strip ── -->
+<div class="stats-strip">
+    <div class="container">
+        <div class="stats-grid stats-grid-5">
+            <div class="stat-item">
+                <div class="stat-number">34</div>
+                <div class="stat-label">Total Disease Classes</div>
+                <div class="stat-sub">Dog (16) • Cat (15) • Cow (3)</div>
+            </div>
+
+            <div class="stat-item">
+                <div class="stat-number">03</div>
+                <div class="stat-label">Species-Trained Models</div>
+                <div class="stat-sub">Domain Balanced EfficientNets</div>
+            </div>
+
+            <div class="stat-item">
+                <div class="stat-number">4 Modes</div>
+                <div class="stat-label">Media Inputs</div>
+                <div class="stat-sub">Single, Multi, Video &amp; Camera</div>
+            </div>
+
+            <div class="stat-item">
+                <div class="stat-number">11 Fields</div>
+                <div class="stat-label">Clinical Guidance</div>
+                <div class="stat-sub">Symptoms, Triage &amp; Care</div>
+            </div>
+
+            <div class="stat-item">
+                <div class="stat-number">Tier-1</div>
+                <div class="stat-label">Gatekeeper Defense</div>
+                <div class="stat-sub">MobileNetV2 Out-of-Dist Reject</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ── Species Coverage Overview ── -->
+<section class="section">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-badge">Species Support</div>
+            <h2 class="section-title">Specialized Species Ensembles</h2>
+            <p class="section-desc">Each animal species is evaluated by dedicated neural classifiers trained specifically on that animal's dermatological and ocular presentation patterns.</p>
+        </div>
+
+        <div class="species-overview-grid">
+            <!-- Canine Card -->
+            <div class="species-overview-card">
+                <div class="species-overview-top">
+                    <span class="species-overview-emoji">🐕</span>
+                    <span class="species-tag dog">Canine Ensemble</span>
+                </div>
+                <h3 class="species-overview-title">Canine Pathology</h3>
+                <p class="species-overview-desc">
+                    16 validated conditions including Demodicosis, Sarcoptic Mange, Hot Spots, Dermatitis, Parvovirus cutaneous signs, Distemper ocular signs, and fungal infections.
+                </p>
+                <div class="species-overview-actions">
+                    <a href="/detect?animal=dog" class="btn-report-action primary-action">Screen Dog</a>
+                    <a href="/diseases?species=dog" class="btn-report-action">Library</a>
+                </div>
+            </div>
+
+            <!-- Feline Card -->
+            <div class="species-overview-card">
+                <div class="species-overview-top">
+                    <span class="species-overview-emoji">🐈</span>
+                    <span class="species-tag cat">Feline Ensemble</span>
+                </div>
+                <h3 class="species-overview-title">Feline Pathology</h3>
+                <p class="species-overview-desc">
+                    15 validated conditions including Feline Acne, Ear Mites, Ringworm, Flea Allergy Dermatitis, Scabies, Feline Panleukopenia signs, and Dental Lesions.
+                </p>
+                <div class="species-overview-actions">
+                    <a href="/detect?animal=cat" class="btn-report-action primary-action">Screen Cat</a>
+                    <a href="/diseases?species=cat" class="btn-report-action">Library</a>
+                </div>
+            </div>
+
+            <!-- Bovine Card -->
+            <div class="species-overview-card">
+                <div class="species-overview-top">
+                    <span class="species-overview-emoji">🐄</span>
+                    <span class="species-tag cow">Bovine Ensemble</span>
+                </div>
+                <h3 class="species-overview-title">Bovine Pathology</h3>
+                <p class="species-overview-desc">
+                    3 high-consequence agricultural conditions: Lumpy Skin Disease (cutaneous nodules), Foot and Mouth Disease (vesicular lesions), and Healthy tissue screening.
+                </p>
+                <div class="species-overview-actions">
+                    <a href="/detect?animal=cow" class="btn-report-action primary-action">Screen Cow</a>
+                    <a href="/diseases?species=cow" class="btn-report-action">Library</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ── How It Works Section ── -->
+<section class="section" style="background: var(--color-surface); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-badge">Pipeline Architecture</div>
+            <h2 class="section-title">How VetVision AI Works</h2>
+            <p class="section-desc">A transparent, dual-tier inference pipeline designed to prevent false positives and deliver actionable veterinary intelligence.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-top: 36px;">
+            <div class="arch-card">
+                <div class="arch-card-number">1</div>
+                <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--color-text); margin-bottom: 8px;">Multimodal Input</h3>
+                <p style="font-size: 0.875rem; color: var(--color-text-muted); line-height: 1.5;">
+                    Upload a single high-res photo, batch up to 5 multi-angle perspectives, an MP4/WebM video stream, or snap directly with your webcam.
+                </p>
+            </div>
+
+            <div class="arch-card">
+                <div class="arch-card-number">2</div>
+                <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--color-text); margin-bottom: 8px;">Tier-1 Gatekeeper</h3>
+                <p style="font-size: 0.875rem; color: var(--color-text-muted); line-height: 1.5;">
+                    MobileNetV2 neural filter validates the image for blur, lighting, and verifies species alignment to prevent invalid out-of-distribution queries.
+                </p>
+            </div>
+
+            <div class="arch-card">
+                <div class="arch-card-number">3</div>
+                <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--color-text); margin-bottom: 8px;">Deep Vision Analysis</h3>
+                <p style="font-size: 0.875rem; color: var(--color-text-muted); line-height: 1.5;">
+                    Species-specialized EfficientNetB0 models extract deep lesion patterns, outputting calibrated softmax confidence probabilities and Top-3 differentials.
+                </p>
+            </div>
+
+            <div class="arch-card">
+                <div class="arch-card-number">4</div>
+                <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--color-text); margin-bottom: 8px;">Clinical Guidance</h3>
+                <p style="font-size: 0.875rem; color: var(--color-text-muted); line-height: 1.5;">
+                    11-field structured report delivers symptoms, etiology, contagiousness, home care, red-flag emergency symptoms, and Google Maps vet locator.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ── Call to Action Banner ── -->
+<section class="section" style="padding: 48px 0;">
+    <div class="container">
+        <div class="cta-banner-card">
+            <h2 class="cta-banner-title">Ready to run an AI pathology screening?</h2>
+            <p class="cta-banner-desc">
+                Access our Diagnostic Studio now. Upload single or multi-angle photos of dogs, cats, or cows for instant AI-assisted screening and clinical triage guidance.
+            </p>
+            <div class="cta-banner-actions">
+                <a href="/detect" class="btn-primary">
+                    <span>Open Diagnostic Studio</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </a>
+                <a href="/guide" class="btn-secondary">
+                    <span>Read Photography Guide</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

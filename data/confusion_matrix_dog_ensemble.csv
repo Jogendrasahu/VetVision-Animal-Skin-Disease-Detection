@@ -1,0 +1,17 @@
+True_Class,demodicosis,dental_disease,dermatitis,distemper,eye_infection,fungal_infection,healthy,hot_spots,hypersensitivity,kennel_cough,mange,parvovirus,ringworm,skin_allergy,tick_infestation,worm_infection
+demodicosis,129,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dental_disease,0,8,0,0,0,0,0,0,0,2,0,0,0,0,0,1
+dermatitis,2,0,103,1,0,5,0,1,2,0,1,0,2,0,0,0
+distemper,0,0,0,6,0,0,0,0,0,2,0,0,0,0,0,0
+eye_infection,0,0,0,0,8,0,0,0,0,0,0,1,0,0,0,0
+fungal_infection,1,1,0,0,1,66,4,2,3,0,0,0,2,2,1,1
+healthy,1,0,1,0,0,6,92,0,2,0,2,0,0,0,1,0
+hot_spots,0,0,0,0,1,0,0,9,0,0,0,0,0,1,0,1
+hypersensitivity,0,0,0,0,1,2,2,0,35,0,1,0,1,0,0,0
+kennel_cough,0,0,0,0,1,0,0,0,0,10,0,0,0,0,0,1
+mange,0,1,0,0,0,1,0,0,0,0,7,0,0,0,1,0
+parvovirus,0,0,0,0,1,0,1,0,0,0,0,8,0,0,0,0
+ringworm,4,0,2,0,0,0,0,0,1,0,0,0,160,0,0,0
+skin_allergy,0,0,0,0,0,0,1,0,0,0,0,0,0,12,0,0
+tick_infestation,0,1,0,0,0,0,0,0,0,1,0,0,0,0,9,0
+worm_infection,0,0,0,1,0,0,0,1,0,1,0,0,0,0,2,8

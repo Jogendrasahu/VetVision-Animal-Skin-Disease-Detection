@@ -1,0 +1,191 @@
+{% extends "base.html" %}
+
+{% block title %}Photography &amp; Triage Guide — VetVision AI{% endblock %}
+
+{% block content %}
+<div class="page-hero">
+    <div class="container">
+        <div class="page-hero-badge">Clinical Photography Protocol</div>
+        <h1 class="page-hero-title">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                <circle cx="12" cy="13" r="4"></circle>
+            </svg>
+            Veterinary Photography &amp; Triage Guide
+        </h1>
+        <p class="page-hero-subtitle">
+            Maximize model accuracy and clinical reliability. Learn how to capture diagnostic-grade animal photos, interpret AI confidence distributions, and recognize acute veterinary emergencies.
+        </p>
+    </div>
+</div>
+
+<section class="section" style="padding-top: 0;">
+    <div class="container">
+        <!-- ── Section 1: Clinical Photography Rules ── -->
+        <div class="section-header">
+            <div class="section-badge">Rule of 5</div>
+            <h2 class="section-title">The 5 Golden Rules of Veterinary Photography</h2>
+            <p class="section-desc">Convolutional neural networks rely on micro-textures of epidermal crusting, erythema, and hair follicular patterns. High-quality input directly yields high-confidence triage.</p>
+        </div>
+
+        <div class="photography-guide-grid">
+            <div class="photo-card good">
+                <span class="photo-card-badge">Rule 1 • Diffuse Lighting</span>
+                <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--color-text); margin-bottom: 8px;">Bright, Even Lighting</h3>
+                <p style="font-size: 0.875rem; color: var(--color-text-muted); line-height: 1.6;">
+                    Shoot in indirect daylight or bright indoor room lighting. Avoid harsh phone camera flash, which reflects off shiny sebum and washes out skin redness (erythema).
+                </p>
+            </div>
+
+            <div class="photo-card good">
+                <span class="photo-card-badge">Rule 2 • Part Fur &amp; Expose Lesions</span>
+                <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--color-text); margin-bottom: 8px;">Direct Skin Contact</h3>
+                <p style="font-size: 0.875rem; color: var(--color-text-muted); line-height: 1.6;">
+                    Gently part thick outer coat using your fingers or a clean comb to directly expose the epidermal margin, scales, papules, pustules, or ulcers to the camera lens.
+                </p>
+            </div>
+
+            <div class="photo-card good">
+                <span class="photo-card-badge">Rule 3 • Macro Distance &amp; Focus</span>
+                <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--color-text); margin-bottom: 8px;">10–20 cm Distance</h3>
+                <p style="font-size: 0.875rem; color: var(--color-text-muted); line-height: 1.6;">
+                    Position camera 10 to 20 cm from the lesion. Tap the smartphone screen directly on the lesion center to lock focus and prevent background blur.
+                </p>
+            </div>
+
+            <div class="photo-card good">
+                <span class="photo-card-badge">Rule 4 • Multi-Angle Coverage</span>
+                <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--color-text); margin-bottom: 8px;">Capture 2–5 Perspectives</h3>
+                <p style="font-size: 0.875rem; color: var(--color-text-muted); line-height: 1.6;">
+                    Use our Multi-Image mode! Capture one 90° perpendicular overhead shot, two 45° oblique margin shots, and one wider contextual body reference.
+                </p>
+            </div>
+        </div>
+
+        <!-- ── Do's and Don'ts Comparison ── -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; margin-bottom: 48px;">
+            <div class="photo-card good">
+                <span class="photo-card-badge" style="background: rgba(5, 150, 105, 0.15); color: #047857;">✅ Recommended Practices</span>
+                <ul class="clinical-list" style="margin-top: 12px; font-size: 0.9rem; color: var(--color-text-muted);">
+                    <li>Calm animal gently before snapping to eliminate motion tremor.</li>
+                    <li>Clean camera lens with a microfiber cloth before capture.</li>
+                    <li>Ensure eyes are open naturally when screening ocular conditions.</li>
+                    <li>Capture healthy adjacent skin within frame for color comparison.</li>
+                </ul>
+            </div>
+
+            <div class="photo-card bad">
+                <span class="photo-card-badge" style="background: rgba(239, 68, 68, 0.15); color: #dc2626;">❌ Avoid These Mistakes</span>
+                <ul class="clinical-list" style="margin-top: 12px; font-size: 0.9rem; color: var(--color-text-muted);">
+                    <li>Do not upload zoomed-in screenshots from digital messaging apps.</li>
+                    <li>Avoid heavy digital zoom which pixelates fine epidermal scales.</li>
+                    <li>Avoid shots where dark room shadows obscure the animal's coat.</li>
+                    <li>Do not upload images with human hands completely covering the lesion.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ── Section 2: Clinical Triage Urgency Matrix ── -->
+        <div class="section-header">
+            <div class="section-badge">Triage Assessment</div>
+            <h2 class="section-title">Clinical Triage Urgency Matrix</h2>
+            <p class="section-desc">Understand when a skin or eye finding warrants scheduled routine care versus an immediate trip to the 24/7 veterinary emergency room.</p>
+        </div>
+
+        <div class="triage-indicator-card">
+            <div class="triage-step-grid">
+                <div class="triage-tier routine">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <span class="triage-tier-title">Tier 1: Routine Care</span>
+                        <span style="font-size: 0.75rem; font-weight: 700; color: #10b981;">Non-Urgent</span>
+                    </div>
+                    <p style="font-size: 0.85rem; color: var(--color-text-muted); line-height: 1.5; margin-bottom: 10px;">
+                        Mild dry flaking, localized chin acne comedones, minimal dandruff without hair loss or intense itching.
+                    </p>
+                    <strong style="font-size: 0.8rem; color: var(--color-text);">Action:</strong>
+                    <span style="font-size: 0.8rem; color: var(--color-text-muted);">Monitor and discuss at your next scheduled wellness visit.</span>
+                </div>
+
+                <div class="triage-tier urgent">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <span class="triage-tier-title">Tier 2: Prompt Veterinary Visit</span>
+                        <span style="font-size: 0.75rem; font-weight: 700; color: #f59e0b;">Within 24–48 Hours</span>
+                    </div>
+                    <p style="font-size: 0.85rem; color: var(--color-text-muted); line-height: 1.5; margin-bottom: 10px;">
+                        Expanding circular alopecia (ringworm), intense pruritus causing self-trauma, foul odor from ears, hot spots, yellow ocular discharge.
+                    </p>
+                    <strong style="font-size: 0.8rem; color: var(--color-text);">Action:</strong>
+                    <span style="font-size: 0.8rem; color: var(--color-text-muted);">Schedule an appointment with your veterinarian within 1 to 2 days.</span>
+                </div>
+
+                <div class="triage-tier critical">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <span class="triage-tier-title">Tier 3: Emergency Hospital</span>
+                        <span style="font-size: 0.75rem; font-weight: 700; color: #ef4444;">Immediate (Today)</span>
+                    </div>
+                    <p style="font-size: 0.85rem; color: var(--color-text-muted); line-height: 1.5; margin-bottom: 10px;">
+                        Rapidly swelling face/throat (anaphylaxis), cloudy or ulcerated cornea with blepharospasm, lethargy, fever &gt;39.5°C, extensive oozing pyoderma.
+                    </p>
+                    <strong style="font-size: 0.8rem; color: var(--color-text);">Action:</strong>
+                    <span style="font-size: 0.8rem; color: var(--color-text-muted);">Transport immediately to nearest 24/7 veterinary trauma center.</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── Section 3: Interpreting AI Confidence ── -->
+        <div class="section-header" style="margin-top: 48px;">
+            <div class="section-badge">Model Explainability</div>
+            <h2 class="section-title">Interpreting Model Confidence Scores</h2>
+            <p class="section-desc">How to understand softmax probabilities, differential rankings, and consensus indicators.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 48px;">
+            <div class="clinical-card">
+                <div style="font-size: 1.5rem; margin-bottom: 8px;">🟢</div>
+                <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--color-text); margin-bottom: 6px;">&gt; 75% Confidence</h4>
+                <p style="font-size: 0.875rem; color: var(--color-text-muted); line-height: 1.5;">
+                    Strong convolutional feature alignment. The visual hallmarks match historical training cases closely. Still requires veterinary cytology confirmation.
+                </p>
+            </div>
+
+            <div class="clinical-card">
+                <div style="font-size: 1.5rem; margin-bottom: 8px;">🟡</div>
+                <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--color-text); margin-bottom: 6px;">50% – 75% Confidence</h4>
+                <p style="font-size: 0.875rem; color: var(--color-text-muted); line-height: 1.5;">
+                    Moderate certainty. Lesion shares visual overlap with multiple differentials (e.g. bacterial dermatitis vs fungal infection). Review Top-3 differentials closely.
+                </p>
+            </div>
+
+            <div class="clinical-card">
+                <div style="font-size: 1.5rem; margin-bottom: 8px;">🔴</div>
+                <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--color-text); margin-bottom: 6px;">&lt; 50% Confidence</h4>
+                <p style="font-size: 0.875rem; color: var(--color-text-muted); line-height: 1.5;">
+                    Ambiguous / Inconclusive. Low confidence indicates atypical lesion presentation, sub-optimal lighting, or heavy fur obstruction. Retake photo following our 5 Golden Rules.
+                </p>
+            </div>
+        </div>
+
+        <!-- ── Section 4: Interactive Vet Locator Tool ── -->
+        <div class="vet-finder-card" id="find-vet" style="margin-top: 0;">
+            <div class="vet-finder-header">
+                <span style="font-size: 2.2rem;">🏥</span>
+                <div>
+                    <h3 style="font-size: 1.3rem;">Locate Licensed Veterinary Care</h3>
+                    <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;">Connect directly to Google Maps to view nearby accredited veterinary hospitals, emergency clinics, and specialists.</p>
+                </div>
+            </div>
+            <div class="vet-finder-controls" style="margin-top: 20px;">
+                <input type="text" class="vet-finder-input" id="guideVetLocation" placeholder="Enter your city or area (or leave blank to use GPS)">
+                <button class="btn-report-action primary-action" id="btnGuideFindVet">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 16px; height: 16px;">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                    </svg>
+                    <span>Find Nearest Veterinary Hospital</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+

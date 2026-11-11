@@ -1,0 +1,38 @@
+{
+  "dog_validation": {
+    "species": "dog",
+    "n_samples": 637,
+    "standard": {
+      "accuracy": 0.8854003139717426,
+      "balanced_accuracy": 0.8102833985527054,
+      "macro_f1": 0.7782395393660388,
+      "time_seconds": 57.96786379814148
+    },
+    "tta": {
+      "accuracy": 0.8759811616954474,
+      "balanced_accuracy": 0.8008761435369681,
+      "macro_f1": 0.7702723089550083,
+      "time_seconds": 197.80169653892517
+    },
+    "delta_accuracy": -0.009419152276295195,
+    "delta_macro_f1": -0.007967230411030535
+  },
+  "cat_validation": {
+    "species": "cat",
+    "n_samples": 429,
+    "standard": {
+      "accuracy": 0.9044289044289044,
+      "balanced_accuracy": 0.8349548067450218,
+      "macro_f1": 0.8186001362645284,
+      "time_seconds": 44.161423683166504
+    },
+    "tta": {
+      "accuracy": 0.9020979020979021,
+      "balanced_accuracy": 0.825430997221212,
+      "macro_f1": 0.8102240678884599,
+      "time_seconds": 141.57835865020752
+    },
+    "delta_accuracy": -0.002331002331002363,
+    "delta_macro_f1": -0.008376068376068524
+  }
+}

@@ -1,0 +1,1533 @@
+{% extends "base.html" %}
+
+{% block title %}Dataset &amp; Model Performance Benchmarks — VetVision AI{% endblock %}
+
+{% block content %}
+<!-- ── Page Hero ── -->
+<div class="page-hero">
+    <div class="container">
+        <div class="page-hero-badge">Academic Evaluation &amp; Model Performance</div>
+        <h1 class="page-hero-title">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                <line x1="6" y1="18" x2="6.01" y2="18"></line>
+            </svg>
+            Dataset Provenance &amp; Neural Architecture
+        </h1>
+        <p class="page-hero-subtitle">
+            Scientific transparency regarding training repositories, neural network topologies, preprocessing pipeline contracts, and verified empirical evaluation metrics across 34 animal disease classes.
+        </p>
+    </div>
+</div>
+
+<section class="section" style="padding-top: 0;">
+    <div class="container">
+
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <!-- ── SECTION 1: Evaluation Overview & Summary Cards ── -->
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <div class="provenance-alert" id="evaluation-overview">
+            <div class="provenance-alert-title">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+                <span>Preliminary Local-Dataset Evaluation Disclosure</span>
+            </div>
+            <div class="provenance-alert-body">
+                In strict accordance with veterinary scientific standards, all evaluation figures reported herein represent <strong>preliminary local-dataset evaluation results</strong> on available test cohorts (718 total test samples across Dog, Cat, and Cow). Because historical training repositories were not partitioned via an immutable external split manifest at original training time, these metrics reflect verified model behavior under local evaluation splits rather than certified external clinical trials. Softmax output percentages reflect relative uncalibrated model activation heuristics, not calibrated epidemiological probabilities.
+            </div>
+        </div>
+
+        <!-- 6 KPI Metric Summary Cards -->
+        <div class="metrics-summary-grid">
+            <div class="metric-summary-card">
+                <span class="perf-provenance-tag">Preliminary Local Split</span>
+                <div class="metric-summary-val" style="margin-top: 8px;">81.88%</div>
+                <div class="metric-summary-label">Dog Classifier Accuracy</div>
+                <div style="font-size: 0.75rem; color: var(--color-text-muted); margin-top: 4px;">
+                    320 test samples • 16 classes • Macro-F1: 0.8186
+                </div>
+            </div>
+
+            <div class="metric-summary-card">
+                <span class="perf-provenance-tag">Preliminary Local Split</span>
+                <div class="metric-summary-val" style="margin-top: 8px;">80.89%</div>
+                <div class="metric-summary-label">Cat Classifier Accuracy</div>
+                <div style="font-size: 0.75rem; color: var(--color-text-muted); margin-top: 4px;">
+                    293 test samples • 15 classes • Macro-F1: 0.8081
+                </div>
+            </div>
+
+            <div class="metric-summary-card">
+                <span class="perf-provenance-tag">Preliminary Local Split</span>
+                <div class="metric-summary-val" style="margin-top: 8px;">97.14%</div>
+                <div class="metric-summary-label">Cow Classifier Accuracy</div>
+                <div style="font-size: 0.75rem; color: var(--color-text-muted); margin-top: 4px;">
+                    105 test samples • 3 classes • Macro-F1: 0.9714
+                </div>
+            </div>
+
+            <div class="metric-summary-card">
+                <span class="perf-provenance-tag">Bovine Epizootic Model</span>
+                <div class="metric-summary-val" style="margin-top: 8px;">0.9714</div>
+                <div class="metric-summary-label">Highest Macro F1-Score</div>
+                <div style="font-size: 0.75rem; color: var(--color-text-muted); margin-top: 4px;">
+                    Balanced multi-class performance on FMD &amp; LSD
+                </div>
+            </div>
+
+            <div class="metric-summary-card">
+                <span class="perf-provenance-tag">Multi-Species Coverage</span>
+                <div class="metric-summary-val" style="margin-top: 8px;">34</div>
+                <div class="metric-summary-label">Validated Pathology Classes</div>
+                <div style="font-size: 0.75rem; color: var(--color-text-muted); margin-top: 4px;">
+                    Canine (16) • Feline (15) • Bovine (3)
+                </div>
+            </div>
+
+            <div class="metric-summary-card">
+                <span class="perf-provenance-tag">Verified Cohort</span>
+                <div class="metric-summary-val" style="margin-top: 8px;">718</div>
+                <div class="metric-summary-label">Evaluated Test Samples</div>
+                <div style="font-size: 0.75rem; color: var(--color-text-muted); margin-top: 4px;">
+                    From 15,694 total raw training repository images
+                </div>
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <!-- ── SECTION 2: Dataset Statistics & Class Distribution ── -->
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <div class="perf-header-block" id="dataset-statistics">
+            <h2 class="perf-section-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                </svg>
+                <span>2. Dataset Statistics &amp; Repository Distribution</span>
+            </h2>
+            <p class="perf-section-desc">
+                Distribution of source training pools across eight data repositories (15,694 total raw images) versus the evaluated test partition (718 samples) utilized for empirical model validation.
+            </p>
+        </div>
+
+        <div class="perf-grid-2">
+            <!-- Source Data Repositories Table -->
+            <div class="perf-card" style="margin-bottom: 0;">
+                <div class="perf-card-header">
+                    <div class="perf-card-title">
+                        <span>📁 Source Training Repositories</span>
+                    </div>
+                    <span class="perf-provenance-tag">15,694 Total Images</span>
+                </div>
+                <div class="perf-card-body" style="padding: 0;">
+                    <div class="data-table-wrapper" style="border: none; border-radius: 0;">
+                        <table class="custom-table" style="font-size: 0.85rem;">
+                            <thead>
+                                <tr>
+                                    <th>Repository Folder</th>
+                                    <th>Target Species</th>
+                                    <th>Image Count</th>
+                                    <th>Share</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td><code>Dataset_1_Dog_Cat</code></td><td>Dog &amp; Cat</td><td><strong>1,733</strong></td><td>11.04%</td></tr>
+                                <tr><td><code>Dataset_2_Cow</code></td><td>Cow (Bovine)</td><td><strong>3,244</strong></td><td>20.67%</td></tr>
+                                <tr><td><code>Dataset_3_Cow</code></td><td>Cow (Bovine)</td><td><strong>936</strong></td><td>5.96%</td></tr>
+                                <tr><td><code>Dataset_4_Cow</code></td><td>Cow (Bovine)</td><td><strong>1,024</strong></td><td>6.52%</td></tr>
+                                <tr><td><code>Dataset_5_Dog</code></td><td>Dog (Canine)</td><td><strong>4,315</strong></td><td>27.50%</td></tr>
+                                <tr><td><code>Dataset_6_Dog_Cat</code></td><td>Dog &amp; Cat</td><td><strong>1,805</strong></td><td>11.50%</td></tr>
+                                <tr><td><code>Dataset_7_Cat</code></td><td>Cat (Feline)</td><td><strong>2,251</strong></td><td>14.34%</td></tr>
+                                <tr><td><code>Dataset_8_Cat</code></td><td>Cat (Feline)</td><td><strong>386</strong></td><td>2.46%</td></tr>
+                                <tr style="background: var(--color-bg-subtle); font-weight: 700;">
+                                    <td colspan="2">Total Source Images</td>
+                                    <td><strong>15,694</strong></td>
+                                    <td>100.0%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Evaluated Cohort Support Chart -->
+            <div class="perf-card" style="margin-bottom: 0;">
+                <div class="perf-card-header">
+                    <div class="perf-card-title">
+                        <span>🔬 Evaluated Test Cohort Partition</span>
+                    </div>
+                    <span class="perf-provenance-tag">718 Verified Samples</span>
+                </div>
+                <div class="perf-card-body">
+                    <div class="perf-chart-wrapper" style="min-height: 250px;">
+                        <canvas id="datasetSupportChart"></canvas>
+                    </div>
+                    <div style="margin-top: 14px; font-size: 0.82rem; color: var(--color-text-muted); line-height: 1.5;">
+                        <strong>Cohort Structure:</strong> Dog model tested on 320 samples (20 samples/class × 16 classes); Cat model tested on 293 samples (18–20 samples/class × 15 classes); Cow model tested on 105 samples (35 samples/class × 3 classes).
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <!-- ── SECTION 3: Model Architecture & Specifications ── -->
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <div class="perf-header-block" id="model-architecture" style="margin-top: 36px;">
+            <h2 class="perf-section-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                    <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+                <span>3. Neural Architecture &amp; Inference Pipeline</span>
+            </h2>
+            <p class="perf-section-desc">
+                Six-stage end-to-end clinical inference pipeline connecting pre-ingestion image quality checks, MobileNetV2 Gatekeeper out-of-distribution rejection, and species-specific EfficientNetB0 classifiers.
+            </p>
+        </div>
+
+        <!-- 6-Stage Flow Diagram -->
+        <div class="arch-flow-grid">
+            <div class="arch-flow-step">
+                <div class="arch-flow-num">1</div>
+                <div class="arch-flow-title">Quality &amp; Ingestion QC</div>
+                <div class="arch-flow-desc">Resolution verification (&ge;64&times;64 to 224 &times; 224 standard input), Laplacian variance blur detection, luminance &amp; dark frame filtering.</div>
+            </div>
+            <div class="arch-flow-step">
+                <div class="arch-flow-num">2</div>
+                <div class="arch-flow-title">MobileNetV2 Gatekeeper</div>
+                <div class="arch-flow-desc">1,000-synset ImageNet filter. Rejects humans, vehicles, random objects, and non-animal artifacts.</div>
+            </div>
+            <div class="arch-flow-step">
+                <div class="arch-flow-num">3</div>
+                <div class="arch-flow-title">Species Isolation</div>
+                <div class="arch-flow-desc">Validates Canine, Feline, or Bovine semantic boundaries. Blocks cross-species diagnostic contamination.</div>
+            </div>
+            <div class="arch-flow-step">
+                <div class="arch-flow-num">4</div>
+                <div class="arch-flow-title">EfficientNetB0 Classifier</div>
+                <div class="arch-flow-desc">RAW 0–255 [0, 255] float RGB tensor fed directly to species classifier with internal Keras Rescaling layers.</div>
+            </div>
+            <div class="arch-flow-step">
+                <div class="arch-flow-num">5</div>
+                <div class="arch-flow-title">Softmax &amp; Differential</div>
+                <div class="arch-flow-desc">Computes Top-3 ranked differential predictions and uncalibrated activation confidence gauge.</div>
+            </div>
+            <div class="arch-flow-step">
+                <div class="arch-flow-num">6</div>
+                <div class="arch-flow-title">11-Field Clinical Guidance</div>
+                <div class="arch-flow-desc">Maps predictions to validated symptoms, contagion levels, home care, urgent triage &amp; CSV export.</div>
+            </div>
+        </div>
+
+        <!-- Neural Model Specifications Table -->
+        <div class="data-table-card" style="margin-top: 20px;">
+            <div class="data-table-header">Model Topology &amp; Artifact Specifications Registry</div>
+            <div class="data-table-wrapper">
+                <table class="custom-table">
+                    <thead>
+                        <tr>
+                            <th>Model Role</th>
+                            <th>Target Animal</th>
+                            <th>Backbone Topology</th>
+                            <th>Output Dimension</th>
+                            <th>Active Artifact File</th>
+                            <th>Input Contract</th>
+                            <th>Training Methodology</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Gatekeeper AI</strong></td>
+                            <td>General Animals / OOD</td>
+                            <td>MobileNetV2 (ImageNet)</td>
+                            <td>1,000 synsets</td>
+                            <td><code>mobilenet_v2</code></td>
+                            <td><code>224 × 224 | RAW 0–255 float RGB</code></td>
+                            <td>Species-level semantic boundary filtering &amp; artifact rejection</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Canine Classifier</strong></td>
+                            <td>Dog (Canine)</td>
+                            <td>EfficientNetB0</td>
+                            <td>16 Classes</td>
+                            <td><code>Dog_EfficientNetB0_balanced_best.keras</code></td>
+                            <td><code>224 × 224 | RAW 0–255 float RGB</code></td>
+                            <td>Class-balanced fine-tuning with internal rescaling</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Feline Classifier</strong></td>
+                            <td>Cat (Feline)</td>
+                            <td>EfficientNetB0</td>
+                            <td>15 Classes</td>
+                            <td><code>Cat_EfficientNetB0_stage2_best.keras</code></td>
+                            <td><code>224 × 224 | RAW 0–255 float RGB</code></td>
+                            <td>Stage-2 fine-tuned with high-resolution dermatological crops</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Bovine Classifier</strong></td>
+                            <td>Cow (Bovine)</td>
+                            <td>EfficientNetB0</td>
+                            <td>3 Classes</td>
+                            <td><code>Cow_EfficientNetB0_stage2_best.keras</code></td>
+                            <td><code>224 × 224 | RAW 0–255 float RGB</code></td>
+                            <td>Stage-2 agricultural epizootic lesion screening (FMD / LSD)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <!-- ── SECTION 4: Training Curves (Accuracy & Loss vs Epoch) ── -->
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <div class="perf-header-block" id="training-curves" style="margin-top: 36px;">
+            <h2 class="perf-section-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="20" x2="18" y2="10"></line>
+                    <line x1="12" y1="20" x2="12" y2="4"></line>
+                    <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+                <span>4. Training Accuracy &amp; Loss History</span>
+            </h2>
+            <p class="perf-section-desc">
+                Epoch-by-epoch training and validation dynamics status for the three specialized deep learning models.
+            </p>
+        </div>
+
+        <div class="perf-card">
+            <div class="perf-tab-bar" id="trainingTabs">
+                <button class="perf-tab-btn active" data-target="train-dog">Canine Model (Dog)</button>
+                <button class="perf-tab-btn" data-target="train-cat">Feline Model (Cat)</button>
+                <button class="perf-tab-btn" data-target="train-cow">Bovine Model (Cow)</button>
+            </div>
+
+            <!-- Dog Training Card -->
+            <div class="perf-tab-panel active" id="train-dog">
+                <div class="perf-card-body">
+                    <div class="perf-disclosure-box">
+                        <div class="perf-disclosure-icon">📊</div>
+                        <h4 style="color: var(--color-text-title); margin-bottom: 8px; font-size: 1.05rem;">
+                            Training history source: Not available from current verified evaluation artifacts
+                        </h4>
+                        <p class="perf-disclosure-text">
+                            Notice: The original epoch-by-epoch training and validation loss/accuracy curves were generated during cloud training sessions on Google Colab and were not archived as persistent JSON/CSV logs on disk. In accordance with strict scientific honesty, VetVision AI does not fabricate synthetic training curves from final summary metrics. Final model checkpoints have been independently verified on local test splits (Dog: 81.88%, Cat: 80.89%, Cow: 97.14%).
+                        </p>
+                    </div>
+
+                    <div style="margin-top: 20px;">
+                        <table class="custom-table" style="font-size: 0.85rem;">
+                            <thead>
+                                <tr>
+                                    <th>Parameter</th>
+                                    <th>Documented Specification</th>
+                                    <th>Verification Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>Model Topology</td><td>EfficientNetB0 (ImageNet initialized backbone)</td><td>✅ Verified in active <code>.keras</code> archive</td></tr>
+                                <tr><td>Loss Function</td><td>Categorical Crossentropy</td><td>✅ Verified in compilation graph</td></tr>
+                                <tr><td>Optimizer</td><td>Adam with dynamic learning-rate schedule</td><td>✅ Documented training regime</td></tr>
+                                <tr><td>Final Local Accuracy</td><td><strong>81.88%</strong> (320 test samples)</td><td>✅ Verified by <code>test_suite.py</code> &amp; evaluation logs</td></tr>
+                                <tr><td>Epoch Logs</td><td>Epoch-by-epoch history arrays (1..N)</td><td>⚠️ Not available from current verified evaluation artifacts</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cat Training Card -->
+            <div class="perf-tab-panel" id="train-cat">
+                <div class="perf-card-body">
+                    <div class="perf-disclosure-box">
+                        <div class="perf-disclosure-icon">📊</div>
+                        <h4 style="color: var(--color-text-title); margin-bottom: 8px; font-size: 1.05rem;">
+                            Training history source: Not available from current verified evaluation artifacts
+                        </h4>
+                        <p class="perf-disclosure-text">
+                            Notice: The original epoch-by-epoch training and validation loss/accuracy curves were generated during cloud training sessions on Google Colab and were not archived as persistent JSON/CSV logs on disk. In accordance with strict scientific honesty, VetVision AI does not fabricate synthetic training curves from final summary metrics. Final model checkpoints have been independently verified on local test splits (Dog: 81.88%, Cat: 80.89%, Cow: 97.14%).
+                        </p>
+                    </div>
+
+                    <div style="margin-top: 20px;">
+                        <table class="custom-table" style="font-size: 0.85rem;">
+                            <thead>
+                                <tr>
+                                    <th>Parameter</th>
+                                    <th>Documented Specification</th>
+                                    <th>Verification Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>Model Topology</td><td>EfficientNetB0 (Stage-2 fine-tuned)</td><td>✅ Verified in active <code>.keras</code> archive</td></tr>
+                                <tr><td>Loss Function</td><td>Categorical Crossentropy</td><td>✅ Verified in compilation graph</td></tr>
+                                <tr><td>Optimizer</td><td>Adam with fine-tuning learning rate</td><td>✅ Documented training regime</td></tr>
+                                <tr><td>Final Local Accuracy</td><td><strong>80.89%</strong> (293 test samples)</td><td>✅ Verified by <code>test_suite.py</code> &amp; evaluation logs</td></tr>
+                                <tr><td>Epoch Logs</td><td>Epoch-by-epoch history arrays (1..N)</td><td>⚠️ Not available from current verified evaluation artifacts</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cow Training Card -->
+            <div class="perf-tab-panel" id="train-cow">
+                <div class="perf-card-body">
+                    <div class="perf-disclosure-box">
+                        <div class="perf-disclosure-icon">📊</div>
+                        <h4 style="color: var(--color-text-title); margin-bottom: 8px; font-size: 1.05rem;">
+                            Training history source: Not available from current verified evaluation artifacts
+                        </h4>
+                        <p class="perf-disclosure-text">
+                            Notice: The original epoch-by-epoch training and validation loss/accuracy curves were generated during cloud training sessions on Google Colab and were not archived as persistent JSON/CSV logs on disk. In accordance with strict scientific honesty, VetVision AI does not fabricate synthetic training curves from final summary metrics. Final model checkpoints have been independently verified on local test splits (Dog: 81.88%, Cat: 80.89%, Cow: 97.14%).
+                        </p>
+                    </div>
+
+                    <div style="margin-top: 20px;">
+                        <table class="custom-table" style="font-size: 0.85rem;">
+                            <thead>
+                                <tr>
+                                    <th>Parameter</th>
+                                    <th>Documented Specification</th>
+                                    <th>Verification Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>Model Topology</td><td>EfficientNetB0 (Stage-2 agricultural classifier)</td><td>✅ Verified in active <code>.keras</code> archive</td></tr>
+                                <tr><td>Loss Function</td><td>Categorical Crossentropy</td><td>✅ Verified in compilation graph</td></tr>
+                                <tr><td>Optimizer</td><td>Adam with categorical decay</td><td>✅ Documented training regime</td></tr>
+                                <tr><td>Final Local Accuracy</td><td><strong>97.14%</strong> (105 test samples)</td><td>✅ Verified by <code>test_suite.py</code> &amp; evaluation logs</td></tr>
+                                <tr><td>Epoch Logs</td><td>Epoch-by-epoch history arrays (1..N)</td><td>⚠️ Not available from current verified evaluation artifacts</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <!-- ── SECTION 5: Model Comparison Across Species ── -->
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <div class="perf-header-block" id="model-comparison" style="margin-top: 36px;">
+            <h2 class="perf-section-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="3" y1="9" x2="21" y2="9"></line>
+                    <line x1="9" y1="21" x2="9" y2="9"></line>
+                </svg>
+                <span>5. Multi-Model Performance Comparison</span>
+            </h2>
+            <p class="perf-section-desc">
+                Cross-species comparative analysis of classification performance across standard statistical metrics. Labeled as preliminary local-dataset evaluation results.
+            </p>
+        </div>
+
+        <div class="perf-card">
+            <div class="perf-card-header">
+                <div class="perf-card-title">
+                    <span>📊 Comparative Evaluation Metrics (Grouped Bar Chart)</span>
+                </div>
+                <span class="perf-provenance-tag">Preliminary Local-Dataset Evaluation</span>
+            </div>
+            <div class="perf-card-body">
+                <div class="perf-chart-wrapper" style="min-height: 320px;">
+                    <canvas id="modelComparisonChart"></canvas>
+                </div>
+
+                <!-- Side-by-Side Summary Metrics Table -->
+                <div style="margin-top: 24px;">
+                    <div class="data-table-wrapper" style="border: none;">
+                        <table class="custom-table" style="font-size: 0.85rem;">
+                            <thead>
+                                <tr>
+                                    <th>Target Species</th>
+                                    <th>Classes</th>
+                                    <th>Test Cohort</th>
+                                    <th>Accuracy</th>
+                                    <th>Macro Precision</th>
+                                    <th>Macro Recall</th>
+                                    <th>Macro F1</th>
+                                    <th>Weighted F1</th>
+                                    <th>Balanced Acc</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Canine (Dog)</strong></td>
+                                    <td>16 Classes</td>
+                                    <td>320 samples</td>
+                                    <td><strong>81.88%</strong></td>
+                                    <td>82.66%</td>
+                                    <td>81.88%</td>
+                                    <td><strong>0.8186</strong></td>
+                                    <td>0.8186</td>
+                                    <td>81.88%</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Feline (Cat)</strong></td>
+                                    <td>15 Classes</td>
+                                    <td>293 samples</td>
+                                    <td><strong>80.89%</strong></td>
+                                    <td>81.00%</td>
+                                    <td>81.00%</td>
+                                    <td><strong>0.8081</strong></td>
+                                    <td>0.8069</td>
+                                    <td>81.00%</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Bovine (Cow)</strong></td>
+                                    <td>3 Classes</td>
+                                    <td>105 samples</td>
+                                    <td><strong>97.14%</strong></td>
+                                    <td>97.17%</td>
+                                    <td>97.14%</td>
+                                    <td><strong>0.9714</strong></td>
+                                    <td>0.9714</td>
+                                    <td>97.14%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div style="margin-top: 12px; font-size: 0.8rem; color: var(--color-text-muted); line-height: 1.5;">
+                        <em>Note:</em> Multi-class Area Under ROC Curve (ROC-AUC) is not reported here because raw soft continuous probability matrices across all negative classes were not archived during Phase 4 evaluation runs.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <!-- ── SECTION 6: Confusion Matrices ── -->
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <div class="perf-header-block" id="confusion-matrices" style="margin-top: 36px;">
+            <h2 class="perf-section-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="3" width="7" height="7"></rect>
+                    <rect x="14" y="3" width="7" height="7"></rect>
+                    <rect x="14" y="14" width="7" height="7"></rect>
+                    <rect x="3" y="14" width="7" height="7"></rect>
+                </svg>
+                <span>6. Confusion Matrices (Authentic Evaluation Cohorts)</span>
+            </h2>
+            <p class="perf-section-desc">
+                Granular multi-class confusion matrices for Bovine (3&times;3), Canine (16&times;16), and Feline (15&times;15) classifiers. Diagonal cells highlight true positive matches; off-diagonal cells expose specific clinical misclassifications.
+            </p>
+        </div>
+
+        <div class="perf-card">
+            <div class="perf-tab-bar" id="cmTabs">
+                <button class="perf-tab-btn active" data-target="cm-cow">Bovine Matrix (3&times;3)</button>
+                <button class="perf-tab-btn" data-target="cm-dog">Canine Matrix (16&times;16)</button>
+                <button class="perf-tab-btn" data-target="cm-cat">Feline Matrix (15&times;15)</button>
+            </div>
+
+            <!-- Bovine Confusion Matrix (3x3) -->
+            <div class="perf-tab-panel active" id="cm-cow">
+                <div class="perf-card-body">
+                    <div style="margin-bottom: 12px; font-size: 0.85rem; color: var(--color-text-muted);">
+                        <strong>Bovine Test Cohort:</strong> 105 samples (35 samples/class). Overall Accuracy: <strong>97.14%</strong> (102 correct, 3 misclassifications).
+                    </div>
+                    <div class="cm-scroll-wrapper">
+                        <table class="cm-matrix-table">
+                            <thead>
+                                <tr>
+                                    <th rowspan="2" class="axis-col">TRUE CLASS</th>
+                                    <th colspan="3" style="background: var(--color-bg); font-weight: 700; border-bottom: 2px solid var(--color-border);">PREDICTED CLASS</th>
+                                </tr>
+                                <tr>
+                                    <th>foot_and_mouth</th>
+                                    <th>healthy</th>
+                                    <th>lumpy_skin_disease</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="cm-row-header">foot_and_mouth</td>
+                                    <td class="cm-cell-diag" title="True: foot_and_mouth, Pred: foot_and_mouth">35 (100%)</td>
+                                    <td class="cm-cell-zero">0</td>
+                                    <td class="cm-cell-zero">0</td>
+                                </tr>
+                                <tr>
+                                    <td class="cm-row-header">healthy</td>
+                                    <td class="cm-cell-zero">0</td>
+                                    <td class="cm-cell-diag" title="True: healthy, Pred: healthy">34 (97.1%)</td>
+                                    <td class="cm-cell-err" title="True: healthy, Pred: lumpy_skin_disease">1 (2.9%)</td>
+                                </tr>
+                                <tr>
+                                    <td class="cm-row-header">lumpy_skin_disease</td>
+                                    <td class="cm-cell-zero">0</td>
+                                    <td class="cm-cell-err" title="True: lumpy_skin_disease, Pred: healthy">2 (5.7%)</td>
+                                    <td class="cm-cell-diag" title="True: lumpy_skin_disease, Pred: lumpy_skin_disease">33 (94.3%)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="cm-caption-notice">
+                        <span>ℹ️</span>
+                        <span><strong>Required Caption:</strong> Diagonal values represent correctly classified samples. Off-diagonal values represent classification errors.</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Canine Confusion Matrix (16x16) -->
+            <div class="perf-tab-panel" id="cm-dog">
+                <div class="perf-card-body">
+                    <div style="margin-bottom: 12px; font-size: 0.85rem; color: var(--color-text-muted);">
+                        <strong>Canine Test Cohort:</strong> 320 samples (20 samples/class &times; 16 classes). Overall Accuracy: <strong>81.88%</strong> (262 correct, 58 misclassifications).
+                    </div>
+                    <div class="cm-scroll-wrapper">
+                        <table class="cm-matrix-table" style="font-size: 0.72rem;">
+                            <thead>
+                                <tr>
+                                    <th rowspan="2" class="axis-col">TRUE CLASS</th>
+                                    <th colspan="16" style="background: var(--color-bg); font-weight: 700; border-bottom: 2px solid var(--color-border);">PREDICTED CLASS (16 CLASSES)</th>
+                                </tr>
+                                <tr>
+                                    {% if eval_data.dog and eval_data.dog.classes %}
+                                        {% for c in eval_data.dog.classes %}
+                                            <th title="{{ c }}">{{ c[:6] }}..</th>
+                                        {% endfor %}
+                                    {% endif %}
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% if eval_data.dog and eval_data.dog.classes and eval_data.dog.cm %}
+                                    {% for r_idx in range(eval_data.dog.classes|length) %}
+                                        <tr>
+                                            <td class="cm-row-header" title="{{ eval_data.dog.classes[r_idx] }}">{{ eval_data.dog.classes[r_idx] }}</td>
+                                            {% for c_idx in range(eval_data.dog.classes|length) %}
+                                                {% set val = eval_data.dog.cm[r_idx][c_idx] %}
+                                                {% if r_idx == c_idx %}
+                                                    <td class="cm-cell-diag" title="True: {{ eval_data.dog.classes[r_idx] }}, Pred: {{ eval_data.dog.classes[c_idx] }} ({{ val }}/20)">{{ val }}</td>
+                                                {% elif val > 0 %}
+                                                    <td class="cm-cell-err" title="True: {{ eval_data.dog.classes[r_idx] }}, Pred: {{ eval_data.dog.classes[c_idx] }} ({{ val }}/20)">{{ val }}</td>
+                                                {% else %}
+                                                    <td class="cm-cell-zero">0</td>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </tr>
+                                    {% endfor %}
+                                {% endif %}
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="cm-caption-notice">
+                        <span>ℹ️</span>
+                        <span><strong>Required Caption:</strong> Diagonal values represent correctly classified samples. Off-diagonal values represent classification errors.</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feline Confusion Matrix (15x15) -->
+            <div class="perf-tab-panel" id="cm-cat">
+                <div class="perf-card-body">
+                    <div style="margin-bottom: 12px; font-size: 0.85rem; color: var(--color-text-muted);">
+                        <strong>Feline Test Cohort:</strong> 293 samples (18–20 samples/class &times; 15 classes). Overall Accuracy: <strong>80.89%</strong> (237 correct, 56 misclassifications).
+                    </div>
+                    <div class="cm-scroll-wrapper">
+                        <table class="cm-matrix-table" style="font-size: 0.72rem;">
+                            <thead>
+                                <tr>
+                                    <th rowspan="2" class="axis-col">TRUE CLASS</th>
+                                    <th colspan="15" style="background: var(--color-bg); font-weight: 700; border-bottom: 2px solid var(--color-border);">PREDICTED CLASS (15 CLASSES)</th>
+                                </tr>
+                                <tr>
+                                    {% if eval_data.cat and eval_data.cat.classes %}
+                                        {% for c in eval_data.cat.classes %}
+                                            <th title="{{ c }}">{{ c[:6] }}..</th>
+                                        {% endfor %}
+                                    {% endif %}
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% if eval_data.cat and eval_data.cat.classes and eval_data.cat.cm %}
+                                    {% for r_idx in range(eval_data.cat.classes|length) %}
+                                        <tr>
+                                            <td class="cm-row-header" title="{{ eval_data.cat.classes[r_idx] }}">{{ eval_data.cat.classes[r_idx] }}</td>
+                                            {% for c_idx in range(eval_data.cat.classes|length) %}
+                                                {% set val = eval_data.cat.cm[r_idx][c_idx] %}
+                                                {% if r_idx == c_idx %}
+                                                    <td class="cm-cell-diag" title="True: {{ eval_data.cat.classes[r_idx] }}, Pred: {{ eval_data.cat.classes[c_idx] }}">{{ val }}</td>
+                                                {% elif val > 0 %}
+                                                    <td class="cm-cell-err" title="True: {{ eval_data.cat.classes[r_idx] }}, Pred: {{ eval_data.cat.classes[c_idx] }}">{{ val }}</td>
+                                                {% else %}
+                                                    <td class="cm-cell-zero">0</td>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </tr>
+                                    {% endfor %}
+                                {% endif %}
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="cm-caption-notice">
+                        <span>ℹ️</span>
+                        <span><strong>Required Caption:</strong> Diagonal values represent correctly classified samples. Off-diagonal values represent classification errors.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <!-- ── SECTION 7: Precision, Recall & F1-Score (Per-Class) ── -->
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <div class="perf-header-block" id="class-metrics" style="margin-top: 36px;">
+            <h2 class="perf-section-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="20" x2="18" y2="10"></line>
+                    <line x1="12" y1="20" x2="12" y2="4"></line>
+                    <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+                <span>7. Per-Class Precision, Recall &amp; F1-Score Analysis</span>
+            </h2>
+            <p class="perf-section-desc">
+                Disaggregated diagnostic performance per pathological class. Toggle between Canine, Feline, and Bovine to inspect individual precision, sensitivity (recall), and harmonic mean (F1).
+            </p>
+        </div>
+
+        <div class="perf-card">
+            <div class="perf-tab-bar" id="metricTabs">
+                <button class="perf-tab-btn active" data-target="metrics-dog">Canine Pathologies (16)</button>
+                <button class="perf-tab-btn" data-target="metrics-cat">Feline Pathologies (15)</button>
+                <button class="perf-tab-btn" data-target="metrics-cow">Bovine Pathologies (3)</button>
+            </div>
+
+            <!-- Dog Class Metrics Tab -->
+            <div class="perf-tab-panel active" id="metrics-dog">
+                <div class="perf-card-body">
+                    <div class="perf-chart-wrapper" style="min-height: 400px;">
+                        <canvas id="dogClassMetricsChart"></canvas>
+                    </div>
+
+                    <div style="margin-top: 24px;">
+                        <div class="data-table-wrapper" style="border: none;">
+                            <table class="custom-table" style="font-size: 0.85rem;">
+                                <thead>
+                                    <tr>
+                                        <th>Canine Pathology</th>
+                                        <th>Precision</th>
+                                        <th>Recall (Sensitivity)</th>
+                                        <th>F1-Score</th>
+                                        <th>Support</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% if eval_data.dog and eval_data.dog.report %}
+                                        {% for cls, rep in eval_data.dog.report.items() %}
+                                            {% if cls not in ['accuracy', 'macro avg', 'weighted avg'] %}
+                                                <tr>
+                                                    <td><code>{{ cls }}</code></td>
+                                                    <td>{{ "%.1f"|format(rep.precision * 100) }}%</td>
+                                                    <td>{{ "%.1f"|format(rep.recall * 100) }}%</td>
+                                                    <td><strong>{{ "%.4f"|format(rep['f1-score']) }}</strong></td>
+                                                    <td>{{ rep.support|int }}</td>
+                                                    <td>
+                                                        {% if rep['f1-score'] >= 0.90 %}
+                                                            <span style="color: #10b981; font-weight: 600;">High Accuracy</span>
+                                                        {% elif rep['f1-score'] >= 0.75 %}
+                                                            <span style="color: #64748b; font-weight: 600;">Moderate</span>
+                                                        {% else %}
+                                                            <span style="color: #f59e0b; font-weight: 600;">Confusion Risk</span>
+                                                        {% endif %}
+                                                    </td>
+                                                </tr>
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% endif %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cat Class Metrics Tab -->
+            <div class="perf-tab-panel" id="metrics-cat">
+                <div class="perf-card-body">
+                    <div class="perf-chart-wrapper" style="min-height: 380px;">
+                        <canvas id="catClassMetricsChart"></canvas>
+                    </div>
+
+                    <div style="margin-top: 24px;">
+                        <div class="data-table-wrapper" style="border: none;">
+                            <table class="custom-table" style="font-size: 0.85rem;">
+                                <thead>
+                                    <tr>
+                                        <th>Feline Pathology</th>
+                                        <th>Precision</th>
+                                        <th>Recall (Sensitivity)</th>
+                                        <th>F1-Score</th>
+                                        <th>Support</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% if eval_data.cat and eval_data.cat.report %}
+                                        {% for cls, rep in eval_data.cat.report.items() %}
+                                            {% if cls not in ['accuracy', 'macro avg', 'weighted avg'] %}
+                                                <tr>
+                                                    <td><code>{{ cls }}</code></td>
+                                                    <td>{{ "%.1f"|format(rep.precision * 100) }}%</td>
+                                                    <td>{{ "%.1f"|format(rep.recall * 100) }}%</td>
+                                                    <td><strong>{{ "%.4f"|format(rep['f1-score']) }}</strong></td>
+                                                    <td>{{ rep.support|int }}</td>
+                                                    <td>
+                                                        {% if rep['f1-score'] >= 0.90 %}
+                                                            <span style="color: #10b981; font-weight: 600;">High Accuracy</span>
+                                                        {% elif rep['f1-score'] >= 0.75 %}
+                                                            <span style="color: #64748b; font-weight: 600;">Moderate</span>
+                                                        {% else %}
+                                                            <span style="color: #f59e0b; font-weight: 600;">Confusion Risk</span>
+                                                        {% endif %}
+                                                    </td>
+                                                </tr>
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% endif %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cow Class Metrics Tab -->
+            <div class="perf-tab-panel" id="metrics-cow">
+                <div class="perf-card-body">
+                    <div class="perf-chart-wrapper" style="min-height: 250px;">
+                        <canvas id="cowClassMetricsChart"></canvas>
+                    </div>
+
+                    <div style="margin-top: 24px;">
+                        <div class="data-table-wrapper" style="border: none;">
+                            <table class="custom-table" style="font-size: 0.85rem;">
+                                <thead>
+                                    <tr>
+                                        <th>Bovine Pathology</th>
+                                        <th>Precision</th>
+                                        <th>Recall (Sensitivity)</th>
+                                        <th>F1-Score</th>
+                                        <th>Support</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% if eval_data.cow and eval_data.cow.report %}
+                                        {% for cls, rep in eval_data.cow.report.items() %}
+                                            {% if cls not in ['accuracy', 'macro avg', 'weighted avg'] %}
+                                                <tr>
+                                                    <td><code>{{ cls }}</code></td>
+                                                    <td>{{ "%.1f"|format(rep.precision * 100) }}%</td>
+                                                    <td>{{ "%.1f"|format(rep.recall * 100) }}%</td>
+                                                    <td><strong>{{ "%.4f"|format(rep['f1-score']) }}</strong></td>
+                                                    <td>{{ rep.support|int }}</td>
+                                                    <td>
+                                                        {% if rep['f1-score'] >= 0.95 %}
+                                                            <span style="color: #10b981; font-weight: 600;">Optimal</span>
+                                                        {% else %}
+                                                            <span style="color: #64748b; font-weight: 600;">High</span>
+                                                        {% endif %}
+                                                    </td>
+                                                </tr>
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% endif %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <!-- ── SECTION 8: Class Support & Pathology Registry ── -->
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <div class="perf-header-block" id="pathology-registry" style="margin-top: 36px;">
+            <h2 class="perf-section-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+                <span>8. Pathology Coverage Matrix (34 Total Classes)</span>
+            </h2>
+            <p class="perf-section-desc">
+                Standardized clinical profile catalog across all 34 diagnostic targets, identifying anatomical regions, contagion risk classifications, and clinical scope.
+            </p>
+        </div>
+
+        <div class="data-table-card">
+            <div class="data-table-header">Full Clinical Classification Registry</div>
+            <div class="data-table-wrapper">
+                <table class="custom-table">
+                    <thead>
+                        <tr>
+                            <th>Species</th>
+                            <th>Technical Identifier</th>
+                            <th>Clinical Diagnosis</th>
+                            <th>Primary Anatomical Site</th>
+                            <th>Contagion Level</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Canine (16) -->
+                        <tr><td rowspan="16"><strong>Canine (16)</strong></td><td><code>demodicosis</code></td><td>Demodectic Mange</td><td>Periorbital, muzzle, paws, trunk</td><td>Non-contagious</td></tr>
+                        <tr><td><code>dental_disease</code></td><td>Periodontal Disease &amp; Gingivitis</td><td>Oral cavity, gums, teeth</td><td>Non-contagious</td></tr>
+                        <tr><td><code>dermatitis</code></td><td>Canine Dermatitis &amp; Pyoderma</td><td>Ventral abdomen, axillae, groin</td><td>Variable (secondary bacterial)</td></tr>
+                        <tr><td><code>distemper</code></td><td>Canine Distemper Cutaneous Signs</td><td>Nose, footpads, eyes, systemic</td><td>Highly contagious (canines)</td></tr>
+                        <tr><td><code>eye_infection</code></td><td>Canine Conjunctivitis &amp; Keratitis</td><td>Conjunctiva, cornea, sclera</td><td>Moderate (infectious agents)</td></tr>
+                        <tr><td><code>fungal_infection</code></td><td>Malassezia / Cutaneous Mycosis</td><td>Ears, paws, interdigital, skin folds</td><td>Low to moderate</td></tr>
+                        <tr><td><code>healthy</code></td><td>Healthy Canine Skin &amp; Eyes</td><td>Whole body</td><td>N/A</td></tr>
+                        <tr><td><code>hot_spots</code></td><td>Acute Moist Dermatitis</td><td>Neck, cheeks, dorsum, thighs</td><td>Non-contagious</td></tr>
+                        <tr><td><code>hypersensitivity</code></td><td>Atopic / Contact Hypersensitivity</td><td>Face, paws, ears, ventral skin</td><td>Non-contagious</td></tr>
+                        <tr><td><code>kennel_cough</code></td><td>Infectious Tracheobronchitis (Discharge)</td><td>Nares, pharynx, conjunctiva</td><td>Highly contagious (canines)</td></tr>
+                        <tr><td><code>mange</code></td><td>Sarcoptic Mange (Scabies)</td><td>Ear margins, elbows, hocks, trunk</td><td>Highly contagious (zoonotic)</td></tr>
+                        <tr><td><code>parvovirus</code></td><td>Canine Parvovirus Cutaneous/Systemic Signs</td><td>Mucous membranes, skin turgor</td><td>Extremely contagious (canines)</td></tr>
+                        <tr><td><code>ringworm</code></td><td>Dermatophytosis</td><td>Muzzle, ears, paws, generalized</td><td>Highly contagious (zoonotic)</td></tr>
+                        <tr><td><code>skin_allergy</code></td><td>Allergic Dermatitis &amp; Pruritus</td><td>Belly, paws, ears, tail base</td><td>Non-contagious</td></tr>
+                        <tr><td><code>tick_infestation</code></td><td>Ixodid Tick Parasitism</td><td>Ears, neck, interdigital, axillae</td><td>Vector for Borrelia/Ehrlichia</td></tr>
+                        <tr><td><code>worm_infection</code></td><td>Cutaneous Larva / Parasitic Signs</td><td>Ventral skin, perineum, hair coat</td><td>Variable depending on helminth</td></tr>
+
+                        <!-- Feline (15) -->
+                        <tr><td rowspan="15"><strong>Feline (15)</strong></td><td><code>dental_disease</code></td><td>Feline FORL &amp; Gingivostomatitis</td><td>Teeth, gingiva, sublingual mucosa</td><td>Non-contagious</td></tr>
+                        <tr><td><code>ear_mites</code></td><td>Otodectes cynotis Infestation</td><td>External ear canal, pinnae</td><td>Highly contagious to cats &amp; dogs</td></tr>
+                        <tr><td><code>eye_infection</code></td><td>Feline Herpesvirus / Conjunctivitis</td><td>Conjunctival sacs, third eyelid, cornea</td><td>Highly contagious (felines)</td></tr>
+                        <tr><td><code>feline_acne</code></td><td>Feline Chin Acne / Comedones</td><td>Chin, lower lip, sebaceous glands</td><td>Non-contagious</td></tr>
+                        <tr><td><code>feline_leukemia</code></td><td>FeLV Associated Cutaneous &amp; Oral Signs</td><td>Oral mucous membranes, lymph nodes</td><td>Contagious via saliva (felines)</td></tr>
+                        <tr><td><code>feline_panleukopenia</code></td><td>FPV Cutaneous &amp; Systemic Manifestations</td><td>Mucous membranes, hair coat turgor</td><td>Extremely contagious (felines)</td></tr>
+                        <tr><td><code>flea_allergy</code></td><td>Flea Allergy Dermatitis (FAD)</td><td>Lumbosacral region, dorsal neck, thighs</td><td>Fleas transferable between hosts</td></tr>
+                        <tr><td><code>fleas</code></td><td>Ctenocephalides felis Parasitism</td><td>Base of tail, neck, abdomen</td><td>Highly transmissible parasites</td></tr>
+                        <tr><td><code>fungal_infection</code></td><td>Feline Cutaneous Mycosis / Sporotrichosis</td><td>Nose, ears, paw pads, limbs</td><td>Potentially zoonotic</td></tr>
+                        <tr><td><code>healthy</code></td><td>Healthy Feline Coat, Eyes &amp; Mucosa</td><td>Whole body</td><td>N/A</td></tr>
+                        <tr><td><code>ringworm</code></td><td>Feline Dermatophytosis (Microsporum canis)</td><td>Ears, face, paws, generalized</td><td>Highly contagious (zoonotic)</td></tr>
+                        <tr><td><code>scabies</code></td><td>Notoedric Mange (Notoedres cati)</td><td>Ears, face, eyelids, neck</td><td>Highly contagious among cats</td></tr>
+                        <tr><td><code>skin_allergy</code></td><td>Feline Eosinophilic Granuloma Complex</td><td>Lips, thighs, abdomen, paws</td><td>Non-contagious</td></tr>
+                        <tr><td><code>urinary_tract_infection</code></td><td>FLUTD External Cutaneous / Perineal Signs</td><td>Perineal coat, urethral orifice</td><td>Non-contagious</td></tr>
+                        <tr><td><code>worm_infection</code></td><td>Feline Helminth Parasitism Signs</td><td>Perianal coat, abdominal distension</td><td>Infectious ova / intermediate vectors</td></tr>
+
+                        <!-- Bovine (3) -->
+                        <tr><td rowspan="3"><strong>Bovine (3)</strong></td><td><code>foot_and_mouth</code></td><td>Foot and Mouth Disease (Aphtae)</td><td>Mouth, tongue, dental pad, interdigital space</td><td>Extremely contagious (notifiable epizootic)</td></tr>
+                        <tr><td><code>healthy</code></td><td>Healthy Bovine Integument</td><td>Whole hide &amp; muzzle</td><td>N/A</td></tr>
+                        <tr><td><code>lumpy_skin_disease</code></td><td>Lumpy Skin Disease (Capripoxvirus)</td><td>Head, neck, limbs, udder, perineum</td><td>Vector-borne (mosquitoes, ticks, biting flies)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <!-- ── SECTION 9: Additional Academic Evaluation & Error Analysis ── -->
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <div class="perf-header-block" id="additional-evaluation" style="margin-top: 36px;">
+            <h2 class="perf-section-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                </svg>
+                <span>9. Detailed Diagnostic Breakdown &amp; Robustness Analysis</span>
+            </h2>
+            <p class="perf-section-desc">
+                In-depth breakdown of classification precision vs error distributions, clinical confusion mechanisms, Gatekeeper semantic boundary robustness, and ROC-AUC reporting rationale.
+            </p>
+        </div>
+
+        <!-- Correct vs Misclassified Donut Breakdown -->
+        <div class="perf-grid-3">
+            <div class="perf-card" style="margin-bottom: 0;">
+                <div class="perf-card-header">
+                    <div class="perf-card-title">Canine Outcome Split</div>
+                    <span class="perf-provenance-tag">320 Samples</span>
+                </div>
+                <div class="perf-card-body">
+                    <div class="perf-chart-wrapper" style="min-height: 200px;">
+                        <canvas id="dogDonutChart"></canvas>
+                    </div>
+                    <div style="text-align: center; margin-top: 10px; font-size: 0.85rem;">
+                        <strong>262 Correct</strong> (81.9%) • <strong>58 Misclassified</strong> (18.1%)
+                    </div>
+                </div>
+            </div>
+
+            <div class="perf-card" style="margin-bottom: 0;">
+                <div class="perf-card-header">
+                    <div class="perf-card-title">Feline Outcome Split</div>
+                    <span class="perf-provenance-tag">293 Samples</span>
+                </div>
+                <div class="perf-card-body">
+                    <div class="perf-chart-wrapper" style="min-height: 200px;">
+                        <canvas id="catDonutChart"></canvas>
+                    </div>
+                    <div style="text-align: center; margin-top: 10px; font-size: 0.85rem;">
+                        <strong>237 Correct</strong> (80.9%) • <strong>56 Misclassified</strong> (19.1%)
+                    </div>
+                </div>
+            </div>
+
+            <div class="perf-card" style="margin-bottom: 0;">
+                <div class="perf-card-header">
+                    <div class="perf-card-title">Bovine Outcome Split</div>
+                    <span class="perf-provenance-tag">105 Samples</span>
+                </div>
+                <div class="perf-card-body">
+                    <div class="perf-chart-wrapper" style="min-height: 200px;">
+                        <canvas id="cowDonutChart"></canvas>
+                    </div>
+                    <div style="text-align: center; margin-top: 10px; font-size: 0.85rem;">
+                        <strong>102 Correct</strong> (97.1%) • <strong>3 Misclassified</strong> (2.9%)
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Clinical Error Analysis & Morphological Overlap Table -->
+        <div class="perf-card" style="margin-top: 24px;">
+            <div class="perf-card-header">
+                <div class="perf-card-title">
+                    <span>🔬 Clinical Error Analysis &amp; Diagnostic Confusion Mechanisms</span>
+                </div>
+                <span class="perf-provenance-tag">Qualitative Pathology Assessment</span>
+            </div>
+            <div class="perf-card-body" style="padding: 0;">
+                <div class="data-table-wrapper" style="border: none; border-radius: 0;">
+                    <table class="custom-table" style="font-size: 0.85rem;">
+                        <thead>
+                            <tr>
+                                <th>Species</th>
+                                <th>True Target Pathology</th>
+                                <th>Primary Confusion Partner</th>
+                                <th>Observed Error Mechanism &amp; Morphological Overlap</th>
+                                <th>Clinical Recommendation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Dog</strong></td>
+                                <td><code>demodicosis</code> (Recall: 60%)</td>
+                                <td><code>mange</code> (Sarcoptic)</td>
+                                <td>Shared erythema, focal alopecia, and micro-crusting on facial/limb folds. Visual appearance is near-identical without deep skin scrapings.</td>
+                                <td>Deep skin scrape with microscopic mineral oil prep mandatory for mite identification.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Dog</strong></td>
+                                <td><code>dermatitis</code> (Recall: 65%)</td>
+                                <td><code>hot_spots</code> / <code>allergy</code></td>
+                                <td>Both present localized moist erythema and secondary bacterial pyoderma on ventral areas.</td>
+                                <td>Evaluate onset speed (hot spots develop within hours) and rule out fleas or contact allergens.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Cat</strong></td>
+                                <td><code>fleas</code> (Recall: 66.7%)</td>
+                                <td><code>flea_allergy</code></td>
+                                <td>Flea Allergy Dermatitis (FAD) is triggered by flea saliva; visual photos may capture the dermatitis lesions rather than living parasites.</td>
+                                <td>Perform flea-comb examination for live parasites and wet-paper test for flea dirt.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Cow</strong></td>
+                                <td><code>lumpy_skin_disease</code> (Recall: 94.3%)</td>
+                                <td><code>healthy</code> / hide marks</td>
+                                <td>Early-stage cutaneous circumscribed nodules (0.5–5 cm) can visually mimic benign scarring or tick bites on rough hides.</td>
+                                <td>Check for accompanying pyrexia (fever), enlarged lymph nodes, and notify veterinary authorities if suspected.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gatekeeper Diversity Robustness Evaluation -->
+        <div class="perf-card" style="margin-top: 24px;">
+            <div class="perf-card-header">
+                <div class="perf-card-title">
+                    <span>🛡️ Gatekeeper Semantic Boundary Robustness (27 Diverse Fixtures)</span>
+                </div>
+                <span class="perf-provenance-tag">100% Boundary Accuracy</span>
+            </div>
+            <div class="perf-card-body">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 20px;">
+                    <div style="background: var(--color-bg-subtle); padding: 14px; border-radius: 8px; text-align: center;">
+                        <div style="font-size: 1.4rem; font-weight: 700; color: #10b981;">100.0%</div>
+                        <div style="font-size: 0.78rem; color: var(--color-text-muted);">Species Verification Precision</div>
+                    </div>
+                    <div style="background: var(--color-bg-subtle); padding: 14px; border-radius: 8px; text-align: center;">
+                        <div style="font-size: 1.4rem; font-weight: 700; color: #10b981;">0 / 27</div>
+                        <div style="font-size: 0.78rem; color: var(--color-text-muted);">False Acceptances of Non-Animals</div>
+                    </div>
+                    <div style="background: var(--color-bg-subtle); padding: 14px; border-radius: 8px; text-align: center;">
+                        <div style="font-size: 1.4rem; font-weight: 700; color: #10b981;">0 / 27</div>
+                        <div style="font-size: 0.78rem; color: var(--color-text-muted);">Cross-Species Model Misroutings</div>
+                    </div>
+                    <div style="background: var(--color-bg-subtle); padding: 14px; border-radius: 8px; text-align: center;">
+                        <div style="font-size: 1.4rem; font-weight: 700; color: var(--color-text-title);">27 / 27</div>
+                        <div style="font-size: 0.78rem; color: var(--color-text-muted);">Conforming Fixture Decisions</div>
+                    </div>
+                </div>
+
+                <div style="font-size: 0.85rem; color: var(--color-text-muted); line-height: 1.6;">
+                    The Gatekeeper sub-system was independently tested across 27 diverse fixtures including long-coat dogs, short-coat dogs, diverse cat breeds, cattle breeds, non-animal subjects (cars, human selfies, blurred frames), and out-of-distribution subjects. In all test cases, out-of-distribution inputs were successfully rejected without activating downstream disease models.
+                </div>
+            </div>
+        </div>
+
+        <!-- Continuous ROC / PR Curves Disclosure -->
+        <div class="perf-disclosure-box" style="margin-top: 24px;">
+            <div class="perf-disclosure-icon">ℹ️</div>
+            <h4 style="color: var(--color-text-title); margin-bottom: 8px; font-size: 1.05rem;">
+                Scientific Transparency: Multi-Class ROC &amp; Precision-Recall Curves Rationale
+            </h4>
+            <p class="perf-disclosure-text">
+                Continuous Receiver Operating Characteristic (ROC) and Precision-Recall (PR) curves require full un-thresholded soft probability tensors across all non-ground-truth classes for every validation instance. Because original Phase 4 batch evaluation routines recorded Top-1 classification reports and discrete confusion matrices rather than 718&times;34 continuous floating-point probability tensors, continuous ROC and PR curves are omitted here to uphold strict scientific reproducibility and avoid synthetic spline approximations.
+            </p>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <!-- ── SECTION 10: Limitations & Academic Disclosures ── -->
+        <!-- ══════════════════════════════════════════════════════════════════ -->
+        <div class="perf-header-block" id="limitations" style="margin-top: 36px;">
+            <h2 class="perf-section-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+                <span>10. Clinical Limitations &amp; Ethical Disclosures</span>
+            </h2>
+            <p class="perf-section-desc">
+                Core academic principles governing the appropriate veterinary interpretation, technical boundaries, and safety protocols of VetVision AI.
+            </p>
+        </div>
+
+        <div class="perf-grid-2">
+            <div class="perf-card" style="margin-bottom: 0;">
+                <div class="perf-card-header">
+                    <div class="perf-card-title">1. Clinical Decision Support Scope</div>
+                </div>
+                <div class="perf-card-body" style="font-size: 0.88rem; color: var(--color-text-muted); line-height: 1.6;">
+                    VetVision AI is an educational and preliminary triage decision-support platform. It does not provide definitive medical diagnoses, dispense pharmaceutical prescriptions, or replace formal veterinary dermatological examination, cytology, bacterial culture, skin scraping, or biopsy.
+                </div>
+            </div>
+
+            <div class="perf-card" style="margin-bottom: 0;">
+                <div class="perf-card-header">
+                    <div class="perf-card-title">2. Preliminary Local Test Cohorts</div>
+                </div>
+                <div class="perf-card-body" style="font-size: 0.88rem; color: var(--color-text-muted); line-height: 1.6;">
+                    All reported accuracy, precision, and recall metrics are evaluated on curated local test partitions (718 total samples). Because historical test partitions were not derived from an external prospective multi-center clinical cohort, performance in field conditions with atypical lighting or novel breeds may vary.
+                </div>
+            </div>
+
+            <div class="perf-card" style="margin-bottom: 0;">
+                <div class="perf-card-header">
+                    <div class="perf-card-title">3. Softmax Heuristic Calibration</div>
+                </div>
+                <div class="perf-card-body" style="font-size: 0.88rem; color: var(--color-text-muted); line-height: 1.6;">
+                    Confidence gauge readings and class percentage scores represent raw softmax activation values from convolutional feature maps. They serve as ranking heuristics for differential exploration and do not reflect calibrated epidemiological prevalence or true Bayesian posterior disease likelihoods.
+                </div>
+            </div>
+
+            <div class="perf-card" style="margin-bottom: 0;">
+                <div class="perf-card-header">
+                    <div class="perf-card-title">4. Strict Species Domain Boundaries</div>
+                </div>
+                <div class="perf-card-body" style="font-size: 0.88rem; color: var(--color-text-muted); line-height: 1.6;">
+                    The platform is strictly bounded to Canine (Dog), Feline (Cat), and Bovine (Cow) species. Caprine (Goat) dataset excluded; Equine (Horse), Avian (Bird), and exotic species are strictly unsupported. Out-of-distribution animals must be rejected at the Gatekeeper stage to prevent invalid diagnoses.
+                </div>
+            </div>
+
+            <div class="perf-card" style="margin-bottom: 0;">
+                <div class="perf-card-header">
+                    <div class="perf-card-title">5. Experimental Video Frame Aggregation</div>
+                </div>
+                <div class="perf-card-body" style="font-size: 0.88rem; color: var(--color-text-muted); line-height: 1.6;">
+                    Video diagnosis extracts equidistant frames and aggregates predictions via majority consensus voting. Rapid motion, camera vibration, out-of-focus frames, or shifting illumination can introduce frame-level variances. Video outputs are strictly experimental.
+                </div>
+            </div>
+
+            <div class="perf-card" style="margin-bottom: 0;">
+                <div class="perf-card-header">
+                    <div class="perf-card-title">6. Scientific Transparency &amp; No Fabrication</div>
+                </div>
+                <div class="perf-card-body" style="font-size: 0.88rem; color: var(--color-text-muted); line-height: 1.6;">
+                    VetVision AI enforces strict adherence to scientific reproducibility. No synthetic training curves or fabricated accuracy claims are presented. Unarchived training history logs are explicitly declared as unavailable rather than synthetically simulated.
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_scripts %}
+<!-- Offline Vendor Chart.js -->
+<script src="/static/js/chart.umd.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // ── Global Embedded Data from Flask ──
+    const evalData = {{ eval_data|tojson }};
+    const distData = {{ dist_data|tojson }};
+    const gkData = {{ gk_data|tojson }};
+
+    // ── Universal Tab Switcher Logic ──
+    function setupTabs(containerId) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        const buttons = container.querySelectorAll('.perf-tab-btn');
+        buttons.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const targetId = this.getAttribute('data-target');
+                buttons.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+
+                // Toggle panels in parent card
+                const card = this.closest('.perf-card');
+                const panels = card.querySelectorAll('.perf-tab-panel');
+                panels.forEach(p => {
+                    if (p.id === targetId) {
+                        p.classList.add('active');
+                    } else {
+                        p.classList.remove('active');
+                    }
+                });
+            });
+        });
+    }
+
+    setupTabs('trainingTabs');
+    setupTabs('cmTabs');
+    setupTabs('metricTabs');
+
+    // ── Chart.js Global Default Theme Settings ──
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    const textColor = isDark ? '#94a3b8' : '#475569';
+    const gridColor = isDark ? 'rgba(255, 255, 255, 0.08)' : 'rgba(0, 0, 0, 0.06)';
+    const titleColor = isDark ? '#f8fafc' : '#0f172a';
+
+    Chart.defaults.color = textColor;
+    Chart.defaults.font.family = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
+
+    // ── 1. Evaluated Cohort Support Chart (Donut/Bar) ──
+    const supportCtx = document.getElementById('datasetSupportChart');
+    if (supportCtx) {
+        new Chart(supportCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Canine (Dog)', 'Feline (Cat)', 'Bovine (Cow)'],
+                datasets: [
+                    {
+                        label: 'Evaluated Test Cohort (Samples)',
+                        data: [320, 293, 105],
+                        backgroundColor: ['#1b4332', '#52b788', '#2d6a4f'],
+                        borderRadius: 6
+                    },
+                    {
+                        label: 'Validated Classes',
+                        data: [16, 15, 3],
+                        backgroundColor: ['#74c69d', '#95d5b2', '#b7e4c7'],
+                        borderRadius: 6,
+                        yAxisID: 'y1'
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: { grid: { display: false } },
+                    y: {
+                        beginAtZero: true,
+                        title: { display: true, text: 'Test Samples' },
+                        grid: { color: gridColor }
+                    },
+                    y1: {
+                        beginAtZero: true,
+                        position: 'right',
+                        title: { display: true, text: 'Classes' },
+                        grid: { display: false }
+                    }
+                },
+                plugins: {
+                    legend: { position: 'top' }
+                }
+            }
+        });
+    }
+
+    // ── 2. Multi-Model Comparison Grouped Bar Chart ──
+    const compCtx = document.getElementById('modelComparisonChart');
+    if (compCtx) {
+        new Chart(compCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Accuracy', 'Precision', 'Recall', 'Macro F1', 'Weighted F1', 'Balanced Acc'],
+                datasets: [
+                    {
+                        label: 'Canine (Dog) — 16 Classes',
+                        data: [81.88, 82.66, 81.88, 81.86, 81.86, 81.88],
+                        backgroundColor: '#1b4332',
+                        borderRadius: 4
+                    },
+                    {
+                        label: 'Feline (Cat) — 15 Classes',
+                        data: [80.89, 81.00, 81.00, 80.81, 80.69, 81.00],
+                        backgroundColor: '#52b788',
+                        borderRadius: 4
+                    },
+                    {
+                        label: 'Bovine (Cow) — 3 Classes',
+                        data: [97.14, 97.17, 97.14, 97.14, 97.14, 97.14],
+                        backgroundColor: '#2d6a4f',
+                        borderRadius: 4
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: { grid: { display: false } },
+                    y: {
+                        beginAtZero: true,
+                        max: 100,
+                        title: { display: true, text: 'Performance (%)' },
+                        grid: { color: gridColor }
+                    }
+                },
+                plugins: {
+                    legend: { position: 'top' },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return context.dataset.label + ': ' + context.parsed.y.toFixed(2) + '%';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    }
+
+    // ── 3. Canine Per-Class Horizontal Bar Chart ──
+    const dogCtx = document.getElementById('dogClassMetricsChart');
+    if (dogCtx && evalData.dog && evalData.dog.report) {
+        const dogLabels = [];
+        const dogF1 = [];
+        const dogPrec = [];
+        const dogRec = [];
+
+        for (const [cls, rep] of Object.entries(evalData.dog.report)) {
+            if (!['accuracy', 'macro avg', 'weighted avg'].includes(cls)) {
+                dogLabels.push(cls);
+                dogF1.push((rep['f1-score'] * 100).toFixed(1));
+                dogPrec.push((rep.precision * 100).toFixed(1));
+                dogRec.push((rep.recall * 100).toFixed(1));
+            }
+        }
+
+        new Chart(dogCtx, {
+            type: 'bar',
+            data: {
+                labels: dogLabels,
+                datasets: [
+                    {
+                        label: 'F1-Score (%)',
+                        data: dogF1,
+                        backgroundColor: '#1b4332',
+                        borderRadius: 4
+                    },
+                    {
+                        label: 'Recall / Sensitivity (%)',
+                        data: dogRec,
+                        backgroundColor: '#52b788',
+                        borderRadius: 4
+                    },
+                    {
+                        label: 'Precision (%)',
+                        data: dogPrec,
+                        backgroundColor: '#b7e4c7',
+                        borderRadius: 4
+                    }
+                ]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        max: 100,
+                        title: { display: true, text: 'Percentage (%)' },
+                        grid: { color: gridColor }
+                    },
+                    y: { grid: { display: false } }
+                },
+                plugins: {
+                    legend: { position: 'top' }
+                }
+            }
+        });
+    }
+
+    // ── 4. Feline Per-Class Horizontal Bar Chart ──
+    const catCtx = document.getElementById('catClassMetricsChart');
+    if (catCtx && evalData.cat && evalData.cat.report) {
+        const catLabels = [];
+        const catF1 = [];
+        const catPrec = [];
+        const catRec = [];
+
+        for (const [cls, rep] of Object.entries(evalData.cat.report)) {
+            if (!['accuracy', 'macro avg', 'weighted avg'].includes(cls)) {
+                catLabels.push(cls);
+                catF1.push((rep['f1-score'] * 100).toFixed(1));
+                catPrec.push((rep.precision * 100).toFixed(1));
+                catRec.push((rep.recall * 100).toFixed(1));
+            }
+        }
+
+        new Chart(catCtx, {
+            type: 'bar',
+            data: {
+                labels: catLabels,
+                datasets: [
+                    {
+                        label: 'F1-Score (%)',
+                        data: catF1,
+                        backgroundColor: '#1b4332',
+                        borderRadius: 4
+                    },
+                    {
+                        label: 'Recall / Sensitivity (%)',
+                        data: catRec,
+                        backgroundColor: '#52b788',
+                        borderRadius: 4
+                    },
+                    {
+                        label: 'Precision (%)',
+                        data: catPrec,
+                        backgroundColor: '#b7e4c7',
+                        borderRadius: 4
+                    }
+                ]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        max: 100,
+                        title: { display: true, text: 'Percentage (%)' },
+                        grid: { color: gridColor }
+                    },
+                    y: { grid: { display: false } }
+                },
+                plugins: {
+                    legend: { position: 'top' }
+                }
+            }
+        });
+    }
+
+    // ── 5. Bovine Per-Class Horizontal Bar Chart ──
+    const cowCtx = document.getElementById('cowClassMetricsChart');
+    if (cowCtx && evalData.cow && evalData.cow.report) {
+        const cowLabels = [];
+        const cowF1 = [];
+        const cowPrec = [];
+        const cowRec = [];
+
+        for (const [cls, rep] of Object.entries(evalData.cow.report)) {
+            if (!['accuracy', 'macro avg', 'weighted avg'].includes(cls)) {
+                cowLabels.push(cls);
+                cowF1.push((rep['f1-score'] * 100).toFixed(1));
+                cowPrec.push((rep.precision * 100).toFixed(1));
+                cowRec.push((rep.recall * 100).toFixed(1));
+            }
+        }
+
+        new Chart(cowCtx, {
+            type: 'bar',
+            data: {
+                labels: cowLabels,
+                datasets: [
+                    {
+                        label: 'F1-Score (%)',
+                        data: cowF1,
+                        backgroundColor: '#1b4332',
+                        borderRadius: 4
+                    },
+                    {
+                        label: 'Recall / Sensitivity (%)',
+                        data: cowRec,
+                        backgroundColor: '#52b788',
+                        borderRadius: 4
+                    },
+                    {
+                        label: 'Precision (%)',
+                        data: cowPrec,
+                        backgroundColor: '#b7e4c7',
+                        borderRadius: 4
+                    }
+                ]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        max: 100,
+                        title: { display: true, text: 'Percentage (%)' },
+                        grid: { color: gridColor }
+                    },
+                    y: { grid: { display: false } }
+                },
+                plugins: {
+                    legend: { position: 'top' }
+                }
+            }
+        });
+    }
+
+    // ── 6. Correct vs Misclassified Donut Charts ──
+    function createDonut(canvasId, correct, incorrect, correctColor) {
+        const ctx = document.getElementById(canvasId);
+        if (!ctx) return;
+        new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Correct', 'Misclassified'],
+                datasets: [{
+                    data: [correct, incorrect],
+                    backgroundColor: [correctColor, '#ef4444'],
+                    borderWidth: 2,
+                    borderColor: isDark ? '#1e293b' : '#ffffff'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                cutout: '70%',
+                plugins: {
+                    legend: { position: 'bottom' }
+                }
+            }
+        });
+    }
+
+    createDonut('dogDonutChart', 262, 58, '#1b4332');
+    createDonut('catDonutChart', 237, 56, '#52b788');
+    createDonut('cowDonutChart', 102, 3, '#2d6a4f');
+});
+</script>
+{% endblock %}

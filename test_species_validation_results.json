@@ -1,0 +1,114 @@
+[
+  {
+    "test_num": 1,
+    "description": "Dog image selected as Dog",
+    "detected_species": "Dog",
+    "inference_allowed": "YES",
+    "user_facing_result": "Success: Ringworm (71.77%)",
+    "status": "PASS"
+  },
+  {
+    "test_num": 2,
+    "description": "Cat image selected as Dog",
+    "detected_species": "Cat",
+    "inference_allowed": "NO (BLOCKED)",
+    "user_facing_result": "Species Mismatch Detected. You selected 'Dog', but the uploaded image appears to contain a Cat (50.7% confidence). Please select the correct animal model.",
+    "status": "PASS"
+  },
+  {
+    "test_num": 3,
+    "description": "Cow image selected as Dog",
+    "detected_species": "Cow",
+    "inference_allowed": "NO (BLOCKED)",
+    "user_facing_result": "Species Mismatch Detected. You selected 'Dog', but the uploaded image appears to contain a Cow (38.9% confidence). Please select the correct animal model.",
+    "status": "PASS"
+  },
+  {
+    "test_num": 4,
+    "description": "Unsupported screen/object image",
+    "detected_species": "None",
+    "inference_allowed": "NO (BLOCKED)",
+    "user_facing_result": "No supported animal detected. Please upload a clear photo of a Dog, Cat or Cow.",
+    "status": "PASS"
+  },
+  {
+    "test_num": 5,
+    "description": "Unclear or low-quality animal image",
+    "detected_species": "None",
+    "inference_allowed": "NO (BLOCKED)",
+    "user_facing_result": "No supported animal detected. Please upload a clear photo of a Dog, Cat or Cow.",
+    "status": "PASS"
+  },
+  {
+    "test_num": 6,
+    "description": "Multiple images containing different species (Dog + Cat)",
+    "detected_species": "Dog (verified) & Cat (excluded)",
+    "inference_allowed": "YES",
+    "user_facing_result": "Notice: 1 of 2 image(s) did not match the selected Dog species and were strictly excluded from clinical consensus. Only 1 verified Dog image(s) were analyzed.",
+    "status": "PASS"
+  },
+  {
+    "test_num": 7,
+    "description": "Multiple images containing single species (2 Dogs)",
+    "detected_species": "Dog (both verified)",
+    "inference_allowed": "YES",
+    "user_facing_result": "Consensus: Ringworm (71.77%, agreement: 100.0%)",
+    "status": "PASS"
+  },
+  {
+    "test_num": 8,
+    "description": "Valid Dog video",
+    "detected_species": "Dog",
+    "inference_allowed": "YES",
+    "user_facing_result": "Video consensus: Ringworm (74.86%, 6 frames)",
+    "status": "PASS"
+  },
+  {
+    "test_num": 9,
+    "description": "Valid Cat video",
+    "detected_species": "Cat",
+    "inference_allowed": "YES",
+    "user_facing_result": "Video consensus: Fungal Infection (40.0%, 6 frames)",
+    "status": "PASS"
+  },
+  {
+    "test_num": 10,
+    "description": "Valid Cow video",
+    "detected_species": "Cow",
+    "inference_allowed": "YES",
+    "user_facing_result": "Video consensus: Healthy (97.79%, 4 frames)",
+    "status": "PASS"
+  },
+  {
+    "test_num": 11,
+    "description": "Screen-recording video with no animal",
+    "detected_species": "None",
+    "inference_allowed": "NO (BLOCKED)",
+    "user_facing_result": "No supported animal detected in this video. Please upload a clear video of a Dog, Cat or Cow.",
+    "status": "PASS"
+  },
+  {
+    "test_num": 12,
+    "description": "Corrupted or empty video",
+    "detected_species": "None (Decode Failure)",
+    "inference_allowed": "NO (BLOCKED)",
+    "user_facing_result": "Failed to decode video file. The codec or container may be unreadable or corrupt.",
+    "status": "PASS"
+  },
+  {
+    "test_num": 13,
+    "description": "Video with multiple species (Dog + Cat)",
+    "detected_species": "['Cat', 'Dog']",
+    "inference_allowed": "NO (BLOCKED)",
+    "user_facing_result": "Multiple different animal species (Cat, Dog) detected across video frames. VetVision AI does not combine disease probabilities across different species. Please submit video footage focused on a single animal.",
+    "status": "PASS"
+  },
+  {
+    "test_num": 14,
+    "description": "Video with excessive motion blur / insufficient usable frames",
+    "detected_species": "Unknown",
+    "inference_allowed": "NO (BLOCKED)",
+    "user_facing_result": "Video contained excessive motion blur (6 of 6 frames discarded). Please record a steady, well-lit video with the animal clearly in frame.",
+    "status": "PASS"
+  }
+]

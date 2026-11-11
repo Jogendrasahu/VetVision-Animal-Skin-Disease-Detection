@@ -1,0 +1,39 @@
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Temporary Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VetVision AI Runtime Files & Uploads
+static/uploads/*
+!static/uploads/.gitkeep
+data/anivision.db
+data/*.npz
+data/*.npy
+
+# Local Backups & Redundant Copies
+backups/
+models/production_backup/
+*.bak
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
